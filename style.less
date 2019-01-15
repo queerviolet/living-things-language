@@ -1,0 +1,49 @@
+.float-1 {
+  transition: transform 3s linear;
+  transform: translate(
+    calc(var(--float1-x) * 1px),
+    calc(var(--float1-y) * 1px));
+}
+
+.float-2 {
+  transition: transform 3s linear;
+  transform: translate(
+    calc(var(--float2-x) * 1px),
+    calc(var(--float2-y) * 1px));
+}
+
+
+.color-cycle-pink {
+  animation: color-cycle-pink 10s infinite;
+}
+
+.color-cycle-purple {
+  animation: color-cycle-purple 10s infinite;
+}
+
+@keyframes color-cycle-pink {
+  0% { fill: #ff0066; }
+  25% { fill: #c800ff; }
+  75% { fill: #00c3ff;  }
+  100% { fill: #ff0066; }
+}
+
+@keyframes color-cycle-purple {
+  0% { fill: #8b00ff }
+  25% { fill: #00a6ff }
+  75% { fill: #f7d722 }
+  100% { fill: #8b00ff }
+}
+
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+
+body, html {
+  margin: 0; padding: 0;
+  transition: background 1s;
+}
+
+.black { background: black; }
+.white { background: white; }

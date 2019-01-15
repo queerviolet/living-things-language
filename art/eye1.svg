@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator Pro for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 3840 2160">
+<metadata>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="Units" value="Points"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="DynamicGuides" value="1"/>
+</metadata>
+<defs/>
+<g id="Outline" vectornator:layerName="Outline">
+<path d="M1920+166.156C1417.32+166.156+830.87+498.478+579.531+1163.09C824.411+1648.75+1307.88+1976.66+1874.96+1993.19C1889.91+1993.62+1904.93+1993.84+1920+1993.84C1935.74+1993.84+1951.41+1993.6+1967.03+1993.13C2533.25+1975.89+3015.87+1648.18+3260.47+1163.09C3009.13+498.478+2422.68+166.156+1920+166.156Z" opacity="1" fill="#ffffff"/>
+</g>
+<g id="Dark" vectornator:layerName="Dark">
+<path d="M1920+498.469C2422.68+498.469+2841.56+830.786+2925.34+1163.09C2841.56+1495.4+2422.68+1827.69+1920+1827.69C1417.32+1827.69+998.436+1495.4+914.656+1163.09C998.436+830.786+1417.32+498.469+1920+498.469Z" opacity="1" fill="#000000"/>
+</g>
+<g id="White" vectornator:layerName="White">
+<path d="M1920+687.656C1653.84+687.656+1438.06+900.524+1438.06+1163.09C1438.06+1425.66+1653.84+1638.5+1920+1638.5C2186.16+1638.5+2401.94+1425.66+2401.94+1163.09C2401.94+900.524+2186.16+687.656+1920+687.656Z" opacity="1" fill="#ffffff"/>
+</g>
+<g id="Pupil" vectornator:layerName="Pupil">
+<path d="M1920+924.547C1810.2+924.547+1721.19+1010.73+1721.19+1117.02C1721.19+1223.31+1810.2+1309.45+1920+1309.45C2029.8+1309.45+2118.81+1223.3+2118.81+1117.02C2118.81+1010.73+2029.8+924.547+1920+924.547Z" opacity="1" fill="#000000"/>
+</g>
+</svg>
