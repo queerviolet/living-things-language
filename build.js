@@ -6,8 +6,8 @@ const read = promisify(readFile)
 
 async function main() {
   const script = yaml.safeLoad(await read('./index.yaml'))
-  await write('script.json',
-    JSON.stringify(await buildSvgLayers(linkBuilds(getBuilds(script))), null, 2))
+  const output = await buildSvgLayers(linkBuilds(getBuilds(script)))
+  await write('script.json', JSON.stringify(output, null, 2))
 }
 
 const getBuilds = (script, path=[]) =>
@@ -99,7 +99,7 @@ const layersFromUngrouped = (xml, thresholds=4) => {
   query(xml).find('path').each((path, zIndex) => {
     const id = path.attributes.id || zIndex
     const threshold = +thresholds[id] || +thresholds || undefined
-    const d = toSvgPath(convertToPolylines(path.attributes.d))
+    const d = toSvgPath(convertToPolylines(path.attributes.d, threshold))
     layers[id] = {
       id,
       zIndex,

@@ -42,8 +42,24 @@ svg {
 
 body, html {
   margin: 0; padding: 0;
-  transition: background 1s;
+  transition: background 1s, color 0.2s;
 }
 
-.black { background: black; }
-.white { background: white; }
+.black { background: black; color: white; }
+.white { background: white; color: black; }
+
+.slide {
+  display: flex;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 48px;
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+.slide.active {
+  opacity: 1;
+}

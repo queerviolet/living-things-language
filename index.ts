@@ -15,7 +15,6 @@ function buildTimeline() {
   const { numTracks, frames } = script.reduce(toSequence, {})
   const layers = Array.from({ length: numTracks }, (_, i) => pathWithId(`layer_${i}`))
  
-  const pause = () => tl.pause()
   script.forEach(build => {
     const frame = frames[build.id]
     const paths = frame ? frame.paths : []
@@ -27,14 +26,29 @@ function buildTimeline() {
       })
     tl.addLabel(`build-in:${build.id}`)
     tl.add(tweens)
-    tl.addCallback(() => {
+    tl.addLabel(build.id)
+    
+    if (build.data.html) {
+      const el = document.createElement('div')
+      el.className = 'slide'
+      el.innerHTML = build.data.html
+      build.element = el
+      document.body.appendChild(el)
+    }
+
+    build.willExit = () =>
+      build.element && build.element.classList.remove('active')    
+
+    build.willEnter = () => {
+      const frame = frames[build.id]
+      const paths = frame ? frame.paths : []
       let i = paths.length; while (i --> 0) {
         layers[i].setAttribute('class', (paths[i] && paths[i].class) ? paths[i].class : '')
+        layers[i].dataset.name = paths[i] && paths[i].id
       }
-      document.body.className = `${build.class} ${build.data.class || ' '}`
-    })
-    tl.addLabel(build.id)
-    tl.addPause()
+      document.body.className = `${build.class} ${build.data.class || ' '}`      
+      build.element && build.element.classList.add('active')
+    }
   })
   tl.pause()
 }
@@ -105,6 +119,8 @@ function setupNavigation() {
     }
     const nextBuildIndex = builds[id].index
     const delta = nextBuildIndex - currentBuildIndex
+    script.forEach(b => b.id !== id && b.willExit())
+    builds[id].willEnter()
     if (Math.abs(delta) > 1) {
       if (currentTween) currentTween.kill()
       currentTween =
@@ -115,7 +131,7 @@ function setupNavigation() {
           currentBuildIndex = nextBuildIndex
           currentTween = null
         })
-    } else {
+    } else {      
       currentTween = tl.tweenTo(id)
         .eventCallback('onComplete', () => {
           currentBuildIndex = nextBuildIndex

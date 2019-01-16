@@ -2,6 +2,13 @@ Remember:
   frame: title
   simplify:
     Space: 100
+    Earth: 20
+    Layer_1: 1
+    Inside: 500
+    Outside: 500
+    Roots2: 100
+    Shadow: 50
+    Tree2: 10
   note: |
     Hi everyone. Has everyone been having a good time here at Codemotion?
         
@@ -14,6 +21,15 @@ Remember:
     So take a deep breath.
   Body:
     frame: title
+    simplify:
+      Space: 100
+      Earth: 20
+      Layer_1: 1
+      Inside: 500
+      Outside: 500
+      Roots2: 100
+      Shadow: 50
+      Tree2: 10
     note: |
       Remember that you have a body.
       
@@ -115,6 +131,7 @@ Remember:
       authoritarians fear to tread.
   Punch Only Masks:
     frame: anonymous
+    simplify: 20
     ungrouped: true
     class: black
     note: |
@@ -164,7 +181,7 @@ Remember:
       Yeah. But we didn’t.
       
       And now, we’re all... completely fucked.
-  What happened?:
+  What happened:
     class: black
     note: |
       Maybe.
@@ -172,7 +189,7 @@ Remember:
       It certainly seems that way sometimes.
       
       I believe life will thrive.
-      I believe we will touch the stars.      
+      I believe we will touch the stars.
       I believe we will grow cities from trees,
       I believe we will create space for all living things.
       I believe in us.
@@ -186,5 +203,71 @@ Remember:
       all over the world.
       
       I wouldn't have believed it if you'd told me ten years ago.
-      
-      What happened?
+  May not believe it now:
+    class: black
+    note: |
+      In fact, I get a lot of my news from Twitter, so I probably shouldn't
+      believe it now.
+
+      What’s the saying? Falsehood flies, truth comes limping after.
+      And this makes sense! We should expect this.
+
+      There are so very, very many things that can go wrong, it's a miracle
+      we are able to communicate anything at all.
+
+      But we do. Reliably, repeatedly.
+  A warm beach:
+    html: A warm beach on a sunny day.
+    note: |
+      You see these words, and you go somewhere nice. You don't have to do
+      anything. In fact, you can't do anything.
+  Crackling campfire:
+    html: A crackling campfire on an ice cold night.
+    note: |
+      It just happens. This little cognitive superpower allows us to
+      operate on the hypotheses using the the tools of
+      physical manipulation.
+  As coders:
+    html: c² = a² + b²
+    note: |
+      As creators, and particularly as coders, I think we develop
+      an intuitive grasp of this. We have physicalized inner
+      worlds that represent the abstract things we work with every day.
+
+      I see this? The triangle pops into my head.
+
+      How does that work?
+
+  ## TODO: Segue into subvocalization
+
+Language:
+  class: black
+  html: Hi.
+  note: |
+    That technology? Language.
+# The sea0:
+#   frame: ending/seed/seed00
+# The sea1:
+#   frame: ending/seed/seed01
+# The sea2:
+#   frame: ending/seed/seed02
+# The sea3:
+#   frame: ending/seed/seed03
+# The sea4:
+#   frame: ending/seed/seed04
+# The sea5:
+#   frame: ending/seed/seed05
+# The sea6:
+#   frame: ending/seed/seed06
+# The sea7:
+#   frame: ending/seed/seed07
+# The sea8:
+#   frame: ending/seed/seed08
+# The sea9:
+#   frame: ending/seed/seed09
+# The sea10:
+#   frame: ending/seed/seed10
+# The sea10a:
+#   frame: ending/seed/seed10a
+# The sea11:
+#   frame: ending/seed/seed11
