@@ -2087,7 +2087,7 @@
     "id": "recursion",
     "class": "recursion",
     "data": {
-      "htmlFunc": "() => `<div class=pan-content-up>${\n  Array.from({length: 7}, () => `<div class=layer>&#8220;It\n    was a dark and stormy night, and the captain said to the bosun,\n    <p>&#8220;Tell us a tale,&#8221;\n    <p>And the bosun began,`).join('')\n}${Array.from({length: 7}, () => '</div>').join('')}</div>`\n",
+      "htmlFunc": "() => `<div class=pan-content-up>${\n  Array.from({length: 5}, () => `<div class=layer>&#8220;It\n    was a dark and stormy night, and the captain said to the bosun,\n    <p>&#8220;Tell us a tale,&#8221;\n    <p>And the bosun began,`).join('')\n}${Array.from({length: 5}, () => '</div>').join('')}</div>`\n",
       "note": "I think we all know and love recursion.\n",
       "Opens but never closes": {
         "bg": "threed",
