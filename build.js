@@ -8,6 +8,7 @@ async function main() {
   const script = yaml.safeLoad(await read('./index.yaml'))
   const output = await buildSvgLayers(linkBuilds(getBuilds(script)))
   await write('script.json', JSON.stringify(output, null, 2))
+  await write('resources.js', extractResources(output))
 }
 
 const getBuilds = (script, path=[]) =>
@@ -25,6 +26,41 @@ const getBuilds = (script, path=[]) =>
     })
     .reduce((all, one) => all.concat(one), [])
 
+function extractResources(builds) {
+  const entries = builds
+    .reduce((all, b) => {
+      const {img, video} = b.data
+      if (!img && !video) return all
+      const r = []
+      img &&
+        r.push({
+          key: img,
+          path: `./res/${img}`
+        })
+      video &&
+      r.push({
+        key: video,
+        path: `./res/${video}`
+      })
+      return [...all, ...r]
+    }, [])
+  const imports = entries
+    .map(({_key, path}, i) =>
+      `import res${i} from ${JSON.stringify(path)}`
+    ).join('\n')
+  const exports = `export default {
+    ${
+      entries
+        .map(({key, _value}, i) =>
+          `${JSON.stringify(key)}: res${i}`
+        )
+        .join(',')
+    }
+  }`
+
+  return [imports, exports].join('\n')
+}
+
 function linkBuilds(builds) {
   let i = builds.length; while (i --> 0) {
     const next = builds[i + 1]
@@ -38,6 +74,7 @@ function linkBuilds(builds) {
 }
 
 const isCapitalized = ([first]) => first.toUpperCase() === first
+
 
 ///////// SVG Processing ////////
 

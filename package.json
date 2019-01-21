@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "nodemon -e yaml,js -w index.yaml -w build.js build.js",
     "start": "parcel index.html"
   },
   "author": "",

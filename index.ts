@@ -3,13 +3,46 @@ import script from './script.json'
 
 import { TimelineMax, TweenLite } from 'gsap/TweenMax'
 import MorphSVG from './gsap/MorphSVGPlugin'
-import toSequence from './to-sequence.js';
+import toSequence from './to-sequence.js'
 console.log('Loaded', MorphSVG)
+
+import resources from './resources'
 
 declare const svg: SVGSVGElement
 
 const tl = new TimelineMax
 ;(window as any).tl = tl
+;(window as any).resources = resources
+
+function createElements() {
+  for (const b of script) {
+    const {class: className='', html, htmlFunc, img, video, zIndex=0} = b.data
+    if (!html && !htmlFunc && !img && !video && !className) continue
+    const el = document.createElement('div')
+    el.className = `slide ${className}`
+    b.element = el
+    el.style.zIndex = zIndex
+
+    if (html) el.innerHTML = html
+    if (htmlFunc) el.innerHTML += eval(htmlFunc)(b)
+    
+    if (img)
+      el.style.backgroundImage = `url(${resources[img]})`  
+
+    if (video) {
+      const video = document.createElement('video')
+      video.src = resources[video]
+      el.prepend(video)
+      b.didEnter = () => {
+        video.currentTime = b.data.startAt || 0
+        video.play()
+      }
+    }
+
+    document.body.appendChild(el)
+  }
+  onDispose(() => script.forEach(b => b.element && b.element.parentNode.removeChild(b.element)))
+}
 
 function buildTimeline() {
   const { numTracks, frames } = script.reduce(toSequence, {})
@@ -28,29 +61,52 @@ function buildTimeline() {
     tl.add(tweens)
     tl.addLabel(build.id)
     
-    if (build.data.html) {
-      const el = document.createElement('div')
-      el.className = 'slide'
-      el.innerHTML = build.data.html
-      build.element = el
-      document.body.appendChild(el)
-    }
-
-    build.willExit = () =>
-      build.element && build.element.classList.remove('active')    
-
-    build.willEnter = () => {
+    build.didEnter = compose(build.didEnter, () => {
       const frame = frames[build.id]
       const paths = frame ? frame.paths : []
       let i = paths.length; while (i --> 0) {
         layers[i].setAttribute('class', (paths[i] && paths[i].class) ? paths[i].class : '')
         layers[i].dataset.name = paths[i] && paths[i].id
       }
-      document.body.className = `${build.class} ${build.data.class || ' '}`      
-      build.element && build.element.classList.add('active')
-    }
+    })
+
+    setBuildState(build, 'inactive')
   })
   tl.pause()
+}
+
+type BuildState = 'active' | 'staged' | 'was-active' | 'inactive'
+const STATES: BuildState[] = ['active', 'staged', 'was-active', 'inactive']
+
+const setBuildState = (build, state: BuildState) => {
+  if (!build) return
+  const { element } = build
+  setBuildClass(element, state)
+  build.state = state
+  switch (state) {
+    case 'active':
+      document.body.className = `${build.class} ${build.data.bg || ''}`
+      return build.didEnter && build.didEnter()
+    case 'staged':
+      return build.willEnter && build.willEnter()
+    case 'was-active':
+      return build.didExit && build.didExit()
+    case 'inactive':
+      return build.didSleep && build.didSleep()
+  }
+}
+
+const setBuildClass = (element: HTMLElement, state: BuildState) => {
+  if (!element) return
+  STATES.forEach(state => element.classList.remove(state))
+  element.classList.add(state)
+}
+
+const compose = (...funcs: Function[]) => (...args) => {
+  for (const f of funcs.filter(Boolean)) {
+    args = [f.apply(null, args)]
+  }
+  return args[0]
 }
 
 const CIRCLE = {
@@ -119,8 +175,24 @@ function setupNavigation() {
     }
     const nextBuildIndex = builds[id].index
     const delta = nextBuildIndex - currentBuildIndex
-    script.forEach(b => b.id !== id && b.willExit())
-    builds[id].willEnter()
+    script.forEach(b => {
+      if (!id.startsWith(b.id)) {
+        switch (b.state) {
+        case 'was-active':
+          setBuildState(b, 'inactive')
+          break
+        case 'active':
+          setBuildState(b, 'was-active')
+          break
+        case 'staged':
+          setBuildState(b, 'inactive')
+          break
+        }
+      } else {
+        setBuildState(b, 'active')
+      }
+    })
+    setBuildState(builds[builds[id].next], 'staged')
     if (Math.abs(delta) > 1) {
       if (currentTween) currentTween.kill()
       currentTween =
@@ -172,6 +244,24 @@ function setupNavigation() {
   }
 }
 
+import letterbox from './letterbox'
+function setupWindowSize() {
+  function onResize() {
+    const box =
+      letterbox(16 / 9, {width: innerWidth, height: innerHeight})
+    Object.keys(box).forEach(k => 
+      document.body.style.setProperty(`--letterbox-${k}`, px(box[k]))
+    )
+  }
+  window.addEventListener('resize', onResize)
+  onResize()
+  onDispose(() => window.removeEventListener('resize', onResize))
+}
+
+const px = (px: number) => `${px}px`
+
+setupWindowSize()
+createElements()
 buildTimeline()
 animateFloaties()
 setupNavigation()

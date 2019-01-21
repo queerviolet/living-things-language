@@ -50,16 +50,91 @@ body, html {
 
 .slide {
   display: flex;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  position: fixed;
+  top: var(--letterbox-top);
+  left: var(--letterbox-left);
+  width: var(--letterbox-width);
+  height: var(--letterbox-height);
   justify-content: center;
   align-items: center;
 
   font-size: 48px;
   transition: opacity 1s;
   opacity: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slide.active {
   opacity: 1;
+}
+
+.cover-pan-up {
+  background-size: cover;
+  background-position: bottom;
+}
+
+.cover-pan-up.active {
+  animation: pan-up 10s linear forwards;
+}
+
+.cover-pan-up.was-active {
+  background-position: top;
+}
+
+.pan-content-up {
+  transition: transform 5s;
+  transform-style: preserve-3d;
+}
+
+.layer {
+  transition: border-color 5s;
+  border: 2px solid rgba(255, 0, 255, 0);
+  transform: translateZ(20px);
+  transform-style: preserve-3d;
+}
+
+.threed .layer {
+  border: 2px solid fuchsia;
+}
+
+.slide {
+  perspective: 1000px;
+  perspective-origin: center center;
+}
+
+.slide.staged .pan-content-up {
+  transform: translate3d(0, 0, -500px);
+}
+
+.slide.active .pan-content-up {
+  transform: translate3d(0, 0, -500px);
+}
+
+.threed .slide.active .pan-content-up {
+  transform: translate3d(0, 0, -500px) rotateY(40deg);
+}
+
+
+.slide.inactive {
+  display: none;  
+}
+
+
+cite {
+  background: black;
+  color: white;
+  position: absolute;
+  bottom: 10px; left: 10px;
+  padding: 10px;
+}
+
+@keyframes pan-up {
+  0% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: top;
+  }
 }

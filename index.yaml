@@ -1,62 +1,84 @@
+simplify_title: &simplify_title
+  Space: 100
+  Earth: 20
+  Layer_1: 1
+  Inside: 500
+  Outside: 500
+  Roots2: 100
+  Shadow: 50
+  Tree2: 10
+Hi:
+  frame: title
+  simplify: *simplify_title
+  note: |
+    Hi, my name's Ashi. Today's talk is the first in a series called
+    *Living Things*. This one is about language.
+
+    We've all heard that languages are living things. I think we treat this
+    as metaphor. Languages that are spoken by people today—those we call "alive".
+    Languages that are no longer spoken—or are only spoken by a select
+    group of academics—those we describe as "dead".
+
+    For the next thirty minutes, I want you to try and take this
+    as literally as possible. Hopefully I'll do a bit to convince you
+    of this. Languages do not breathe, they do not
+    metabolize, but they do shape the worlds of their speakers,
+    they reproduce, they consume resources, they come into equilibria
+    with their environments—environments which, notably, include our minds
+    and bodies.
+
+    Language is powerful. Ancient and contemporary magical systems rely
+    on the power of naming. The names we give to the things in our world
+    create that world. You've heard, I'm sure, that the hardest
+    problem in computer science is giving name to things. And that's
+    because names matter. Names are connected to meanings, linked into
+    this web of implications that fishes out of the depths of our minds
+    everything from machine schematics to childhood trauma.
+
+    Language has a reputation for being airy. Disconnected from the
+    physical. From our bodies. "Shhhhhh," your lover might say. No
+    talking now. Just dance.
+
+    But this reputation, I think, conceals a vital truth: language
+    is a thing of the body. Our bodies are made for language. For sign,
+    for speech, for song. And language is a thing that grows out of
+    our bodies, is rooted in movement, has evolved with us, and is as
+    much a thing of our bodies as our thumbs, as our frontal cortex,
+    as our dance.
+
+    So right now...
 Remember:
   frame: title
-  simplify:
-    Space: 100
-    Earth: 20
-    Layer_1: 1
-    Inside: 500
-    Outside: 500
-    Roots2: 100
-    Shadow: 50
-    Tree2: 10
+  simplify: *simplify_title
   note: |
-    Hi everyone. Has everyone been having a good time here at Codemotion?
-        
-    Good.
+    I want you to remember.
+
+    Remember that you have a body.
     
-    I'm Ashi. And I'm here to share some observations about living things.
-
-    Before we begin, I want us to remember that we are living things.
+    Remember your lungs, peeling open to draw in air
+    so the hemoglobin inside them can release CO2 and trap oxygen.
     
-    So take a deep breath.
-  Body:
-    frame: title
-    simplify:
-      Space: 100
-      Earth: 20
-      Layer_1: 1
-      Inside: 500
-      Outside: 500
-      Roots2: 100
-      Shadow: 50
-      Tree2: 10
-    note: |
-      Remember that you have a body.
-      
-      Remember your lungs, peeling open to draw in air
-      so the hemoglobin inside them can release CO2 and trap oxygen.
-      
-      You are alive, so you are made up of living things.
-      
-      Remember the cells of your body. Remember the fibers of your muscles.
+    You are alive, so you are made up of living things.
+    
+    Remember the cells of your body. Remember the fibers of your muscles.
 
-      Remember your heart, squeezing and squishing your blood around to drive
-      oxidization in your cells.
-      
-      Remember that oxidization is burning, and so inside of you are thirty seven
-      trillion tiny fires.
-      
-      Remember the crackling of depolarizing membranes in your brain, neurons
-      strobing with information.
-      
-      You are alive, so you are a part of living things. You are a cell
-      within tissues shaped like cities and families and nations.
+    Remember your heart, squeezing and squishing your blood around to drive
+    oxidization in your cells.
+    
+    Remember that oxidization is burning, and so inside of you are thirty seven
+    trillion tiny fires.
+    
+    Remember the crackling of depolarizing membranes in your brain, neurons
+    strobing with information.
+    
+    You are alive, so you are a part of living things. You are a cell
+    within tissues shaped like cities and families and nations.
 
-      You are alive, so you hvae come from living things.
-      Remember your ancestors. Remember the story that has brought you here.
-      Remember your past.
+    You are alive, so you hvae come from living things.
+    Remember your ancestors. Remember the story that has brought you here.
+    Remember your past.
 
-      Remember... about ten years ago.
+    Remember... about ten years ago.
   Ten Years Ago:
     frame: white
     note: Remember ten years ago?
@@ -117,7 +139,7 @@ Remember:
       Connecting in a new way.
   Without Nations and Borders:
     frame: fist2
-    class: black
+    bg: black
     note: |
       Richer. More direct.
       Organic. We are becoming something, all of us together
@@ -133,7 +155,7 @@ Remember:
     frame: anonymous
     simplify: 20
     ungrouped: true
-    class: black
+    bg: black
     note: |
       A place where their iron fists can punch only masks;
       where their walls cannot be built because the network perceives
@@ -143,7 +165,7 @@ Remember:
   Racism:
     frame: kekistan
     ungrouped: true
-    class: black
+    bg: black
     note: |
       A place where
       your footprints can follow you forever. A place where you can
@@ -151,7 +173,7 @@ Remember:
       find their people and dance in 14/88 time;
   New Minds:
     frame: eye0
-    class: black
+    bg: black
     note: |
       a place where new minds
       are growing, and they’re sprouting eyes everywhere, and their
@@ -159,18 +181,18 @@ Remember:
       human and so far they can reliably emulate three things
   See:
     frame: eye1
-    class: black
+    bg: black
     note: how to see
   Want:
     frame: eye-teeth
-    class: black
+    bg: black
     note: how to want
   Lie:
     frame: eye-teeth-shut
-    class: black
+    bg: black
     note: and how to lie.
   Retrospect:
-    class: black
+    bg: black
     note: |
       In retrospect, those journalists, those researchers,
       everyone concerned, perhaps even alarmed about how we would
@@ -182,11 +204,11 @@ Remember:
       
       And now, we’re all... completely fucked.
   What happened:
-    class: black
+    bg: black
     note: |
       Maybe.
       
-      It certainly seems that way sometimes.
+      It certainly feels that way sometimes.
       
       I believe life will thrive.
       I believe we will touch the stars.
@@ -204,18 +226,76 @@ Remember:
       
       I wouldn't have believed it if you'd told me ten years ago.
   May not believe it now:
-    class: black
+    bg: black
     note: |
-      In fact, I get a lot of my news from Twitter, so I probably shouldn't
+      In fact, I get a lot of my news from Twitter, so I only kindof
       believe it now.
 
       What’s the saying? Falsehood flies, truth comes limping after.
       And this makes sense! We should expect this.
 
-      There are so very, very many things that can go wrong, it's a miracle
-      we are able to communicate anything at all.
+      There are so very, very many things that can go wrong in
+      communication, it's a miracle we are able to communicate anything
+      at all.
 
-      But we do. Reliably, repeatedly.
+      But we do. Reliably, repeatedly, across great distances.
+
+      With a powerful new technology.
+
+      That technology is language.
+
+      You may disagree with me calling language a technology.
+      
+      You may say it's not physical. But as all of us here at this programming
+      language conference know, technologies do not have to be physical.
+
+      It doesn't have a singular inventor, either. In fact,
+      some elements of language acquisition seem to be hardwired into
+      us. Communities will create language if it isn't given to them.
+
+      But many of our technologies do not have singular inventors. Many
+      of them have been discovered and re-discovered time and again,
+      in many different places.
+
+      There's a lot of theories on how language came to be.
+
+Origins of Language:  
+  note: |
+    One theory, favored by Noam Chomsky, says that it arose suddenly, about
+    100,000 years ago, the result of a small number of mutations in a singular
+    individual that gave that person's brain the ability to process what Chomsky
+    calls "digital infinity". You may know it by its other name: recursion.
+  
+  Recursion:
+    htmlFunc: |
+      () => `<div class=pan-content-up>${
+        Array.from({length: 7}, () => `<div class=layer>&#8220;It
+          was a dark and stormy night, and the captain said to the bosun,
+          <p>&#8220;Tell us a tale,&#8221;
+          <p>And the bosun began,`).join('')
+      }${Array.from({length: 7}, () => '</div>').join('')}</div>`
+    note: |
+      I think we all know and love recursion.
+    
+    Opens but never closes:
+      bg: threed
+      note: |
+        In this story, the...
+
+  And now this:
+    img: language-tree-mina-sundberg.jpg
+    bg: black
+    class: cover-pan-up
+    html: <cite>art by Mina Sundberg</cite>
+    note: |
+      A perfusion of languages spread across the globe.
+
+      This beautiful tree, by Mina Sundberg, just shows the old world languages,
+      those from Europe and Asia.
+      
+      Most of them are descended from Proto-Indo-European, a language by people
+      in the Ural steppes about six thousand years ago.
+Power of Language:
   A warm beach:
     html: A warm beach on a sunny day.
     note: |
@@ -228,7 +308,7 @@ Remember:
       operate on the hypotheses using the the tools of
       physical manipulation.
   As coders:
-    html: c² = a² + b²
+    html: c² = a² + b²    
     note: |
       As creators, and particularly as coders, I think we develop
       an intuitive grasp of this. We have physicalized inner
@@ -241,33 +321,33 @@ Remember:
   ## TODO: Segue into subvocalization
 
 Language:
-  class: black
+  bg: black
   html: Hi.
   note: |
     That technology? Language.
-# The sea0:
-#   frame: ending/seed/seed00
-# The sea1:
-#   frame: ending/seed/seed01
-# The sea2:
-#   frame: ending/seed/seed02
-# The sea3:
-#   frame: ending/seed/seed03
-# The sea4:
-#   frame: ending/seed/seed04
-# The sea5:
-#   frame: ending/seed/seed05
-# The sea6:
-#   frame: ending/seed/seed06
-# The sea7:
-#   frame: ending/seed/seed07
-# The sea8:
-#   frame: ending/seed/seed08
-# The sea9:
-#   frame: ending/seed/seed09
-# The sea10:
-#   frame: ending/seed/seed10
-# The sea10a:
-#   frame: ending/seed/seed10a
-# The sea11:
-#   frame: ending/seed/seed11
+The sea0:
+  frame: ending/seed/seed00
+The sea1:
+  frame: ending/seed/seed01
+The sea2:
+  frame: ending/seed/seed02
+The sea3:
+  frame: ending/seed/seed03
+The sea4:
+  frame: ending/seed/seed04
+The sea5:
+  frame: ending/seed/seed05
+The sea6:
+  frame: ending/seed/seed06
+The sea7:
+  frame: ending/seed/seed07
+The sea8:
+  frame: ending/seed/seed08
+The sea9:
+  frame: ending/seed/seed09
+The sea10:
+  frame: ending/seed/seed10
+The sea10a:
+  frame: ending/seed/seed10a
+The sea11:
+  frame: ending/seed/seed11
