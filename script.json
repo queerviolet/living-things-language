@@ -2077,56 +2077,67 @@
     "id": "origins_of_language",
     "class": "origins_of_language",
     "data": {
-      "note": "One theory, favored by Noam Chomsky, says that it arose suddenly, about\n100,000 years ago, the result of a small number of mutations in a singular\nindividual that gave that person's brain the ability to process what Chomsky\ncalls \"digital infinity\". You may know it by its other name: recursion.\n",
-      "Recursion": {
-        "htmlFunc": "() => `<div class=pan-content-up>${\n  Array.from({length: 7}, () => `<div class=layer>&#8220;It\n    was a dark and stormy night, and the captain said to the bosun,\n    <p>&#8220;Tell us a tale,&#8221;\n    <p>And the bosun began,`).join('')\n}${Array.from({length: 7}, () => '</div>').join('')}</div>`\n",
-        "note": "I think we all know and love recursion.\n",
-        "Opens but never closes": {
-          "bg": "threed",
-          "note": "In this story, the...\n"
-        }
-      },
-      "And now this": {
-        "img": "language-tree-mina-sundberg.jpg",
-        "bg": "black",
-        "class": "cover-pan-up",
-        "html": "<cite>art by Mina Sundberg</cite>",
-        "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, by Mina Sundberg, just shows the old world languages,\nthose from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n"
-      }
+      "note": "One theory, favored by Noam Chomsky, says that it arose suddenly, about\n100,000 years ago, the result of a small number of mutations in a singular\nindividual that gave that person's brain the ability to process what Chomsky\ncalls \"digital infinity\". You may know it by its other name: recursion.\n"
     },
-    "next": "origins_of_language/recursion",
+    "next": "recursion",
     "prev": "remember/may_not_believe_it_now",
     "index": 23
   },
   {
-    "id": "origins_of_language/recursion",
-    "class": "origins_of_language-recursion",
+    "id": "recursion",
+    "class": "recursion",
     "data": {
       "htmlFunc": "() => `<div class=pan-content-up>${\n  Array.from({length: 7}, () => `<div class=layer>&#8220;It\n    was a dark and stormy night, and the captain said to the bosun,\n    <p>&#8220;Tell us a tale,&#8221;\n    <p>And the bosun began,`).join('')\n}${Array.from({length: 7}, () => '</div>').join('')}</div>`\n",
       "note": "I think we all know and love recursion.\n",
       "Opens but never closes": {
         "bg": "threed",
-        "note": "In this story, the...\n"
+        "note": "In this story, the recursive frames open, but never close. That's the joke.\nThat's also what makes it, for lack of a better term, so *tingly* to experience.\n\nYou have this real sense of infinity, of this capacity with ourselves to begin\nin each moment a new story, embedded within the last.\n"
       }
     },
-    "next": "origins_of_language/recursion/opens_but_never_closes",
+    "next": "recursion/opens_but_never_closes",
     "prev": "origins_of_language",
     "index": 24
   },
   {
-    "id": "origins_of_language/recursion/opens_but_never_closes",
-    "class": "origins_of_language-recursion-opens_but_never_closes",
+    "id": "recursion/opens_but_never_closes",
+    "class": "recursion-opens_but_never_closes",
     "data": {
       "bg": "threed",
-      "note": "In this story, the...\n"
+      "note": "In this story, the recursive frames open, but never close. That's the joke.\nThat's also what makes it, for lack of a better term, so *tingly* to experience.\n\nYou have this real sense of infinity, of this capacity with ourselves to begin\nin each moment a new story, embedded within the last.\n"
     },
-    "next": "origins_of_language/and_now_this",
-    "prev": "origins_of_language/recursion",
+    "next": "more_common_phrases",
+    "prev": "recursion",
     "index": 25
   },
   {
-    "id": "origins_of_language/and_now_this",
-    "class": "origins_of_language-and_now_this",
+    "id": "more_common_phrases",
+    "class": "more_common_phrases",
+    "data": {
+      "html": "<span class=p>the cat\n  <span class=p>that killed\n    <span class=p>the bird\n      <span class=p>that ate\n        <span class=p>the rat\n          <span class=p>that ate\n            <span class=p>the cheese</span>\n          </span>\n        </span>\n      </span>\n    </span>\n  </span>\n</span>\n",
+      "note": "Of course, more common phrases feature recursive embedding.  \n",
+      "Embedding": {
+        "bg": "p-expand",
+        "note": "All human languages contain the ability to expand at least some of their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, creating the possibility of an infinitely\nlong sentence, created from a finite number of rules.\n"
+      }
+    },
+    "next": "more_common_phrases/embedding",
+    "prev": "recursion/opens_but_never_closes",
+    "index": 26
+  },
+  {
+    "id": "more_common_phrases/embedding",
+    "class": "more_common_phrases-embedding",
+    "data": {
+      "bg": "p-expand",
+      "note": "All human languages contain the ability to expand at least some of their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, creating the possibility of an infinitely\nlong sentence, created from a finite number of rules.\n"
+    },
+    "next": "the_living_tree_of_language",
+    "prev": "more_common_phrases",
+    "index": 27
+  },
+  {
+    "id": "the_living_tree_of_language",
+    "class": "the_living_tree_of_language",
     "data": {
       "img": "language-tree-mina-sundberg.jpg",
       "bg": "black",
@@ -2135,8 +2146,8 @@
       "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, by Mina Sundberg, just shows the old world languages,\nthose from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n"
     },
     "next": "power_of_language",
-    "prev": "origins_of_language/recursion/opens_but_never_closes",
-    "index": 26
+    "prev": "more_common_phrases/embedding",
+    "index": 28
   },
   {
     "id": "power_of_language",
@@ -2156,8 +2167,8 @@
       }
     },
     "next": "power_of_language/a_warm_beach",
-    "prev": "origins_of_language/and_now_this",
-    "index": 27
+    "prev": "the_living_tree_of_language",
+    "index": 29
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -2168,7 +2179,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 28
+    "index": 30
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -2179,7 +2190,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/a_warm_beach",
-    "index": 29
+    "index": 31
   },
   {
     "id": "power_of_language/as_coders",
@@ -2190,7 +2201,7 @@
     },
     "next": "language",
     "prev": "power_of_language/crackling_campfire",
-    "index": 30
+    "index": 32
   },
   {
     "id": "language",
@@ -2202,7 +2213,7 @@
     },
     "next": "the_sea0",
     "prev": "power_of_language/as_coders",
-    "index": 31
+    "index": 33
   },
   {
     "id": "the_sea0",
@@ -2212,7 +2223,7 @@
     },
     "next": "the_sea1",
     "prev": "language",
-    "index": 32,
+    "index": 34,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2331,7 +2342,7 @@
     },
     "next": "the_sea2",
     "prev": "the_sea0",
-    "index": 33,
+    "index": 35,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2450,7 +2461,7 @@
     },
     "next": "the_sea3",
     "prev": "the_sea1",
-    "index": 34,
+    "index": 36,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2569,7 +2580,7 @@
     },
     "next": "the_sea4",
     "prev": "the_sea2",
-    "index": 35,
+    "index": 37,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2688,7 +2699,7 @@
     },
     "next": "the_sea5",
     "prev": "the_sea3",
-    "index": 36,
+    "index": 38,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -2807,7 +2818,7 @@
     },
     "next": "the_sea6",
     "prev": "the_sea4",
-    "index": 37,
+    "index": 39,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -2926,7 +2937,7 @@
     },
     "next": "the_sea7",
     "prev": "the_sea5",
-    "index": 38,
+    "index": 40,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3045,7 +3056,7 @@
     },
     "next": "the_sea8",
     "prev": "the_sea6",
-    "index": 39,
+    "index": 41,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3182,7 +3193,7 @@
     },
     "next": "the_sea9",
     "prev": "the_sea7",
-    "index": 40,
+    "index": 42,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3328,7 +3339,7 @@
     },
     "next": "the_sea10",
     "prev": "the_sea8",
-    "index": 41,
+    "index": 43,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3455,7 +3466,7 @@
     },
     "next": "the_sea10a",
     "prev": "the_sea9",
-    "index": 42,
+    "index": 44,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3588,7 +3599,7 @@
     },
     "next": "the_sea11",
     "prev": "the_sea10",
-    "index": 43,
+    "index": 45,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3731,7 +3742,7 @@
       "frame": "ending/seed/seed11"
     },
     "prev": "the_sea10a",
-    "index": 44,
+    "index": 46,
     "paths": {
       "Space": {
         "id": "Space",

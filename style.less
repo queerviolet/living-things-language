@@ -50,6 +50,7 @@ body, html {
 
 .slide {
   display: flex;
+  flex-flow: column wrap;
   position: fixed;
   top: var(--letterbox-top);
   left: var(--letterbox-left);
@@ -93,10 +94,12 @@ body, html {
   border: 2px solid rgba(255, 0, 255, 0);
   transform: translateZ(20px);
   transform-style: preserve-3d;
+  background: white;
 }
 
 .threed .layer {
-  border: 2px solid fuchsia;
+  border: 2px solid black;
+  box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .slide {
@@ -137,4 +140,21 @@ cite {
   100% {
     background-position: top;
   }
+}
+
+.p {
+  position: relative;
+  display: inline-block;
+  transition: top 1s, left 1s, border-color 1s, box-shadow 2s;
+  top: 0; left: 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  overflow: visible;
+}
+
+.p-expand .p {
+  background: white;
+  top: 20px;
+  left: 5px;
+  border: 1px solid black;
+  box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2);
 }
