@@ -19,6 +19,7 @@ function createElements() {
     const {class: className='', html, htmlFunc, img, video, zIndex=0} = b.data
     if (!html && !htmlFunc && !img && !video && !className) continue
     const el = document.createElement('div')
+    el.id = b.class
     el.className = `slide ${className}`
     b.element = el
     el.style.zIndex = zIndex
@@ -38,8 +39,6 @@ function createElements() {
         video.play()
       }
     }
-
-    document.body.appendChild(el)
   }
   onDispose(() => script.forEach(b => b.element && b.element.parentNode.removeChild(b.element)))
 }
@@ -100,6 +99,11 @@ const setBuildClass = (element: HTMLElement, state: BuildState) => {
   if (!element) return
   STATES.forEach(state => element.classList.remove(state))
   element.classList.add(state)
+  if (state === 'inactive') {
+    element.parentNode && element.parentNode.removeChild(element)
+  } else {
+    element.parentNode || document.body.appendChild(element)
+  }
 }
 
 const compose = (...funcs: Function[]) => (...args) => {

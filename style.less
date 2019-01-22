@@ -60,7 +60,7 @@ body, html {
   align-items: center;
 
   font-size: 48px;
-  transition: opacity 1s;
+  transition: opacity 1s, transform 1s;
   opacity: 0;
   background-size: contain;
   background-repeat: no-repeat;
@@ -90,16 +90,17 @@ body, html {
 }
 
 .layer {
-  transition: border-color 5s;
+  transition: border-color 5s, transform 5s;
   border: 2px solid rgba(255, 0, 255, 0);
-  transform: translateZ(20px);
   transform-style: preserve-3d;
   background: white;
+  transform: translateZ(0);
 }
 
 .threed .layer {
   border: 2px solid black;
   box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2);
+  transform: translateZ(100px);
 }
 
 .slide {
@@ -157,4 +158,8 @@ cite {
   left: 5px;
   border: 1px solid black;
   box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#more_common_phrases.was-active {
+  transform: scale(0);
 }

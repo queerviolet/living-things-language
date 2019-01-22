@@ -2077,7 +2077,7 @@
     "id": "origins_of_language",
     "class": "origins_of_language",
     "data": {
-      "note": "One theory, favored by Noam Chomsky, says that it arose suddenly, about\n100,000 years ago, the result of a small number of mutations in a singular\nindividual that gave that person's brain the ability to process what Chomsky\ncalls \"digital infinity\". You may know it by its other name: recursion.\n"
+      "note": "One theory, favored by Noam Chomsky, says that it arose suddenly, about\n100,000 years ago, the result of a small number of mutations in a singular\nindividual that gave that person's brain the ability to process what Chomsky\ncalls \"digital infinity\".\n\nThis powerful capability spread like a seed crystal in the early human mind,\nopening up the capacity for language and modern human cognition.\n\nYou may know it by its other name: recursion.\n"
     },
     "next": "recursion",
     "prev": "remember/may_not_believe_it_now",
@@ -2117,7 +2117,7 @@
       "note": "Of course, more common phrases feature recursive embedding.  \n",
       "Embedding": {
         "bg": "p-expand",
-        "note": "All human languages contain the ability to expand at least some of their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, creating the possibility of an infinitely\nlong sentence, created from a finite number of rules.\n"
+        "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, creating the possibility of an infinitely\nlong sentence, built through the recursive application of a finite number\nof rules.\n"
       }
     },
     "next": "more_common_phrases/embedding",
@@ -2129,11 +2129,22 @@
     "class": "more_common_phrases-embedding",
     "data": {
       "bg": "p-expand",
-      "note": "All human languages contain the ability to expand at least some of their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, creating the possibility of an infinitely\nlong sentence, created from a finite number of rules.\n"
+      "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, creating the possibility of an infinitely\nlong sentence, built through the recursive application of a finite number\nof rules.\n"
     },
-    "next": "the_living_tree_of_language",
+    "next": "the_recursive_mind",
     "prev": "more_common_phrases",
     "index": 27
+  },
+  {
+    "id": "the_recursive_mind",
+    "class": "the_recursive_mind",
+    "data": {
+      "img": "the-recursive-mind.jpg",
+      "note": "In his book *The Recursive Mind*, Michael Corballis theorizes that it is this\ncapacity for recursion that distinguishes human thought from the cognitive\nprocesses of other animals.\n"
+    },
+    "next": "the_living_tree_of_language",
+    "prev": "more_common_phrases/embedding",
+    "index": 28
   },
   {
     "id": "the_living_tree_of_language",
@@ -2146,8 +2157,8 @@
       "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, by Mina Sundberg, just shows the old world languages,\nthose from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n"
     },
     "next": "power_of_language",
-    "prev": "more_common_phrases/embedding",
-    "index": 28
+    "prev": "the_recursive_mind",
+    "index": 29
   },
   {
     "id": "power_of_language",
@@ -2168,7 +2179,7 @@
     },
     "next": "power_of_language/a_warm_beach",
     "prev": "the_living_tree_of_language",
-    "index": 29
+    "index": 30
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -2179,7 +2190,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 30
+    "index": 31
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -2190,7 +2201,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/a_warm_beach",
-    "index": 31
+    "index": 32
   },
   {
     "id": "power_of_language/as_coders",
@@ -2201,7 +2212,7 @@
     },
     "next": "language",
     "prev": "power_of_language/crackling_campfire",
-    "index": 32
+    "index": 33
   },
   {
     "id": "language",
@@ -2213,7 +2224,7 @@
     },
     "next": "the_sea0",
     "prev": "power_of_language/as_coders",
-    "index": 33
+    "index": 34
   },
   {
     "id": "the_sea0",
@@ -2223,7 +2234,7 @@
     },
     "next": "the_sea1",
     "prev": "language",
-    "index": 34,
+    "index": 35,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2342,7 +2353,7 @@
     },
     "next": "the_sea2",
     "prev": "the_sea0",
-    "index": 35,
+    "index": 36,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2461,7 +2472,7 @@
     },
     "next": "the_sea3",
     "prev": "the_sea1",
-    "index": 36,
+    "index": 37,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2580,7 +2591,7 @@
     },
     "next": "the_sea4",
     "prev": "the_sea2",
-    "index": 37,
+    "index": 38,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2699,7 +2710,7 @@
     },
     "next": "the_sea5",
     "prev": "the_sea3",
-    "index": 38,
+    "index": 39,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -2818,7 +2829,7 @@
     },
     "next": "the_sea6",
     "prev": "the_sea4",
-    "index": 39,
+    "index": 40,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -2937,7 +2948,7 @@
     },
     "next": "the_sea7",
     "prev": "the_sea5",
-    "index": 40,
+    "index": 41,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3056,7 +3067,7 @@
     },
     "next": "the_sea8",
     "prev": "the_sea6",
-    "index": 41,
+    "index": 42,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3193,7 +3204,7 @@
     },
     "next": "the_sea9",
     "prev": "the_sea7",
-    "index": 42,
+    "index": 43,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3339,7 +3350,7 @@
     },
     "next": "the_sea10",
     "prev": "the_sea8",
-    "index": 43,
+    "index": 44,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3466,7 +3477,7 @@
     },
     "next": "the_sea10a",
     "prev": "the_sea9",
-    "index": 44,
+    "index": 45,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3599,7 +3610,7 @@
     },
     "next": "the_sea11",
     "prev": "the_sea10",
-    "index": 45,
+    "index": 46,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3742,7 +3753,7 @@
       "frame": "ending/seed/seed11"
     },
     "prev": "the_sea10a",
-    "index": 46,
+    "index": 47,
     "paths": {
       "Space": {
         "id": "Space",

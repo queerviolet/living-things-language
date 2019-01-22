@@ -264,7 +264,12 @@ Origins of Language:
     One theory, favored by Noam Chomsky, says that it arose suddenly, about
     100,000 years ago, the result of a small number of mutations in a singular
     individual that gave that person's brain the ability to process what Chomsky
-    calls "digital infinity". You may know it by its other name: recursion.
+    calls "digital infinity".
+    
+    This powerful capability spread like a seed crystal in the early human mind,
+    opening up the capacity for language and modern human cognition.
+    
+    You may know it by its other name: recursion.
   
 Recursion:
   htmlFunc: |
@@ -306,12 +311,21 @@ More Common Phrases:
   Embedding:
     bg: p-expand
     note: |
-      All human languages contain the ability to expand at least some of their
+      All human languages contain the ability to expand at their
       phrases indefinitely.
 
       Here, we can keep expanding this noun phrase by adding complementizers,
       which themselves contain noun phrases, creating the possibility of an infinitely
-      long sentence, created from a finite number of rules.
+      long sentence, built through the recursive application of a finite number
+      of rules.
+
+The Recursive Mind:
+  img: the-recursive-mind.jpg
+  note: |
+    In his book *The Recursive Mind*, Michael Corballis theorizes that it is this
+    capacity for recursion that distinguishes human thought from the cognitive
+    processes of other animals.
+
 The Living Tree of Language:
   img: language-tree-mina-sundberg.jpg
   bg: black
