@@ -2206,7 +2206,7 @@
         "note": "One stack frame gives you a moment. Two gives you a delta—a direction.\n\nBut three? With three stack frames, we can hold the past, present,\nand future: a temporal triumverate that's nearly universal in human\nexperience, represented in the tenses of nearly every language.\n\nWith three stack frames, we get direction, and meta-direction. We get\nstories.\n"
       },
       "We are stories": {
-        "note": "And that is the root of the self: we are stories telling ourselves.\n"
+        "note": "And that is the root of the self: we are stories telling ourselves.\n\nWe're all familiar with it: the little voice inside our head. It\nspeaks in our voice. Our inner narrative.\n\nTurns out, it's not so inner.\n"
       }
     },
     "next": "the_recursive_mind/three",
@@ -2241,13 +2241,100 @@
     "id": "the_recursive_mind/we_are_stories",
     "url": "the_recursive_mind/we_are_stories",
     "class": "the_recursive_mind-we_are_stories",
-    "markdown": "And that is the root of the self: we are stories telling ourselves.\n",
+    "markdown": "And that is the root of the self: we are stories telling ourselves.\n\nWe're all familiar with it: the little voice inside our head. It\nspeaks in our voice. Our inner narrative.\n\nTurns out, it's not so inner.\n",
     "data": {
-      "note": "And that is the root of the self: we are stories telling ourselves.\n"
+      "note": "And that is the root of the self: we are stories telling ourselves.\n\nWe're all familiar with it: the little voice inside our head. It\nspeaks in our voice. Our inner narrative.\n\nTurns out, it's not so inner.\n"
     },
-    "next": "the_living_tree_of_language",
+    "next": "subvocalization",
     "prev": "the_recursive_mind/past_present_future",
     "index": 31
+  },
+  {
+    "id": "subvocalization",
+    "url": "subvocalization",
+    "class": "subvocalization",
+    "markdown": "Our inner voice is part of a system in our brain called the phonological\nloop, part of Baddeley & Hitch's model of working memory.\n\nWhen you read the words on this diagram, you hear them.\n\"Prefrontal Cortex: Attention Controller\".  \n",
+    "data": {
+      "img": "phonological-loop.jpg",
+      "note": "Our inner voice is part of a system in our brain called the phonological\nloop, part of Baddeley & Hitch's model of working memory.\n\nWhen you read the words on this diagram, you hear them.\n\"Prefrontal Cortex: Attention Controller\".  \n",
+      "Actually Saying Them": {
+        "note": "Turns out you hear them because you are *actually saying them*.\n\nJust... very quietly. Without any vocal oomph to go with it.\n\nWhen you speak internally, you *subvocalize*.\n\nThat is, your brain actually sends to your body the a softer\nshadow of the motor impulses that would cause\nyou to speak the words. For sign language users, these motor\nimpulses go to the arms, hands, and face. For speaking people,\nthey go to the tongue and larynx.\n"
+      },
+      "Echoes": {
+        "note": "Echoes of these impulses then return to the brain. You feel a\n*little* like you're actually talking.\n\nAnd this is how our brains store words in working memory. Using\nour bodies as buffers.\n"
+      },
+      "Evidence": {
+        "note": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voices.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n"
+      },
+      "Subvocal Speech Recognition": {
+        "img": "mit-silent-speech.jpg",
+        "note": "Well, yes.\n\nAnd Arnav Kapur at MIT has built a proof of concept silent computing platform,\ncombining subvocal speech recognition via EMG with bone transduction,\nto create a silent computing platform that can be an “intelligence augmentation\ndevice.”\n\nIt recognizes the words you're thinking, ask Google about them, and\nanswer by vibrating the bones of your jaw.\n"
+      }
+    },
+    "next": "subvocalization/actually_saying_them",
+    "prev": "the_recursive_mind/we_are_stories",
+    "index": 32
+  },
+  {
+    "id": "subvocalization/actually_saying_them",
+    "url": "subvocalization/actually_saying_them",
+    "class": "subvocalization-actually_saying_them",
+    "markdown": "Turns out you hear them because you are *actually saying them*.\n\nJust... very quietly. Without any vocal oomph to go with it.\n\nWhen you speak internally, you *subvocalize*.\n\nThat is, your brain actually sends to your body the a softer\nshadow of the motor impulses that would cause\nyou to speak the words. For sign language users, these motor\nimpulses go to the arms, hands, and face. For speaking people,\nthey go to the tongue and larynx.\n",
+    "data": {
+      "note": "Turns out you hear them because you are *actually saying them*.\n\nJust... very quietly. Without any vocal oomph to go with it.\n\nWhen you speak internally, you *subvocalize*.\n\nThat is, your brain actually sends to your body the a softer\nshadow of the motor impulses that would cause\nyou to speak the words. For sign language users, these motor\nimpulses go to the arms, hands, and face. For speaking people,\nthey go to the tongue and larynx.\n"
+    },
+    "next": "subvocalization/echoes",
+    "prev": "subvocalization",
+    "index": 33
+  },
+  {
+    "id": "subvocalization/echoes",
+    "url": "subvocalization/echoes",
+    "class": "subvocalization-echoes",
+    "markdown": "Echoes of these impulses then return to the brain. You feel a\n*little* like you're actually talking.\n\nAnd this is how our brains store words in working memory. Using\nour bodies as buffers.\n",
+    "data": {
+      "note": "Echoes of these impulses then return to the brain. You feel a\n*little* like you're actually talking.\n\nAnd this is how our brains store words in working memory. Using\nour bodies as buffers.\n"
+    },
+    "next": "subvocalization/evidence",
+    "prev": "subvocalization/actually_saying_them",
+    "index": 34
+  },
+  {
+    "id": "subvocalization/evidence",
+    "url": "subvocalization/evidence",
+    "class": "subvocalization-evidence",
+    "markdown": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voices.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n",
+    "data": {
+      "note": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voices.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n"
+    },
+    "next": "subvocalization/subvocal_speech_recognition",
+    "prev": "subvocalization/echoes",
+    "index": 35
+  },
+  {
+    "id": "subvocalization/subvocal_speech_recognition",
+    "url": "subvocalization/subvocal_speech_recognition",
+    "class": "subvocalization-subvocal_speech_recognition",
+    "markdown": "Well, yes.\n\nAnd Arnav Kapur at MIT has built a proof of concept silent computing platform,\ncombining subvocal speech recognition via EMG with bone transduction,\nto create a silent computing platform that can be an “intelligence augmentation\ndevice.”\n\nIt recognizes the words you're thinking, ask Google about them, and\nanswer by vibrating the bones of your jaw.\n",
+    "data": {
+      "img": "mit-silent-speech.jpg",
+      "note": "Well, yes.\n\nAnd Arnav Kapur at MIT has built a proof of concept silent computing platform,\ncombining subvocal speech recognition via EMG with bone transduction,\nto create a silent computing platform that can be an “intelligence augmentation\ndevice.”\n\nIt recognizes the words you're thinking, ask Google about them, and\nanswer by vibrating the bones of your jaw.\n"
+    },
+    "next": "not_just_stories",
+    "prev": "subvocalization/evidence",
+    "index": 36
+  },
+  {
+    "id": "not_just_stories",
+    "url": "not_just_stories",
+    "class": "not_just_stories",
+    "markdown": "But we are not just stories.\nWe're also bodies. Squishy, meaty bodies.\nAnd \n",
+    "data": {
+      "note": "But we are not just stories.\nWe're also bodies. Squishy, meaty bodies.\nAnd \n"
+    },
+    "next": "the_living_tree_of_language",
+    "prev": "subvocalization/subvocal_speech_recognition",
+    "index": 37
   },
   {
     "id": "the_living_tree_of_language",
@@ -2262,8 +2349,8 @@
       "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, by Mina Sundberg, just shows the old world languages,\nthose from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n"
     },
     "next": "power_of_language",
-    "prev": "the_recursive_mind/we_are_stories",
-    "index": 32
+    "prev": "not_just_stories",
+    "index": 38
   },
   {
     "id": "power_of_language",
@@ -2285,7 +2372,7 @@
     },
     "next": "power_of_language/a_warm_beach",
     "prev": "the_living_tree_of_language",
-    "index": 33
+    "index": 39
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -2298,7 +2385,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 34
+    "index": 40
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -2311,7 +2398,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/a_warm_beach",
-    "index": 35
+    "index": 41
   },
   {
     "id": "power_of_language/as_coders",
@@ -2324,7 +2411,7 @@
     },
     "next": "language",
     "prev": "power_of_language/crackling_campfire",
-    "index": 36
+    "index": 42
   },
   {
     "id": "language",
@@ -2338,7 +2425,7 @@
     },
     "next": "the_sea0",
     "prev": "power_of_language/as_coders",
-    "index": 37
+    "index": 43
   },
   {
     "id": "the_sea0",
@@ -2349,7 +2436,7 @@
     },
     "next": "the_sea1",
     "prev": "language",
-    "index": 38,
+    "index": 44,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2469,7 +2556,7 @@
     },
     "next": "the_sea2",
     "prev": "the_sea0",
-    "index": 39,
+    "index": 45,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2589,7 +2676,7 @@
     },
     "next": "the_sea3",
     "prev": "the_sea1",
-    "index": 40,
+    "index": 46,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2709,7 +2796,7 @@
     },
     "next": "the_sea4",
     "prev": "the_sea2",
-    "index": 41,
+    "index": 47,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2829,7 +2916,7 @@
     },
     "next": "the_sea5",
     "prev": "the_sea3",
-    "index": 42,
+    "index": 48,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -2949,7 +3036,7 @@
     },
     "next": "the_sea6",
     "prev": "the_sea4",
-    "index": 43,
+    "index": 49,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3069,7 +3156,7 @@
     },
     "next": "the_sea7",
     "prev": "the_sea5",
-    "index": 44,
+    "index": 50,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3189,7 +3276,7 @@
     },
     "next": "the_sea8",
     "prev": "the_sea6",
-    "index": 45,
+    "index": 51,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3327,7 +3414,7 @@
     },
     "next": "the_sea9",
     "prev": "the_sea7",
-    "index": 46,
+    "index": 52,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3474,7 +3561,7 @@
     },
     "next": "the_sea10",
     "prev": "the_sea8",
-    "index": 47,
+    "index": 53,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3602,7 +3689,7 @@
     },
     "next": "the_sea10a",
     "prev": "the_sea9",
-    "index": 48,
+    "index": 54,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3736,7 +3823,7 @@
     },
     "next": "the_sea11",
     "prev": "the_sea10",
-    "index": 49,
+    "index": 55,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3880,7 +3967,7 @@
       "frame": "ending/seed/seed11"
     },
     "prev": "the_sea10a",
-    "index": 50,
+    "index": 56,
     "paths": {
       "Space": {
         "id": "Space",
