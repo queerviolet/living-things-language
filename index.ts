@@ -7,6 +7,7 @@ import MorphSVG from './gsap/MorphSVGPlugin'
 import toSequence from './to-sequence.js'
 console.log('Loaded', MorphSVG)
 
+
 import resources from './resources'
 
 declare const svg: SVGSVGElement
@@ -14,6 +15,7 @@ declare const svg: SVGSVGElement
 const tl = new TimelineMax
 ;(window as any).tl = tl
 ;(window as any).resources = resources
+;(window as any).builds = script
 
 function createElements() {
   for (const b of script) {
@@ -46,20 +48,29 @@ function createElements() {
 
 function buildTimeline() {
   const { numTracks, frames } = script.reduce(toSequence, {})
+  ;(window as any).frames = frames
   const layers = Array.from({ length: numTracks }, (_, i) => pathWithId(`layer_${i}`))
  
+  let lastBuildWithFramesId = null
   script.forEach(build => {
     const frame = frames[build.id]
-    const paths = frame ? frame.paths : []
-    const tweens = Array.from({ length: numTracks }, (_, i) => {
-        const tween = new TweenLite.to(
-          layers[i], 1,
-          paths[i] && paths[i].tween ? paths[i].tween : CIRCLE)
-        return tween
-      })
-    tl.addLabel(`build-in:${build.id}`)
-    tl.add(tweens)
-    tl.addLabel(build.id)
+    const paths = frame.paths    
+    if (!paths.find(Boolean) && build.id.startsWith(lastBuildWithFramesId)) {
+      console.log('sub', build.id, lastBuildWithFramesId)
+      tl.addLabel(`build-in:${build.id}`)
+      tl.addLabel(build.id)
+    } else {
+      const tweens = Array.from({ length: numTracks }, (_, i) => {
+          const tween = new TweenLite.to(
+            layers[i], 1,
+            paths[i] && paths[i].tween ? paths[i].tween : CIRCLE)
+          return tween
+        })
+      tl.addLabel(`build-in:${build.id}`)
+      tl.add(tweens)
+      tl.addLabel(build.id)
+      lastBuildWithFramesId = build.id
+    }
     
     build.didEnter = compose(build.didEnter, () => {
       const frame = frames[build.id]

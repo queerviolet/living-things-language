@@ -3,7 +3,7 @@
     "id": "hi",
     "url": "hi",
     "class": "hi",
-    "markdown": "Hi, my name's Ashi. Today's talk is the first in a series called\n*Living Things*. This one is about language.\n\nWe've all heard that languages are living things. I think we treat this\nas metaphor. Languages that are spoken by people today—those we call \"alive\".\nLanguages that are no longer spoken—or are only spoken by a select\ngroup of academics—those we describe as \"dead\".\n\nFor the next thirty minutes, I want you to try and take this\nas literally as possible. Hopefully I'll do a bit to convince you\nof this. Languages do not breathe, they do not\nmetabolize, but they do shape the worlds of their speakers,\nthey reproduce, they consume resources, they come into equilibria\nwith their environments—environments which, notably, include our minds\nand bodies.\n\nLanguage is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. You've heard, I'm sure, that the hardest\nproblem in computer science is giving name to things. And that's\nbecause names matter. Names are connected to meanings, linked into\nthis web of implications that fishes out of the depths of our minds\neverything from machine schematics to childhood trauma.\n\nLanguage has a reputation for being airy. Disconnected from the\nphysical. From our bodies. \"Shhhhhh,\" your lover might say. No\ntalking now. Just dance.\n\nBut this reputation, I think, conceals a vital truth: language\nis a thing of the body. Our bodies are made for language. For sign,\nfor speech, for song. And language is a thing that grows out of\nour bodies, is rooted in movement, has evolved with us, and is as\nmuch a thing of our bodies as our thumbs, as our frontal cortex,\nas our dance.\n\nSo right now...\n",
+    "markdown": "Hi, my name's Ashi. Today's talk is the first in a series called\n*Living Things*. This one is about language.\n",
     "data": {
       "frame": "title",
       "simplify": {
@@ -16,9 +16,18 @@
         "Shadow": 50,
         "Tree2": 10
       },
-      "note": "Hi, my name's Ashi. Today's talk is the first in a series called\n*Living Things*. This one is about language.\n\nWe've all heard that languages are living things. I think we treat this\nas metaphor. Languages that are spoken by people today—those we call \"alive\".\nLanguages that are no longer spoken—or are only spoken by a select\ngroup of academics—those we describe as \"dead\".\n\nFor the next thirty minutes, I want you to try and take this\nas literally as possible. Hopefully I'll do a bit to convince you\nof this. Languages do not breathe, they do not\nmetabolize, but they do shape the worlds of their speakers,\nthey reproduce, they consume resources, they come into equilibria\nwith their environments—environments which, notably, include our minds\nand bodies.\n\nLanguage is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. You've heard, I'm sure, that the hardest\nproblem in computer science is giving name to things. And that's\nbecause names matter. Names are connected to meanings, linked into\nthis web of implications that fishes out of the depths of our minds\neverything from machine schematics to childhood trauma.\n\nLanguage has a reputation for being airy. Disconnected from the\nphysical. From our bodies. \"Shhhhhh,\" your lover might say. No\ntalking now. Just dance.\n\nBut this reputation, I think, conceals a vital truth: language\nis a thing of the body. Our bodies are made for language. For sign,\nfor speech, for song. And language is a thing that grows out of\nour bodies, is rooted in movement, has evolved with us, and is as\nmuch a thing of our bodies as our thumbs, as our frontal cortex,\nas our dance.\n\nSo right now...\n"
+      "note": "Hi, my name's Ashi. Today's talk is the first in a series called\n*Living Things*. This one is about language.\n",
+      "Languages Are Living Things": {
+        "note": "We've all heard that languages are living things. I think we treat this\nas metaphor. Languages that are spoken by people today—those we call \"alive\".\nLanguages that are no longer spoken—or are only spoken by a select\ngroup of academics—those we describe as \"dead\".\n\nFor the next thirty minutes, I want you to try and take this\nas literally as possible. Hopefully I'll do a bit to convince you\nof this. Languages do not breathe, they do not\nmetabolize, but they do shape the worlds of their speakers,\nthey reproduce, they consume resources, they come into equilibria\nwith their environments—environments which, notably, include our minds\nand bodies.\n"
+      },
+      "Language is Powerful": {
+        "note": "Language is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. You've heard, I'm sure, that the hardest\nproblem in computer science is giving name to things. And that's\nbecause names matter. Names are connected to meanings, linked into\nthis web of implications that fishes out of the depths of our minds\neverything from machine schematics to childhood trauma.\n"
+      },
+      "Language is in The Body": {
+        "note": "Language has a reputation for being airy. Disconnected from the\nphysical. From our bodies. \"Shhhhhh,\" your lover might say. No\ntalking now. Just dance.\n\nBut this reputation, I think, conceals a vital truth: language\nis a thing of the body. Our bodies are made for language. For sign,\nfor speech, for song. And language is a thing that grows out of\nour bodies, is rooted in movement, has evolved with us, and is as\nmuch a thing of our bodies as our thumbs, as our frontal cortex,\nas our dance.\n\nSo right now...\n"
+      }
     },
-    "next": "remember",
+    "next": "hi/languages_are_living_things",
     "index": 0,
     "paths": {
       "Space": {
@@ -167,6 +176,42 @@
     }
   },
   {
+    "id": "hi/languages_are_living_things",
+    "url": "hi/languages_are_living_things",
+    "class": "hi-languages_are_living_things",
+    "markdown": "We've all heard that languages are living things. I think we treat this\nas metaphor. Languages that are spoken by people today—those we call \"alive\".\nLanguages that are no longer spoken—or are only spoken by a select\ngroup of academics—those we describe as \"dead\".\n\nFor the next thirty minutes, I want you to try and take this\nas literally as possible. Hopefully I'll do a bit to convince you\nof this. Languages do not breathe, they do not\nmetabolize, but they do shape the worlds of their speakers,\nthey reproduce, they consume resources, they come into equilibria\nwith their environments—environments which, notably, include our minds\nand bodies.\n",
+    "data": {
+      "note": "We've all heard that languages are living things. I think we treat this\nas metaphor. Languages that are spoken by people today—those we call \"alive\".\nLanguages that are no longer spoken—or are only spoken by a select\ngroup of academics—those we describe as \"dead\".\n\nFor the next thirty minutes, I want you to try and take this\nas literally as possible. Hopefully I'll do a bit to convince you\nof this. Languages do not breathe, they do not\nmetabolize, but they do shape the worlds of their speakers,\nthey reproduce, they consume resources, they come into equilibria\nwith their environments—environments which, notably, include our minds\nand bodies.\n"
+    },
+    "next": "hi/language_is_powerful",
+    "prev": "hi",
+    "index": 1
+  },
+  {
+    "id": "hi/language_is_powerful",
+    "url": "hi/language_is_powerful",
+    "class": "hi-language_is_powerful",
+    "markdown": "Language is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. You've heard, I'm sure, that the hardest\nproblem in computer science is giving name to things. And that's\nbecause names matter. Names are connected to meanings, linked into\nthis web of implications that fishes out of the depths of our minds\neverything from machine schematics to childhood trauma.\n",
+    "data": {
+      "note": "Language is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. You've heard, I'm sure, that the hardest\nproblem in computer science is giving name to things. And that's\nbecause names matter. Names are connected to meanings, linked into\nthis web of implications that fishes out of the depths of our minds\neverything from machine schematics to childhood trauma.\n"
+    },
+    "next": "hi/language_is_in_the_body",
+    "prev": "hi/languages_are_living_things",
+    "index": 2
+  },
+  {
+    "id": "hi/language_is_in_the_body",
+    "url": "hi/language_is_in_the_body",
+    "class": "hi-language_is_in_the_body",
+    "markdown": "Language has a reputation for being airy. Disconnected from the\nphysical. From our bodies. \"Shhhhhh,\" your lover might say. No\ntalking now. Just dance.\n\nBut this reputation, I think, conceals a vital truth: language\nis a thing of the body. Our bodies are made for language. For sign,\nfor speech, for song. And language is a thing that grows out of\nour bodies, is rooted in movement, has evolved with us, and is as\nmuch a thing of our bodies as our thumbs, as our frontal cortex,\nas our dance.\n\nSo right now...\n",
+    "data": {
+      "note": "Language has a reputation for being airy. Disconnected from the\nphysical. From our bodies. \"Shhhhhh,\" your lover might say. No\ntalking now. Just dance.\n\nBut this reputation, I think, conceals a vital truth: language\nis a thing of the body. Our bodies are made for language. For sign,\nfor speech, for song. And language is a thing that grows out of\nour bodies, is rooted in movement, has evolved with us, and is as\nmuch a thing of our bodies as our thumbs, as our frontal cortex,\nas our dance.\n\nSo right now...\n"
+    },
+    "next": "remember",
+    "prev": "hi/language_is_powerful",
+    "index": 3
+  },
+  {
     "id": "remember",
     "url": "remember",
     "class": "remember",
@@ -280,8 +325,8 @@
       }
     },
     "next": "remember/ten_years_ago",
-    "prev": "hi",
-    "index": 1,
+    "prev": "hi/language_is_in_the_body",
+    "index": 4,
     "paths": {
       "Space": {
         "id": "Space",
@@ -439,7 +484,7 @@
     },
     "next": "remember/we_were_creating",
     "prev": "remember",
-    "index": 2,
+    "index": 5,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -461,7 +506,7 @@
     },
     "next": "remember/talking",
     "prev": "remember/ten_years_ago",
-    "index": 3,
+    "index": 6,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -536,7 +581,7 @@
     },
     "next": "remember/distributed",
     "prev": "remember/we_were_creating",
-    "index": 4,
+    "index": 7,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -603,7 +648,7 @@
     },
     "next": "remember/networked",
     "prev": "remember/talking",
-    "index": 5,
+    "index": 8,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -634,7 +679,7 @@
     },
     "next": "remember/socially_networked",
     "prev": "remember/distributed",
-    "index": 6,
+    "index": 9,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -665,7 +710,7 @@
     },
     "next": "remember/look",
     "prev": "remember/networked",
-    "index": 7,
+    "index": 10,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -696,7 +741,7 @@
     },
     "next": "remember/arab_spring",
     "prev": "remember/socially_networked",
-    "index": 8,
+    "index": 11,
     "paths": {
       "Blossom2": {
         "id": "Blossom2",
@@ -765,7 +810,7 @@
     },
     "next": "remember/catalyzed",
     "prev": "remember/look",
-    "index": 9,
+    "index": 12,
     "paths": {
       "Blossom2": {
         "id": "Blossom2",
@@ -836,7 +881,7 @@
     },
     "next": "remember/obamas",
     "prev": "remember/arab_spring",
-    "index": 10,
+    "index": 13,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -923,7 +968,7 @@
     },
     "next": "remember/a_new_culture",
     "prev": "remember/catalyzed",
-    "index": 11,
+    "index": 14,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1174,7 +1219,7 @@
     },
     "next": "remember/without_nations_and_borders",
     "prev": "remember/obamas",
-    "index": 12,
+    "index": 15,
     "paths": {
       "Inside": {
         "id": "Inside",
@@ -1246,7 +1291,7 @@
     },
     "next": "remember/punch_only_masks",
     "prev": "remember/a_new_culture",
-    "index": 13,
+    "index": 16,
     "paths": {
       "g3982": {
         "id": "g3982",
@@ -1314,7 +1359,7 @@
     },
     "next": "remember/racism",
     "prev": "remember/without_nations_and_borders",
-    "index": 14,
+    "index": 17,
     "paths": {
       "0": {
         "id": 0,
@@ -1571,7 +1616,7 @@
     },
     "next": "remember/new_minds",
     "prev": "remember/punch_only_masks",
-    "index": 15,
+    "index": 18,
     "paths": {
       "0": {
         "id": 0,
@@ -1900,7 +1945,7 @@
     },
     "next": "remember/see",
     "prev": "remember/racism",
-    "index": 16,
+    "index": 19,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -1948,7 +1993,7 @@
     },
     "next": "remember/want",
     "prev": "remember/new_minds",
-    "index": 17,
+    "index": 20,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -1996,7 +2041,7 @@
     },
     "next": "remember/lie",
     "prev": "remember/see",
-    "index": 18,
+    "index": 21,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2044,7 +2089,7 @@
     },
     "next": "remember/retrospect",
     "prev": "remember/want",
-    "index": 19,
+    "index": 22,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2091,7 +2136,7 @@
     },
     "next": "remember/what_happened",
     "prev": "remember/lie",
-    "index": 20
+    "index": 23
   },
   {
     "id": "remember/what_happened",
@@ -2104,7 +2149,7 @@
     },
     "next": "remember/may_not_believe_it_now",
     "prev": "remember/retrospect",
-    "index": 21
+    "index": 24
   },
   {
     "id": "remember/may_not_believe_it_now",
@@ -2117,7 +2162,7 @@
     },
     "next": "origins_of_language",
     "prev": "remember/what_happened",
-    "index": 22
+    "index": 25
   },
   {
     "id": "origins_of_language",
@@ -2129,7 +2174,7 @@
     },
     "next": "recursion",
     "prev": "remember/may_not_believe_it_now",
-    "index": 23
+    "index": 26
   },
   {
     "id": "recursion",
@@ -2146,7 +2191,7 @@
     },
     "next": "recursion/opens_but_never_closes",
     "prev": "origins_of_language",
-    "index": 24
+    "index": 27
   },
   {
     "id": "recursion/opens_but_never_closes",
@@ -2159,7 +2204,7 @@
     },
     "next": "more_common_phrases",
     "prev": "recursion",
-    "index": 25
+    "index": 28
   },
   {
     "id": "more_common_phrases",
@@ -2176,7 +2221,7 @@
     },
     "next": "more_common_phrases/embedding",
     "prev": "recursion/opens_but_never_closes",
-    "index": 26
+    "index": 29
   },
   {
     "id": "more_common_phrases/embedding",
@@ -2189,7 +2234,7 @@
     },
     "next": "the_recursive_mind",
     "prev": "more_common_phrases",
-    "index": 27
+    "index": 30
   },
   {
     "id": "the_recursive_mind",
@@ -2211,7 +2256,7 @@
     },
     "next": "the_recursive_mind/three",
     "prev": "more_common_phrases/embedding",
-    "index": 28
+    "index": 31
   },
   {
     "id": "the_recursive_mind/three",
@@ -2223,7 +2268,7 @@
     },
     "next": "the_recursive_mind/past_present_future",
     "prev": "the_recursive_mind",
-    "index": 29
+    "index": 32
   },
   {
     "id": "the_recursive_mind/past_present_future",
@@ -2235,7 +2280,7 @@
     },
     "next": "the_recursive_mind/we_are_stories",
     "prev": "the_recursive_mind/three",
-    "index": 30
+    "index": 33
   },
   {
     "id": "the_recursive_mind/we_are_stories",
@@ -2247,7 +2292,7 @@
     },
     "next": "subvocalization",
     "prev": "the_recursive_mind/past_present_future",
-    "index": 31
+    "index": 34
   },
   {
     "id": "subvocalization",
@@ -2264,16 +2309,19 @@
         "note": "Echoes of these impulses then return to the brain. You feel a\n*little* like you're actually talking.\n\nAnd this is how our brains store words in working memory. Using\nour bodies as buffers.\n"
       },
       "Evidence": {
-        "note": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voices.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n"
+        "note": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voice.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n"
       },
       "Subvocal Speech Recognition": {
         "img": "mit-silent-speech.jpg",
-        "note": "Well, yes.\n\nAnd Arnav Kapur at MIT has built a proof of concept silent computing platform,\ncombining subvocal speech recognition via EMG with bone transduction,\nto create a silent computing platform that can be an “intelligence augmentation\ndevice.”\n\nIt recognizes the words you're thinking, ask Google about them, and\nanswer by vibrating the bones of your jaw.\n"
+        "note": "Well, yes.\n\nAnd Arnav Kapur at MIT has built a proof of concept silent computing platform,\nwhich uses speech recognition via Electromyography—reading the electrical\nimpulses sent to your muscles.\n\nUsing this input, the system is able to perform speech recognition on\nthe words you're saying in your head. It can talk to you too, via\nbone transduction.\n\nAll this to create a silent computing platform that can be an\n“intelligence augmentation device.”\n\nIt recognizes the words you're thinking, asks Google about them, and\nanswers by vibrating the bones of your jaw.\n"
+      },
+      "Not Just Stories": {
+        "note": "All this tells us: we are not just stories.\n\nWe are stories embedded in bodies.\n\nWe are stories that grew from our squishy, meaty bodies. From the\nincredible amount of data they receive on a daily basis. From\nthe billions of years of evolution that brought us to that point.\n"
       }
     },
     "next": "subvocalization/actually_saying_them",
     "prev": "the_recursive_mind/we_are_stories",
-    "index": 32
+    "index": 35
   },
   {
     "id": "subvocalization/actually_saying_them",
@@ -2285,7 +2333,7 @@
     },
     "next": "subvocalization/echoes",
     "prev": "subvocalization",
-    "index": 33
+    "index": 36
   },
   {
     "id": "subvocalization/echoes",
@@ -2297,60 +2345,60 @@
     },
     "next": "subvocalization/evidence",
     "prev": "subvocalization/actually_saying_them",
-    "index": 34
+    "index": 37
   },
   {
     "id": "subvocalization/evidence",
     "url": "subvocalization/evidence",
     "class": "subvocalization-evidence",
-    "markdown": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voices.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n",
+    "markdown": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voice.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n",
     "data": {
-      "note": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voices.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n"
+      "note": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voice.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n"
     },
     "next": "subvocalization/subvocal_speech_recognition",
     "prev": "subvocalization/echoes",
-    "index": 35
+    "index": 38
   },
   {
     "id": "subvocalization/subvocal_speech_recognition",
     "url": "subvocalization/subvocal_speech_recognition",
     "class": "subvocalization-subvocal_speech_recognition",
-    "markdown": "Well, yes.\n\nAnd Arnav Kapur at MIT has built a proof of concept silent computing platform,\ncombining subvocal speech recognition via EMG with bone transduction,\nto create a silent computing platform that can be an “intelligence augmentation\ndevice.”\n\nIt recognizes the words you're thinking, ask Google about them, and\nanswer by vibrating the bones of your jaw.\n",
+    "markdown": "Well, yes.\n\nAnd Arnav Kapur at MIT has built a proof of concept silent computing platform,\nwhich uses speech recognition via Electromyography—reading the electrical\nimpulses sent to your muscles.\n\nUsing this input, the system is able to perform speech recognition on\nthe words you're saying in your head. It can talk to you too, via\nbone transduction.\n\nAll this to create a silent computing platform that can be an\n“intelligence augmentation device.”\n\nIt recognizes the words you're thinking, asks Google about them, and\nanswers by vibrating the bones of your jaw.\n",
     "data": {
       "img": "mit-silent-speech.jpg",
-      "note": "Well, yes.\n\nAnd Arnav Kapur at MIT has built a proof of concept silent computing platform,\ncombining subvocal speech recognition via EMG with bone transduction,\nto create a silent computing platform that can be an “intelligence augmentation\ndevice.”\n\nIt recognizes the words you're thinking, ask Google about them, and\nanswer by vibrating the bones of your jaw.\n"
+      "note": "Well, yes.\n\nAnd Arnav Kapur at MIT has built a proof of concept silent computing platform,\nwhich uses speech recognition via Electromyography—reading the electrical\nimpulses sent to your muscles.\n\nUsing this input, the system is able to perform speech recognition on\nthe words you're saying in your head. It can talk to you too, via\nbone transduction.\n\nAll this to create a silent computing platform that can be an\n“intelligence augmentation device.”\n\nIt recognizes the words you're thinking, asks Google about them, and\nanswers by vibrating the bones of your jaw.\n"
     },
-    "next": "not_just_stories",
+    "next": "subvocalization/not_just_stories",
     "prev": "subvocalization/evidence",
-    "index": 36
+    "index": 39
   },
   {
-    "id": "not_just_stories",
-    "url": "not_just_stories",
-    "class": "not_just_stories",
-    "markdown": "But we are not just stories.\nWe're also bodies. Squishy, meaty bodies.\nAnd \n",
+    "id": "subvocalization/not_just_stories",
+    "url": "subvocalization/not_just_stories",
+    "class": "subvocalization-not_just_stories",
+    "markdown": "All this tells us: we are not just stories.\n\nWe are stories embedded in bodies.\n\nWe are stories that grew from our squishy, meaty bodies. From the\nincredible amount of data they receive on a daily basis. From\nthe billions of years of evolution that brought us to that point.\n",
     "data": {
-      "note": "But we are not just stories.\nWe're also bodies. Squishy, meaty bodies.\nAnd \n"
+      "note": "All this tells us: we are not just stories.\n\nWe are stories embedded in bodies.\n\nWe are stories that grew from our squishy, meaty bodies. From the\nincredible amount of data they receive on a daily basis. From\nthe billions of years of evolution that brought us to that point.\n"
     },
     "next": "the_living_tree_of_language",
     "prev": "subvocalization/subvocal_speech_recognition",
-    "index": 37
+    "index": 40
   },
   {
     "id": "the_living_tree_of_language",
     "url": "the_living_tree_of_language",
     "class": "the_living_tree_of_language",
-    "markdown": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, by Mina Sundberg, just shows the old world languages,\nthose from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n",
+    "markdown": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n\nThere are, of course, many more.\n",
     "data": {
       "img": "language-tree-mina-sundberg.jpg",
       "bg": "black",
       "class": "cover-pan-up",
       "html": "<cite>art by Mina Sundberg</cite>",
-      "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, by Mina Sundberg, just shows the old world languages,\nthose from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n"
+      "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n\nThere are, of course, many more.\n"
     },
     "next": "power_of_language",
-    "prev": "not_just_stories",
-    "index": 38
+    "prev": "subvocalization/not_just_stories",
+    "index": 41
   },
   {
     "id": "power_of_language",
@@ -2372,7 +2420,7 @@
     },
     "next": "power_of_language/a_warm_beach",
     "prev": "the_living_tree_of_language",
-    "index": 39
+    "index": 42
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -2385,7 +2433,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 40
+    "index": 43
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -2398,7 +2446,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/a_warm_beach",
-    "index": 41
+    "index": 44
   },
   {
     "id": "power_of_language/as_coders",
@@ -2411,7 +2459,7 @@
     },
     "next": "language",
     "prev": "power_of_language/crackling_campfire",
-    "index": 42
+    "index": 45
   },
   {
     "id": "language",
@@ -2425,7 +2473,7 @@
     },
     "next": "the_sea0",
     "prev": "power_of_language/as_coders",
-    "index": 43
+    "index": 46
   },
   {
     "id": "the_sea0",
@@ -2436,7 +2484,7 @@
     },
     "next": "the_sea1",
     "prev": "language",
-    "index": 44,
+    "index": 47,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2556,7 +2604,7 @@
     },
     "next": "the_sea2",
     "prev": "the_sea0",
-    "index": 45,
+    "index": 48,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2676,7 +2724,7 @@
     },
     "next": "the_sea3",
     "prev": "the_sea1",
-    "index": 46,
+    "index": 49,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2796,7 +2844,7 @@
     },
     "next": "the_sea4",
     "prev": "the_sea2",
-    "index": 47,
+    "index": 50,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2916,7 +2964,7 @@
     },
     "next": "the_sea5",
     "prev": "the_sea3",
-    "index": 48,
+    "index": 51,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3036,7 +3084,7 @@
     },
     "next": "the_sea6",
     "prev": "the_sea4",
-    "index": 49,
+    "index": 52,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3156,7 +3204,7 @@
     },
     "next": "the_sea7",
     "prev": "the_sea5",
-    "index": 50,
+    "index": 53,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3276,7 +3324,7 @@
     },
     "next": "the_sea8",
     "prev": "the_sea6",
-    "index": 51,
+    "index": 54,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3414,7 +3462,7 @@
     },
     "next": "the_sea9",
     "prev": "the_sea7",
-    "index": 52,
+    "index": 55,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3561,7 +3609,7 @@
     },
     "next": "the_sea10",
     "prev": "the_sea8",
-    "index": 53,
+    "index": 56,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3689,7 +3737,7 @@
     },
     "next": "the_sea10a",
     "prev": "the_sea9",
-    "index": 54,
+    "index": 57,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3823,7 +3871,7 @@
     },
     "next": "the_sea11",
     "prev": "the_sea10",
-    "index": 55,
+    "index": 58,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3967,7 +4015,7 @@
       "frame": "ending/seed/seed11"
     },
     "prev": "the_sea10a",
-    "index": 56,
+    "index": 59,
     "paths": {
       "Space": {
         "id": "Space",

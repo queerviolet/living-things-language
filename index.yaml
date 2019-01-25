@@ -13,40 +13,43 @@ Hi:
   note: |
     Hi, my name's Ashi. Today's talk is the first in a series called
     *Living Things*. This one is about language.
+  Languages Are Living Things:
+    note: |
+      We've all heard that languages are living things. I think we treat this
+      as metaphor. Languages that are spoken by people today—those we call "alive".
+      Languages that are no longer spoken—or are only spoken by a select
+      group of academics—those we describe as "dead".
 
-    We've all heard that languages are living things. I think we treat this
-    as metaphor. Languages that are spoken by people today—those we call "alive".
-    Languages that are no longer spoken—or are only spoken by a select
-    group of academics—those we describe as "dead".
+      For the next thirty minutes, I want you to try and take this
+      as literally as possible. Hopefully I'll do a bit to convince you
+      of this. Languages do not breathe, they do not
+      metabolize, but they do shape the worlds of their speakers,
+      they reproduce, they consume resources, they come into equilibria
+      with their environments—environments which, notably, include our minds
+      and bodies.
+  Language is Powerful:
+    note: |
+      Language is powerful. Ancient and contemporary magical systems rely
+      on the power of naming. The names we give to the things in our world
+      create that world. You've heard, I'm sure, that the hardest
+      problem in computer science is giving name to things. And that's
+      because names matter. Names are connected to meanings, linked into
+      this web of implications that fishes out of the depths of our minds
+      everything from machine schematics to childhood trauma.
+  Language is in The Body:
+    note: |
+      Language has a reputation for being airy. Disconnected from the
+      physical. From our bodies. "Shhhhhh," your lover might say. No
+      talking now. Just dance.
 
-    For the next thirty minutes, I want you to try and take this
-    as literally as possible. Hopefully I'll do a bit to convince you
-    of this. Languages do not breathe, they do not
-    metabolize, but they do shape the worlds of their speakers,
-    they reproduce, they consume resources, they come into equilibria
-    with their environments—environments which, notably, include our minds
-    and bodies.
+      But this reputation, I think, conceals a vital truth: language
+      is a thing of the body. Our bodies are made for language. For sign,
+      for speech, for song. And language is a thing that grows out of
+      our bodies, is rooted in movement, has evolved with us, and is as
+      much a thing of our bodies as our thumbs, as our frontal cortex,
+      as our dance.
 
-    Language is powerful. Ancient and contemporary magical systems rely
-    on the power of naming. The names we give to the things in our world
-    create that world. You've heard, I'm sure, that the hardest
-    problem in computer science is giving name to things. And that's
-    because names matter. Names are connected to meanings, linked into
-    this web of implications that fishes out of the depths of our minds
-    everything from machine schematics to childhood trauma.
-
-    Language has a reputation for being airy. Disconnected from the
-    physical. From our bodies. "Shhhhhh," your lover might say. No
-    talking now. Just dance.
-
-    But this reputation, I think, conceals a vital truth: language
-    is a thing of the body. Our bodies are made for language. For sign,
-    for speech, for song. And language is a thing that grows out of
-    our bodies, is rooted in movement, has evolved with us, and is as
-    much a thing of our bodies as our thumbs, as our frontal cortex,
-    as our dance.
-
-    So right now...
+      So right now...
 Remember:
   frame: title
   simplify: *simplify_title
@@ -349,7 +352,6 @@ The Recursive Mind:
       speaks in our voice. Our inner narrative.
 
       Turns out, it's not so inner.
-
 Subvocalization:
   img: phonological-loop.jpg
   note: |
@@ -390,7 +392,7 @@ Subvocalization:
       inner voice.
 
       This is an almost bizzarely prosaic explanation for something that
-      seems so intimate: our inner voices.
+      seems so intimate: our inner voice.
       
       If this is happening, surely we could detect it? And even do speech
       recognition on it?
@@ -400,17 +402,27 @@ Subvocalization:
       Well, yes.
 
       And Arnav Kapur at MIT has built a proof of concept silent computing platform,
-      combining subvocal speech recognition via EMG with bone transduction,
-      to create a silent computing platform that can be an “intelligence augmentation
-      device.”
+      which uses speech recognition via Electromyography—reading the electrical
+      impulses sent to your muscles.
+      
+      Using this input, the system is able to perform speech recognition on
+      the words you're saying in your head. It can talk to you too, via
+      bone transduction.
 
-      It recognizes the words you're thinking, ask Google about them, and
-      answer by vibrating the bones of your jaw.
-Not Just Stories:
-  note: |
-    But we are not just stories.
-    We're also bodies. Squishy, meaty bodies.
-    And 
+      All this to create a silent computing platform that can be an
+      “intelligence augmentation device.”
+
+      It recognizes the words you're thinking, asks Google about them, and
+      answers by vibrating the bones of your jaw.
+  Not Just Stories:
+    note: |
+      All this tells us: we are not just stories.
+
+      We are stories embedded in bodies.
+      
+      We are stories that grew from our squishy, meaty bodies. From the
+      incredible amount of data they receive on a daily basis. From
+      the billions of years of evolution that brought us to that point.
   
 
 
@@ -422,11 +434,13 @@ The Living Tree of Language:
   note: |
     A perfusion of languages spread across the globe.
 
-    This beautiful tree, by Mina Sundberg, just shows the old world languages,
-    those from Europe and Asia.
+    This beautiful tree, drawn by Mina Sundberg, just shows the old world
+    languages, those from Europe and Asia.
     
     Most of them are descended from Proto-Indo-European, a language by people
     in the Ural steppes about six thousand years ago.
+
+    There are, of course, many more.
 Power of Language:
   A warm beach:
     html: A warm beach on a sunny day.
