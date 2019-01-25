@@ -19,7 +19,9 @@ const getBuilds = (script, path=[]) =>
       data = script[key]
       const first = {
         id: self.join('/'),
+        url: self.join('/'),
         class: self.join('-'),
+        markdown: data.note,
         data,
       }
       return [first, ...getBuilds(data, self)]

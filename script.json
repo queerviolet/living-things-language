@@ -1,7 +1,9 @@
 [
   {
     "id": "hi",
+    "url": "hi",
     "class": "hi",
+    "markdown": "Hi, my name's Ashi. Today's talk is the first in a series called\n*Living Things*. This one is about language.\n\nWe've all heard that languages are living things. I think we treat this\nas metaphor. Languages that are spoken by people today—those we call \"alive\".\nLanguages that are no longer spoken—or are only spoken by a select\ngroup of academics—those we describe as \"dead\".\n\nFor the next thirty minutes, I want you to try and take this\nas literally as possible. Hopefully I'll do a bit to convince you\nof this. Languages do not breathe, they do not\nmetabolize, but they do shape the worlds of their speakers,\nthey reproduce, they consume resources, they come into equilibria\nwith their environments—environments which, notably, include our minds\nand bodies.\n\nLanguage is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. You've heard, I'm sure, that the hardest\nproblem in computer science is giving name to things. And that's\nbecause names matter. Names are connected to meanings, linked into\nthis web of implications that fishes out of the depths of our minds\neverything from machine schematics to childhood trauma.\n\nLanguage has a reputation for being airy. Disconnected from the\nphysical. From our bodies. \"Shhhhhh,\" your lover might say. No\ntalking now. Just dance.\n\nBut this reputation, I think, conceals a vital truth: language\nis a thing of the body. Our bodies are made for language. For sign,\nfor speech, for song. And language is a thing that grows out of\nour bodies, is rooted in movement, has evolved with us, and is as\nmuch a thing of our bodies as our thumbs, as our frontal cortex,\nas our dance.\n\nSo right now...\n",
     "data": {
       "frame": "title",
       "simplify": {
@@ -166,7 +168,9 @@
   },
   {
     "id": "remember",
+    "url": "remember",
     "class": "remember",
+    "markdown": "I want you to remember.\n\nRemember that you have a body.\n\nRemember your lungs, peeling open to draw in air\nso the hemoglobin inside them can release CO2 and trap oxygen.\n\nYou are alive, so you are made up of living things.\n\nRemember the cells of your body. Remember the fibers of your muscles.\n\nRemember your heart, squeezing and squishing your blood around to drive\noxidization in your cells.\n\nRemember that oxidization is burning, and so inside of you are thirty seven\ntrillion tiny fires.\n\nRemember the crackling of depolarizing membranes in your brain, neurons\nstrobing with information.\n\nYou are alive, so you are a part of living things. You are a cell\nwithin tissues shaped like cities and families and nations.\n\nYou are alive, so you hvae come from living things.\nRemember your ancestors. Remember the story that has brought you here.\nRemember your past.\n\nRemember... about ten years ago.\n",
     "data": {
       "frame": "title",
       "simplify": {
@@ -426,7 +430,9 @@
   },
   {
     "id": "remember/ten_years_ago",
+    "url": "remember/ten_years_ago",
     "class": "remember-ten_years_ago",
+    "markdown": "Remember ten years ago?",
     "data": {
       "frame": "white",
       "note": "Remember ten years ago?"
@@ -446,7 +452,9 @@
   },
   {
     "id": "remember/we_were_creating",
+    "url": "remember/we_were_creating",
     "class": "remember-we_were_creating",
+    "markdown": "Ten years ago we were creating",
     "data": {
       "frame": "news0",
       "note": "Ten years ago we were creating"
@@ -519,7 +527,9 @@
   },
   {
     "id": "remember/talking",
+    "url": "remember/talking",
     "class": "remember-talking",
+    "markdown": "a new kind of media",
     "data": {
       "frame": "news1",
       "note": "a new kind of media"
@@ -584,7 +594,9 @@
   },
   {
     "id": "remember/distributed",
+    "url": "remember/distributed",
     "class": "remember-distributed",
+    "markdown": "Distributed, disintermediated",
     "data": {
       "frame": "distributed",
       "note": "Distributed, disintermediated"
@@ -613,7 +625,9 @@
   },
   {
     "id": "remember/networked",
+    "url": "remember/networked",
     "class": "remember-networked",
+    "markdown": "networked",
     "data": {
       "frame": "networked",
       "note": "networked"
@@ -642,7 +656,9 @@
   },
   {
     "id": "remember/socially_networked",
+    "url": "remember/socially_networked",
     "class": "remember-socially_networked",
+    "markdown": "*socially* networked, made by us, consumed by us.\nBloggers and tweeters sharing their worlds with each other.\n\nAll of us creators, all of us consumers.\n\nNo longer would we be beholden to newspapers, to reporters. No longer would\nwe get our stories filtered through layers of intermediaries,\neach one spinning and slanting. No, we would just get the truth.\nThe truth would win.\n\nOf course, there were nay sayers. Negative nancies.\n\"Journalists\", \"researchers\", asking...\nokay, well, how? How, exactly? How do you know people are who they\nsay they are? How can you trust these faceless barely-people,\nveiled by layers of cable and protocol?\n\nAnd our response—my response, certainly, the one I said on the\ninside—was that it's... fine... probably. Something something\nweb of trust. Wisdom of crowds.\n",
     "data": {
       "frame": "socially-networked",
       "note": "*socially* networked, made by us, consumed by us.\nBloggers and tweeters sharing their worlds with each other.\n\nAll of us creators, all of us consumers.\n\nNo longer would we be beholden to newspapers, to reporters. No longer would\nwe get our stories filtered through layers of intermediaries,\neach one spinning and slanting. No, we would just get the truth.\nThe truth would win.\n\nOf course, there were nay sayers. Negative nancies.\n\"Journalists\", \"researchers\", asking...\nokay, well, how? How, exactly? How do you know people are who they\nsay they are? How can you trust these faceless barely-people,\nveiled by layers of cable and protocol?\n\nAnd our response—my response, certainly, the one I said on the\ninside—was that it's... fine... probably. Something something\nweb of trust. Wisdom of crowds.\n"
@@ -671,7 +687,9 @@
   },
   {
     "id": "remember/look",
+    "url": "remember/look",
     "class": "remember-look",
+    "markdown": "Look...",
     "data": {
       "frame": "spring0",
       "note": "Look..."
@@ -738,7 +756,9 @@
   },
   {
     "id": "remember/arab_spring",
+    "url": "remember/arab_spring",
     "class": "remember-arab_spring",
+    "markdown": "This is the time of the Arab Spring!",
     "data": {
       "frame": "spring1",
       "note": "This is the time of the Arab Spring!"
@@ -807,7 +827,9 @@
   },
   {
     "id": "remember/catalyzed",
+    "url": "remember/catalyzed",
     "class": "remember-catalyzed",
+    "markdown": "Of social media catalyzed revolutions!",
     "data": {
       "frame": "spring-catalyzed",
       "note": "Of social media catalyzed revolutions!"
@@ -892,7 +914,9 @@
   },
   {
     "id": "remember/obamas",
+    "url": "remember/obamas",
     "class": "remember-obamas",
+    "markdown": "Barack Hussein Obama has just been elected because of us.\nGlobal warming: definitely happening, very bad,\nbut we’re *going to fix it*. See, we are powerful.\n",
     "data": {
       "frame": "obamas",
       "note": "Barack Hussein Obama has just been elected because of us.\nGlobal warming: definitely happening, very bad,\nbut we’re *going to fix it*. See, we are powerful.\n"
@@ -1141,7 +1165,9 @@
   },
   {
     "id": "remember/a_new_culture",
+    "url": "remember/a_new_culture",
     "class": "remember-a_new_culture",
+    "markdown": "We have been weaving ourselves a new culture.\n\nConnecting in a new way.\n",
     "data": {
       "frame": "fist",
       "note": "We have been weaving ourselves a new culture.\n\nConnecting in a new way.\n"
@@ -1210,7 +1236,9 @@
   },
   {
     "id": "remember/without_nations_and_borders",
+    "url": "remember/without_nations_and_borders",
     "class": "remember-without_nations_and_borders",
+    "markdown": "Richer. More direct.\nOrganic. We are becoming something, all of us together\nbecoming something greater than any of us. It seemed,\nthen, that we were struck by lightning, and far from\nkilling us, it gave us life, and our mycelium was bearing fruit.\n\nThis is why we built everything. Remember that feeling?\nThe promise of the Internet, of cyberspace, this new kind\nof a place without nations and borders, a place where\nauthoritarians fear to tread.\n",
     "data": {
       "frame": "fist2",
       "bg": "black",
@@ -1274,7 +1302,9 @@
   },
   {
     "id": "remember/punch_only_masks",
+    "url": "remember/punch_only_masks",
     "class": "remember-punch_only_masks",
+    "markdown": "A place where their iron fists can punch only masks;\nwhere their walls cannot be built because the network perceives\ntheir censorship as damage and routes around it. Where we rely\non each other. On consensus. On the wisdom of the mob.\nA place where every story can be told, true or not.\n",
     "data": {
       "frame": "anonymous",
       "simplify": 20,
@@ -1530,7 +1560,9 @@
   },
   {
     "id": "remember/racism",
+    "url": "remember/racism",
     "class": "remember-racism",
+    "markdown": "A place where\nyour footprints can follow you forever. A place where you can\nbe yourself and so can anyone else; a place where everyone can\nfind their people and dance in 14/88 time;\n",
     "data": {
       "frame": "kekistan",
       "ungrouped": true,
@@ -1858,7 +1890,9 @@
   },
   {
     "id": "remember/new_minds",
+    "url": "remember/new_minds",
     "class": "remember-new_minds",
+    "markdown": "a place where new minds\nare growing, and they’re sprouting eyes everywhere, and their\nhands are everywhere, and they are learning from us how to be\nhuman and so far they can reliably emulate three things\n",
     "data": {
       "frame": "eye0",
       "bg": "black",
@@ -1904,7 +1938,9 @@
   },
   {
     "id": "remember/see",
+    "url": "remember/see",
     "class": "remember-see",
+    "markdown": "how to see",
     "data": {
       "frame": "eye1",
       "bg": "black",
@@ -1950,7 +1986,9 @@
   },
   {
     "id": "remember/want",
+    "url": "remember/want",
     "class": "remember-want",
+    "markdown": "how to want",
     "data": {
       "frame": "eye-teeth",
       "bg": "black",
@@ -1996,7 +2034,9 @@
   },
   {
     "id": "remember/lie",
+    "url": "remember/lie",
     "class": "remember-lie",
+    "markdown": "and how to lie.",
     "data": {
       "frame": "eye-teeth-shut",
       "bg": "black",
@@ -2042,7 +2082,9 @@
   },
   {
     "id": "remember/retrospect",
+    "url": "remember/retrospect",
     "class": "remember-retrospect",
+    "markdown": "In retrospect, those journalists, those researchers,\neveryone concerned, perhaps even alarmed about how we would\nbe able to trust anything in a world with amplification and\nno accountability? They had a really solid point. Just...very solid.\nGood job, Cassandra. We probably should have listened.\n\nYeah. But we didn’t.\n\nAnd now, we’re all... completely fucked.\n",
     "data": {
       "bg": "black",
       "note": "In retrospect, those journalists, those researchers,\neveryone concerned, perhaps even alarmed about how we would\nbe able to trust anything in a world with amplification and\nno accountability? They had a really solid point. Just...very solid.\nGood job, Cassandra. We probably should have listened.\n\nYeah. But we didn’t.\n\nAnd now, we’re all... completely fucked.\n"
@@ -2053,7 +2095,9 @@
   },
   {
     "id": "remember/what_happened",
+    "url": "remember/what_happened",
     "class": "remember-what_happened",
+    "markdown": "Maybe.\n\nIt certainly feels that way sometimes.\n\nI believe life will thrive.\nI believe we will touch the stars.\nI believe we will grow cities from trees,\nI believe we will create space for all living things.\nI believe in us.\n\nBut goodness, we don't make it easy.\n\nI mean, Uncle Sam, always a bit of a crotchety racist,\nis *really* not looking so hot these days.\n\nAnd it's not just him. There's a lot of scary things happening\nall over the world.\n\nI wouldn't have believed it if you'd told me ten years ago.\n",
     "data": {
       "bg": "black",
       "note": "Maybe.\n\nIt certainly feels that way sometimes.\n\nI believe life will thrive.\nI believe we will touch the stars.\nI believe we will grow cities from trees,\nI believe we will create space for all living things.\nI believe in us.\n\nBut goodness, we don't make it easy.\n\nI mean, Uncle Sam, always a bit of a crotchety racist,\nis *really* not looking so hot these days.\n\nAnd it's not just him. There's a lot of scary things happening\nall over the world.\n\nI wouldn't have believed it if you'd told me ten years ago.\n"
@@ -2064,7 +2108,9 @@
   },
   {
     "id": "remember/may_not_believe_it_now",
+    "url": "remember/may_not_believe_it_now",
     "class": "remember-may_not_believe_it_now",
+    "markdown": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nYou may disagree with me calling language a technology.\n\nYou may say it's not physical. But as all of us here at this programming\nlanguage conference know, technologies do not have to be physical.\n\nIt doesn't have a singular inventor, either. In fact,\nsome elements of language acquisition seem to be hardwired into\nus. Communities will create language if it isn't given to them.\n\nBut many of our technologies do not have singular inventors. Many\nof them have been discovered and re-discovered time and again,\nin many different places.\n\nThere's a lot of theories on how language came to be.\n",
     "data": {
       "bg": "black",
       "note": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nYou may disagree with me calling language a technology.\n\nYou may say it's not physical. But as all of us here at this programming\nlanguage conference know, technologies do not have to be physical.\n\nIt doesn't have a singular inventor, either. In fact,\nsome elements of language acquisition seem to be hardwired into\nus. Communities will create language if it isn't given to them.\n\nBut many of our technologies do not have singular inventors. Many\nof them have been discovered and re-discovered time and again,\nin many different places.\n\nThere's a lot of theories on how language came to be.\n"
@@ -2075,7 +2121,9 @@
   },
   {
     "id": "origins_of_language",
+    "url": "origins_of_language",
     "class": "origins_of_language",
+    "markdown": "One theory, favored by Noam Chomsky, says that it arose suddenly, about\n100,000 years ago, the result of a small number of mutations in a singular\nindividual that gave that person's brain the ability to process what Chomsky\ncalls \"digital infinity\".\n\nThis powerful capability spread like a seed crystal in the early human mind,\nopening up the capacity for language and modern human cognition.\n\nYou may know it by its other name: recursion.\n",
     "data": {
       "note": "One theory, favored by Noam Chomsky, says that it arose suddenly, about\n100,000 years ago, the result of a small number of mutations in a singular\nindividual that gave that person's brain the ability to process what Chomsky\ncalls \"digital infinity\".\n\nThis powerful capability spread like a seed crystal in the early human mind,\nopening up the capacity for language and modern human cognition.\n\nYou may know it by its other name: recursion.\n"
     },
@@ -2085,7 +2133,9 @@
   },
   {
     "id": "recursion",
+    "url": "recursion",
     "class": "recursion",
+    "markdown": "I think we all know and love recursion.\n",
     "data": {
       "htmlFunc": "() => `<div class=pan-content-up>${\n  Array.from({length: 5}, () => `<div class=layer>&#8220;It\n    was a dark and stormy night, and the captain said to the bosun,\n    <p>&#8220;Tell us a tale,&#8221;\n    <p>And the bosun began&#8230;`).join('')\n}${Array.from({length: 5}, () => '</div>').join('')}</div>`\n",
       "note": "I think we all know and love recursion.\n",
@@ -2100,7 +2150,9 @@
   },
   {
     "id": "recursion/opens_but_never_closes",
+    "url": "recursion/opens_but_never_closes",
     "class": "recursion-opens_but_never_closes",
+    "markdown": "In this story, the recursive frames open, but never close. That's the joke.\nThat's also what makes it, for lack of a better term, so *tingly* to experience.\n\nYou have this real sense of infinity, of this capacity with ourselves to begin\nin each moment a new story, embedded within the last.\n",
     "data": {
       "bg": "threed",
       "note": "In this story, the recursive frames open, but never close. That's the joke.\nThat's also what makes it, for lack of a better term, so *tingly* to experience.\n\nYou have this real sense of infinity, of this capacity with ourselves to begin\nin each moment a new story, embedded within the last.\n"
@@ -2111,7 +2163,9 @@
   },
   {
     "id": "more_common_phrases",
+    "url": "more_common_phrases",
     "class": "more_common_phrases",
+    "markdown": "Of course, more common phrases feature recursive embedding.  \n",
     "data": {
       "html": "<span class=p>the cat\n  <span class=p>that killed\n    <span class=p>the bird\n      <span class=p>that ate\n        <span class=p>the rat\n          <span class=p>that ate\n            <span class=p>the cheese</span>\n          </span>\n        </span>\n      </span>\n    </span>\n  </span>\n</span>\n",
       "note": "Of course, more common phrases feature recursive embedding.  \n",
@@ -2126,7 +2180,9 @@
   },
   {
     "id": "more_common_phrases/embedding",
+    "url": "more_common_phrases/embedding",
     "class": "more_common_phrases-embedding",
+    "markdown": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, a recursive embedding that creates\nthe possibility of an infinitely long sentence, built through the recursive\napplication of a finite number of rules. Digital infinity.\n",
     "data": {
       "bg": "p-expand",
       "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, a recursive embedding that creates\nthe possibility of an infinitely long sentence, built through the recursive\napplication of a finite number of rules. Digital infinity.\n"
@@ -2137,7 +2193,9 @@
   },
   {
     "id": "the_recursive_mind",
+    "url": "the_recursive_mind",
     "class": "the_recursive_mind",
+    "markdown": "In his book *The Recursive Mind*, Michael Corballis theorizes that it is this\ncapacity for recursion that distinguishes human thought from the cognitive\nprocesses of other animals.\n",
     "data": {
       "img": "the-recursive-mind.jpg",
       "note": "In his book *The Recursive Mind*, Michael Corballis theorizes that it is this\ncapacity for recursion that distinguishes human thought from the cognitive\nprocesses of other animals.\n",
@@ -2157,7 +2215,9 @@
   },
   {
     "id": "the_recursive_mind/three",
+    "url": "the_recursive_mind/three",
     "class": "the_recursive_mind-three",
+    "markdown": "Corballis, in fact, identifies a magic number: three. Three layers. Three\nstack frames, if you will, seems to be about the number of recursive layers\nthat humans can hold at once.\n\nBut that's enough.\n",
     "data": {
       "note": "Corballis, in fact, identifies a magic number: three. Three layers. Three\nstack frames, if you will, seems to be about the number of recursive layers\nthat humans can hold at once.\n\nBut that's enough.\n"
     },
@@ -2167,7 +2227,9 @@
   },
   {
     "id": "the_recursive_mind/past_present_future",
+    "url": "the_recursive_mind/past_present_future",
     "class": "the_recursive_mind-past_present_future",
+    "markdown": "One stack frame gives you a moment. Two gives you a delta—a direction.\n\nBut three? With three stack frames, we can hold the past, present,\nand future: a temporal triumverate that's nearly universal in human\nexperience, represented in the tenses of nearly every language.\n\nWith three stack frames, we get direction, and meta-direction. We get\nstories.\n",
     "data": {
       "note": "One stack frame gives you a moment. Two gives you a delta—a direction.\n\nBut three? With three stack frames, we can hold the past, present,\nand future: a temporal triumverate that's nearly universal in human\nexperience, represented in the tenses of nearly every language.\n\nWith three stack frames, we get direction, and meta-direction. We get\nstories.\n"
     },
@@ -2177,7 +2239,9 @@
   },
   {
     "id": "the_recursive_mind/we_are_stories",
+    "url": "the_recursive_mind/we_are_stories",
     "class": "the_recursive_mind-we_are_stories",
+    "markdown": "And that is the root of the self: we are stories telling ourselves.\n",
     "data": {
       "note": "And that is the root of the self: we are stories telling ourselves.\n"
     },
@@ -2187,7 +2251,9 @@
   },
   {
     "id": "the_living_tree_of_language",
+    "url": "the_living_tree_of_language",
     "class": "the_living_tree_of_language",
+    "markdown": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, by Mina Sundberg, just shows the old world languages,\nthose from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n",
     "data": {
       "img": "language-tree-mina-sundberg.jpg",
       "bg": "black",
@@ -2201,6 +2267,7 @@
   },
   {
     "id": "power_of_language",
+    "url": "power_of_language",
     "class": "power_of_language",
     "data": {
       "A warm beach": {
@@ -2222,7 +2289,9 @@
   },
   {
     "id": "power_of_language/a_warm_beach",
+    "url": "power_of_language/a_warm_beach",
     "class": "power_of_language-a_warm_beach",
+    "markdown": "You see these words, and you go somewhere nice. You don't have to do\nanything. In fact, you can't do anything.\n",
     "data": {
       "html": "A warm beach on a sunny day.",
       "note": "You see these words, and you go somewhere nice. You don't have to do\nanything. In fact, you can't do anything.\n"
@@ -2233,7 +2302,9 @@
   },
   {
     "id": "power_of_language/crackling_campfire",
+    "url": "power_of_language/crackling_campfire",
     "class": "power_of_language-crackling_campfire",
+    "markdown": "It just happens. This little cognitive superpower allows us to\noperate on the hypotheses using the the tools of\nphysical manipulation.\n",
     "data": {
       "html": "A crackling campfire on an ice cold night.",
       "note": "It just happens. This little cognitive superpower allows us to\noperate on the hypotheses using the the tools of\nphysical manipulation.\n"
@@ -2244,7 +2315,9 @@
   },
   {
     "id": "power_of_language/as_coders",
+    "url": "power_of_language/as_coders",
     "class": "power_of_language-as_coders",
+    "markdown": "As creators, and particularly as coders, I think we develop\nan intuitive grasp of this. We have physicalized inner\nworlds that represent the abstract things we work with every day.\n\nI see this? The triangle pops into my head.\n\nHow does that work?\n",
     "data": {
       "html": "c² = a² + b²",
       "note": "As creators, and particularly as coders, I think we develop\nan intuitive grasp of this. We have physicalized inner\nworlds that represent the abstract things we work with every day.\n\nI see this? The triangle pops into my head.\n\nHow does that work?\n"
@@ -2255,7 +2328,9 @@
   },
   {
     "id": "language",
+    "url": "language",
     "class": "language",
+    "markdown": "That technology? Language.\n",
     "data": {
       "bg": "black",
       "html": "Hi.",
@@ -2267,6 +2342,7 @@
   },
   {
     "id": "the_sea0",
+    "url": "the_sea0",
     "class": "the_sea0",
     "data": {
       "frame": "ending/seed/seed00"
@@ -2386,6 +2462,7 @@
   },
   {
     "id": "the_sea1",
+    "url": "the_sea1",
     "class": "the_sea1",
     "data": {
       "frame": "ending/seed/seed01"
@@ -2505,6 +2582,7 @@
   },
   {
     "id": "the_sea2",
+    "url": "the_sea2",
     "class": "the_sea2",
     "data": {
       "frame": "ending/seed/seed02"
@@ -2624,6 +2702,7 @@
   },
   {
     "id": "the_sea3",
+    "url": "the_sea3",
     "class": "the_sea3",
     "data": {
       "frame": "ending/seed/seed03"
@@ -2743,6 +2822,7 @@
   },
   {
     "id": "the_sea4",
+    "url": "the_sea4",
     "class": "the_sea4",
     "data": {
       "frame": "ending/seed/seed04"
@@ -2862,6 +2942,7 @@
   },
   {
     "id": "the_sea5",
+    "url": "the_sea5",
     "class": "the_sea5",
     "data": {
       "frame": "ending/seed/seed05"
@@ -2981,6 +3062,7 @@
   },
   {
     "id": "the_sea6",
+    "url": "the_sea6",
     "class": "the_sea6",
     "data": {
       "frame": "ending/seed/seed06"
@@ -3100,6 +3182,7 @@
   },
   {
     "id": "the_sea7",
+    "url": "the_sea7",
     "class": "the_sea7",
     "data": {
       "frame": "ending/seed/seed07"
@@ -3237,6 +3320,7 @@
   },
   {
     "id": "the_sea8",
+    "url": "the_sea8",
     "class": "the_sea8",
     "data": {
       "frame": "ending/seed/seed08"
@@ -3383,6 +3467,7 @@
   },
   {
     "id": "the_sea9",
+    "url": "the_sea9",
     "class": "the_sea9",
     "data": {
       "frame": "ending/seed/seed09"
@@ -3510,6 +3595,7 @@
   },
   {
     "id": "the_sea10",
+    "url": "the_sea10",
     "class": "the_sea10",
     "data": {
       "frame": "ending/seed/seed10"
@@ -3643,6 +3729,7 @@
   },
   {
     "id": "the_sea10a",
+    "url": "the_sea10a",
     "class": "the_sea10a",
     "data": {
       "frame": "ending/seed/seed10a"
@@ -3787,6 +3874,7 @@
   },
   {
     "id": "the_sea11",
+    "url": "the_sea11",
     "class": "the_sea11",
     "data": {
       "frame": "ending/seed/seed11"

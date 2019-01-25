@@ -1,5 +1,6 @@
 // @ts-ignore
 import script from './script.json'
+localStorage.buildNotes = notesFrom(script)
 
 import { TimelineMax, TweenLite } from 'gsap/TweenMax'
 import MorphSVG from './gsap/MorphSVGPlugin'
@@ -269,6 +270,18 @@ createElements()
 buildTimeline()
 animateFloaties()
 setupNavigation()
+
+function notesFrom(script: any) {
+  const notes = []
+  for (const build of script) {
+    notes.push({
+      id: build.id,
+      url: build.url,
+      markdown: build.markdown,
+    })
+  }
+  return JSON.stringify(notes)
+}
 
 function onDispose(run) {
   ;(module as any).hot && (module as any).hot.dispose(run)
