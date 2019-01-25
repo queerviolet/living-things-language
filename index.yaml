@@ -277,7 +277,7 @@ Recursion:
       Array.from({length: 5}, () => `<div class=layer>&#8220;It
         was a dark and stormy night, and the captain said to the bosun,
         <p>&#8220;Tell us a tale,&#8221;
-        <p>And the bosun began,`).join('')
+        <p>And the bosun began&#8230;`).join('')
     }${Array.from({length: 5}, () => '</div>').join('')}</div>`
   note: |
     I think we all know and love recursion.
@@ -315,16 +315,37 @@ More Common Phrases:
       phrases indefinitely.
 
       Here, we can keep expanding this noun phrase by adding complementizers,
-      which themselves contain noun phrases, creating the possibility of an infinitely
-      long sentence, built through the recursive application of a finite number
-      of rules.
-
+      which themselves contain noun phrases, a recursive embedding that creates
+      the possibility of an infinitely long sentence, built through the recursive
+      application of a finite number of rules. Digital infinity.
 The Recursive Mind:
   img: the-recursive-mind.jpg
   note: |
     In his book *The Recursive Mind*, Michael Corballis theorizes that it is this
     capacity for recursion that distinguishes human thought from the cognitive
     processes of other animals.
+  Three:
+    note: |
+      Corballis, in fact, identifies a magic number: three. Three layers. Three
+      stack frames, if you will, seems to be about the number of recursive layers
+      that humans can hold at once.
+
+      But that's enough.
+  Past present future:
+    note: |
+      One stack frame gives you a moment. Two gives you a delta—a direction.
+
+      But three? With three stack frames, we can hold the past, present,
+      and future: a temporal triumverate that's nearly universal in human
+      experience, represented in the tenses of nearly every language.
+
+      With three stack frames, we get direction, and meta-direction. We get
+      stories.
+  We are stories:
+    note: |
+      And that is the root of the self: we are stories telling ourselves.
+  
+
 
 The Living Tree of Language:
   img: language-tree-mina-sundberg.jpg

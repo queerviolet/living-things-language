@@ -2087,7 +2087,7 @@
     "id": "recursion",
     "class": "recursion",
     "data": {
-      "htmlFunc": "() => `<div class=pan-content-up>${\n  Array.from({length: 5}, () => `<div class=layer>&#8220;It\n    was a dark and stormy night, and the captain said to the bosun,\n    <p>&#8220;Tell us a tale,&#8221;\n    <p>And the bosun began,`).join('')\n}${Array.from({length: 5}, () => '</div>').join('')}</div>`\n",
+      "htmlFunc": "() => `<div class=pan-content-up>${\n  Array.from({length: 5}, () => `<div class=layer>&#8220;It\n    was a dark and stormy night, and the captain said to the bosun,\n    <p>&#8220;Tell us a tale,&#8221;\n    <p>And the bosun began&#8230;`).join('')\n}${Array.from({length: 5}, () => '</div>').join('')}</div>`\n",
       "note": "I think we all know and love recursion.\n",
       "Opens but never closes": {
         "bg": "threed",
@@ -2117,7 +2117,7 @@
       "note": "Of course, more common phrases feature recursive embedding.  \n",
       "Embedding": {
         "bg": "p-expand",
-        "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, creating the possibility of an infinitely\nlong sentence, built through the recursive application of a finite number\nof rules.\n"
+        "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, a recursive embedding that creates\nthe possibility of an infinitely long sentence, built through the recursive\napplication of a finite number of rules. Digital infinity.\n"
       }
     },
     "next": "more_common_phrases/embedding",
@@ -2129,7 +2129,7 @@
     "class": "more_common_phrases-embedding",
     "data": {
       "bg": "p-expand",
-      "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, creating the possibility of an infinitely\nlong sentence, built through the recursive application of a finite number\nof rules.\n"
+      "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, a recursive embedding that creates\nthe possibility of an infinitely long sentence, built through the recursive\napplication of a finite number of rules. Digital infinity.\n"
     },
     "next": "the_recursive_mind",
     "prev": "more_common_phrases",
@@ -2140,11 +2140,50 @@
     "class": "the_recursive_mind",
     "data": {
       "img": "the-recursive-mind.jpg",
-      "note": "In his book *The Recursive Mind*, Michael Corballis theorizes that it is this\ncapacity for recursion that distinguishes human thought from the cognitive\nprocesses of other animals.\n"
+      "note": "In his book *The Recursive Mind*, Michael Corballis theorizes that it is this\ncapacity for recursion that distinguishes human thought from the cognitive\nprocesses of other animals.\n",
+      "Three": {
+        "note": "Corballis, in fact, identifies a magic number: three. Three layers. Three\nstack frames, if you will, seems to be about the number of recursive layers\nthat humans can hold at once.\n\nBut that's enough.\n"
+      },
+      "Past present future": {
+        "note": "One stack frame gives you a moment. Two gives you a delta—a direction.\n\nBut three? With three stack frames, we can hold the past, present,\nand future: a temporal triumverate that's nearly universal in human\nexperience, represented in the tenses of nearly every language.\n\nWith three stack frames, we get direction, and meta-direction. We get\nstories.\n"
+      },
+      "We are stories": {
+        "note": "And that is the root of the self: we are stories telling ourselves.\n"
+      }
     },
-    "next": "the_living_tree_of_language",
+    "next": "the_recursive_mind/three",
     "prev": "more_common_phrases/embedding",
     "index": 28
+  },
+  {
+    "id": "the_recursive_mind/three",
+    "class": "the_recursive_mind-three",
+    "data": {
+      "note": "Corballis, in fact, identifies a magic number: three. Three layers. Three\nstack frames, if you will, seems to be about the number of recursive layers\nthat humans can hold at once.\n\nBut that's enough.\n"
+    },
+    "next": "the_recursive_mind/past_present_future",
+    "prev": "the_recursive_mind",
+    "index": 29
+  },
+  {
+    "id": "the_recursive_mind/past_present_future",
+    "class": "the_recursive_mind-past_present_future",
+    "data": {
+      "note": "One stack frame gives you a moment. Two gives you a delta—a direction.\n\nBut three? With three stack frames, we can hold the past, present,\nand future: a temporal triumverate that's nearly universal in human\nexperience, represented in the tenses of nearly every language.\n\nWith three stack frames, we get direction, and meta-direction. We get\nstories.\n"
+    },
+    "next": "the_recursive_mind/we_are_stories",
+    "prev": "the_recursive_mind/three",
+    "index": 30
+  },
+  {
+    "id": "the_recursive_mind/we_are_stories",
+    "class": "the_recursive_mind-we_are_stories",
+    "data": {
+      "note": "And that is the root of the self: we are stories telling ourselves.\n"
+    },
+    "next": "the_living_tree_of_language",
+    "prev": "the_recursive_mind/past_present_future",
+    "index": 31
   },
   {
     "id": "the_living_tree_of_language",
@@ -2157,8 +2196,8 @@
       "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, by Mina Sundberg, just shows the old world languages,\nthose from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n"
     },
     "next": "power_of_language",
-    "prev": "the_recursive_mind",
-    "index": 29
+    "prev": "the_recursive_mind/we_are_stories",
+    "index": 32
   },
   {
     "id": "power_of_language",
@@ -2179,7 +2218,7 @@
     },
     "next": "power_of_language/a_warm_beach",
     "prev": "the_living_tree_of_language",
-    "index": 30
+    "index": 33
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -2190,7 +2229,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 31
+    "index": 34
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -2201,7 +2240,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/a_warm_beach",
-    "index": 32
+    "index": 35
   },
   {
     "id": "power_of_language/as_coders",
@@ -2212,7 +2251,7 @@
     },
     "next": "language",
     "prev": "power_of_language/crackling_campfire",
-    "index": 33
+    "index": 36
   },
   {
     "id": "language",
@@ -2224,7 +2263,7 @@
     },
     "next": "the_sea0",
     "prev": "power_of_language/as_coders",
-    "index": 34
+    "index": 37
   },
   {
     "id": "the_sea0",
@@ -2234,7 +2273,7 @@
     },
     "next": "the_sea1",
     "prev": "language",
-    "index": 35,
+    "index": 38,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2353,7 +2392,7 @@
     },
     "next": "the_sea2",
     "prev": "the_sea0",
-    "index": 36,
+    "index": 39,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2472,7 +2511,7 @@
     },
     "next": "the_sea3",
     "prev": "the_sea1",
-    "index": 37,
+    "index": 40,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2591,7 +2630,7 @@
     },
     "next": "the_sea4",
     "prev": "the_sea2",
-    "index": 38,
+    "index": 41,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2710,7 +2749,7 @@
     },
     "next": "the_sea5",
     "prev": "the_sea3",
-    "index": 39,
+    "index": 42,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -2829,7 +2868,7 @@
     },
     "next": "the_sea6",
     "prev": "the_sea4",
-    "index": 40,
+    "index": 43,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -2948,7 +2987,7 @@
     },
     "next": "the_sea7",
     "prev": "the_sea5",
-    "index": 41,
+    "index": 44,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3067,7 +3106,7 @@
     },
     "next": "the_sea8",
     "prev": "the_sea6",
-    "index": 42,
+    "index": 45,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3204,7 +3243,7 @@
     },
     "next": "the_sea9",
     "prev": "the_sea7",
-    "index": 43,
+    "index": 46,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3350,7 +3389,7 @@
     },
     "next": "the_sea10",
     "prev": "the_sea8",
-    "index": 44,
+    "index": 47,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3477,7 +3516,7 @@
     },
     "next": "the_sea10a",
     "prev": "the_sea9",
-    "index": 45,
+    "index": 48,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3610,7 +3649,7 @@
     },
     "next": "the_sea11",
     "prev": "the_sea10",
-    "index": 46,
+    "index": 49,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3753,7 +3792,7 @@
       "frame": "ending/seed/seed11"
     },
     "prev": "the_sea10a",
-    "index": 47,
+    "index": 50,
     "paths": {
       "Space": {
         "id": "Space",
