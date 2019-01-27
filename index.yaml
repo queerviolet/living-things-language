@@ -363,8 +363,11 @@ Subvocalization:
   Actually Saying Them:
     note: |
       Turns out you hear them because you are *actually saying them*.
+      
+      Almost.
 
-      Just... very quietly. Without any vocal oomph to go with it.
+      You're saying them, just... very quietly. Without any vocal
+      oomph to go with it.
 
       When you speak internally, you *subvocalize*.
       
@@ -376,10 +379,50 @@ Subvocalization:
   Echoes:
     note: |
       Echoes of these impulses then return to the brain. You feel a
-      *little* like you're actually talking.
+      *little* like you're actually hearing speech, or seeing signs.
+      This sensation can then be processed by the same mechanisms we
+      use to process words said by anyone else.
 
-      And this is how our brains store words in working memory. Using
+      Reading the written word is, effectively, a type-coercion operation.
+      We need to convert pictures of words into a stream of words-meanings.
+      And since we *already have* a way to convert words that we hear or
+      signs that we see into word-meanings, our brain just... uses that.
+  The Loop:
+      This process also gives longevity to the words we're holding in our
+      head.
+
+      The Baddley model holds that there is effectively no storage for
+      words that exists purely in the brain. We have a short-term
+      phonological store, but information held there decays very quickly,
+      unless it's committed to long-term memory, or refreshed.
+
+      Refreshing our word buffer is where the "Loop" part of the "Phonological
+      Loop" comes in. If we want to hold some piece of information in
+      our minds, we need to refresh our phonological store through rehearsal.
+
+      You’re familiar with rehearsal: it’s what you’re doing when you mutter
+      a phone number to yourself, over and over
+      
+      ..."8675309" "8675309"...
+      
+      ...Trying to keep the memory of it from decaying. You are bouncing
+      the pattern of the words off your body so that you can perceive them
+      again and refresh your memory.
+
+      So this is how our brains store words in working memory. Using
       our bodies as buffers.
+  Reading:
+    note: |
+      Subvocalization is particularly noticeable in kids, because it's often
+      not "sub" at all. I remember watching my niece play when she was younger.
+      She would narrate what she was doing to nobody in particular.
+
+      And this is pretty normal. Early in the language-acquisition phase, you'll
+      often find kids narrating their inner speech out loud, or by explicitly
+      signing it, before developing subvocalization.
+            
+      Same thing with reading. We mostly learn to read by reading aloud, and
+      traces of this fact never really go away.
   Evidence:
     note: |
       In fact, one of the pieces of evidence for this comes from reading
@@ -396,33 +439,42 @@ Subvocalization:
       
       If this is happening, surely we could detect it? And even do speech
       recognition on it?
-  Subvocal Speech Recognition:
-    img: mit-silent-speech.jpg
-    note: |
-      Well, yes.
+Subvocal Speech Recognition:
+  img: mit-silent-speech.jpg
+  bg: black
+  note: |
+    Yes, we can.
 
-      And Arnav Kapur at MIT has built a proof of concept silent computing platform,
-      which uses speech recognition via Electromyography—reading the electrical
-      impulses sent to your muscles.
-      
-      Using this input, the system is able to perform speech recognition on
-      the words you're saying in your head. It can talk to you too, via
-      bone transduction.
+    Arnav Kapur at MIT has built a proof of concept silent computing platform,
+    which uses speech recognition via Electromyography—reading the electrical
+    impulses sent to your muscles.
+    
+    Using this input, the system is able to perform speech recognition on
+    the words you're saying in your head. It can reply to you as well, via
+    bone transduction.
 
-      All this to create a silent computing platform that can be an
-      “intelligence augmentation device.”
+    All this to create a silent computing platform that can be an
+    “intelligence augmentation device.”
 
-      It recognizes the words you're thinking, asks Google about them, and
-      answers by vibrating the bones of your jaw.
-  Not Just Stories:
-    note: |
-      All this tells us: we are not just stories.
+    It recognizes the question you're saying in your head, asks
+    Google about it, and answers by vibrating the bones of your jaw.
+Not Just Stories:
+  bg: black
+  note: |
+    Subvocalization is fascinating to me because it highlights our bodies
+    role in constructing the experience of language.
 
-      We are stories embedded in bodies.
-      
-      We are stories that grew from our squishy, meaty bodies. From the
-      incredible amount of data they receive on a daily basis. From
-      the billions of years of evolution that brought us to that point.
+    We think of language as airy and disembodied, and this phenomena gives
+    lie to that: language, as we experience it, depends on the body, comes
+    from the body.
+
+    We are not just stories.
+
+    We are stories embedded in flesh.
+    
+    We are stories that grow from our squishy, meaty bodies. From the
+    incredible amount of data they receive on a daily basis. From
+    the billions of years of evolution that brought us to that point.
 
 
 The Living Tree of Language:
