@@ -27,7 +27,6 @@ const getBuilds = (script, path=[]) =>
       return [first, ...getBuilds(data, self)]
     })
     .reduce((all, one) => all.concat(one), [])
-    .map((build, order) => Object.assign(build, order))
 
 function extractResources(builds) {
   const entries = builds

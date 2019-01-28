@@ -286,16 +286,14 @@ animateFloaties()
 setupNavigation()
 
 function notesFrom(script: any) {
-  const notes = []
-  for (const build of script) {
-    notes.push({
+  return JSON.stringify(
+    script.map((build, order) => ({
       id: build.id,
       url: build.url,
       markdown: build.markdown,
-      order: build.order,
-    })
-  }
-  return JSON.stringify(notes)
+      order,
+    }))
+  )
 }
 
 function onDispose(run) {

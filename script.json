@@ -2392,18 +2392,19 @@
       "bg": "black",
       "note": "Yes, we can.\n\nArnav Kapur at MIT has built a proof of concept silent computing platform,\nwhich uses speech recognition via Electromyography—reading the electrical\nimpulses sent to your muscles.\n\nUsing this input, the system is able to perform speech recognition on\nthe words you're saying in your head. It can reply to you as well, via\nbone transduction.\n\nAll this to create a silent computing platform that can be an\n“intelligence augmentation device.”\n\nIt recognizes the question you're saying in your head, asks\nGoogle about it, and answers by vibrating the bones of your jaw.\n"
     },
-    "next": "not_just_stories",
+    "next": "baddley_diagram_again",
     "prev": "subvocalization/evidence",
     "index": 41
   },
   {
-    "id": "not_just_stories",
-    "url": "not_just_stories",
-    "class": "not_just_stories",
-    "markdown": "Subvocalization is fascinating to me because it highlights our bodies\nrole in constructing the experience of language.\n\nWe think of language as airy and disembodied, and this phenomena gives\nlie to that: language, as we experience it, depends on the body, comes\nfrom the body.\n\nWe are not just stories.\n\nWe are stories embedded in flesh.\n\nWe are stories that grow from our squishy, meaty bodies. From the\nincredible amount of data they receive on a daily basis. From\nthe billions of years of evolution that brought us to that point.\n",
+    "id": "baddley_diagram_again",
+    "url": "baddley_diagram_again",
+    "class": "baddley_diagram_again",
+    "markdown": "This diagram identifies key brain areas that have been shaped by\nlanguage. Here, we see the phonological loop located in the Broca's\nand Wernicke's areas of the brain—areas of the cortex commonly\nassociated with language.\n\nBut there's a growing body of evidence that there's another part of\nthe brain that's quite important for language:\n",
     "data": {
-      "bg": "black",
-      "note": "Subvocalization is fascinating to me because it highlights our bodies\nrole in constructing the experience of language.\n\nWe think of language as airy and disembodied, and this phenomena gives\nlie to that: language, as we experience it, depends on the body, comes\nfrom the body.\n\nWe are not just stories.\n\nWe are stories embedded in flesh.\n\nWe are stories that grow from our squishy, meaty bodies. From the\nincredible amount of data they receive on a daily basis. From\nthe billions of years of evolution that brought us to that point.\n"
+      "img": "phonological-loop.jpg",
+      "bg": "white",
+      "note": "This diagram identifies key brain areas that have been shaped by\nlanguage. Here, we see the phonological loop located in the Broca's\nand Wernicke's areas of the brain—areas of the cortex commonly\nassociated with language.\n\nBut there's a growing body of evidence that there's another part of\nthe brain that's quite important for language:\n"
     },
     "next": "cerebellum",
     "prev": "subvocal_speech_recognition",
@@ -2413,17 +2414,53 @@
     "id": "cerebellum",
     "url": "cerebellum",
     "class": "cerebellum",
+    "markdown": "The cerebellum is quite special.\nIt contains half the neurons in our nervous system.\nAll action commands from the brain to the body route through it\nAll sensations from the body to the brain, too\nIt has long been recognized as vitally important to our motor coordination.\nLike this: **touch end of clicker**\nPeople with cerebellar damage have difficulty performing this action smoothly.\nWith cerebellar damage, our movements become jerky, laggy.\nIt's theorized that the cerebellum acts as a Smith predictor. <!-- Miall, R. C., Weir, D. J., Wolpert, D. M., and Stein, J. F. (1993). Is the cerebellum a Smith Predictor? J. Motor Behav., 25(3):203–216.) -->\nOur brain's controller for our latency-distant bodies\nable to estimate the body's current state\nintegrate sensory feedback to update that model\nand decompose gross actions generated elsewhere in the brain\ninto a fine-tuned, continuously adjusted control signal\n\nOnce you've evolved it, such a thing has many uses.\n",
     "data": {
       "bg": "black",
       "load": [
         "gray-cerebellum-pink.png",
         "sobo-cerebellum-pink.png"
       ],
-      "htmlFunc": "(_, res) => `\n  <img id=grayCerebellum src='${res['gray-cerebellum-pink.png']}'>\n  <img id=soboCerebellum src='${res['sobo-cerebellum-pink.png']}'>\n`\n"
+      "htmlFunc": "(_, res) => `\n  <img id=grayCerebellum src='${res['gray-cerebellum-pink.png']}'>\n  <img id=soboCerebellum src='${res['sobo-cerebellum-pink.png']}'>\n`\n",
+      "note": "The cerebellum is quite special.\nIt contains half the neurons in our nervous system.\nAll action commands from the brain to the body route through it\nAll sensations from the body to the brain, too\nIt has long been recognized as vitally important to our motor coordination.\nLike this: **touch end of clicker**\nPeople with cerebellar damage have difficulty performing this action smoothly.\nWith cerebellar damage, our movements become jerky, laggy.\nIt's theorized that the cerebellum acts as a Smith predictor. <!-- Miall, R. C., Weir, D. J., Wolpert, D. M., and Stein, J. F. (1993). Is the cerebellum a Smith Predictor? J. Motor Behav., 25(3):203–216.) -->\nOur brain's controller for our latency-distant bodies\nable to estimate the body's current state\nintegrate sensory feedback to update that model\nand decompose gross actions generated elsewhere in the brain\ninto a fine-tuned, continuously adjusted control signal\n\nOnce you've evolved it, such a thing has many uses.\n",
+      "Movement is a Reduce Operation": {
+        "bg": "black",
+        "note": "Processing movement is a kind of reduce operation.\n\nSay you're trying to spear a bison.\n\nFirst, you need to know where the bison will be by the time you\nthrow the spear. So you take a stream of input from your senses\nand decode observations. Based on the patterns of light and dark\ncast on your retina, you recognize shapes and patterns and, eventually,\ncreatures, movement, and gestures.\n\nThen you reduce that stream of gestures into a model for the bison:\nwhere is it going to be at some future time `t`?\n\nNow you know where you want the spear to be. So now, all you have\nto do is run that entire process in reverse, to create a sequence\nof commands for your own movements that will deliver the spear\nto that point, at time `t` in the future.\n\nThen you cue those commands, and throw the spear.\n"
+      },
+      "Language is Reduce": {
+        "bg": "black",
+        "note": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n"
+      }
+    },
+    "next": "cerebellum/movement_is_a_reduce_operation",
+    "prev": "baddley_diagram_again",
+    "index": 43
+  },
+  {
+    "id": "cerebellum/movement_is_a_reduce_operation",
+    "url": "cerebellum/movement_is_a_reduce_operation",
+    "class": "cerebellum-movement_is_a_reduce_operation",
+    "markdown": "Processing movement is a kind of reduce operation.\n\nSay you're trying to spear a bison.\n\nFirst, you need to know where the bison will be by the time you\nthrow the spear. So you take a stream of input from your senses\nand decode observations. Based on the patterns of light and dark\ncast on your retina, you recognize shapes and patterns and, eventually,\ncreatures, movement, and gestures.\n\nThen you reduce that stream of gestures into a model for the bison:\nwhere is it going to be at some future time `t`?\n\nNow you know where you want the spear to be. So now, all you have\nto do is run that entire process in reverse, to create a sequence\nof commands for your own movements that will deliver the spear\nto that point, at time `t` in the future.\n\nThen you cue those commands, and throw the spear.\n",
+    "data": {
+      "bg": "black",
+      "note": "Processing movement is a kind of reduce operation.\n\nSay you're trying to spear a bison.\n\nFirst, you need to know where the bison will be by the time you\nthrow the spear. So you take a stream of input from your senses\nand decode observations. Based on the patterns of light and dark\ncast on your retina, you recognize shapes and patterns and, eventually,\ncreatures, movement, and gestures.\n\nThen you reduce that stream of gestures into a model for the bison:\nwhere is it going to be at some future time `t`?\n\nNow you know where you want the spear to be. So now, all you have\nto do is run that entire process in reverse, to create a sequence\nof commands for your own movements that will deliver the spear\nto that point, at time `t` in the future.\n\nThen you cue those commands, and throw the spear.\n"
+    },
+    "next": "cerebellum/language_is_reduce",
+    "prev": "cerebellum",
+    "index": 44
+  },
+  {
+    "id": "cerebellum/language_is_reduce",
+    "url": "cerebellum/language_is_reduce",
+    "class": "cerebellum-language_is_reduce",
+    "markdown": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n",
+    "data": {
+      "bg": "black",
+      "note": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n"
     },
     "next": "the_living_tree_of_language",
-    "prev": "not_just_stories",
-    "index": 43
+    "prev": "cerebellum/movement_is_a_reduce_operation",
+    "index": 45
   },
   {
     "id": "the_living_tree_of_language",
@@ -2438,8 +2475,8 @@
       "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n\nThere are, of course, many more.\n"
     },
     "next": "power_of_language",
-    "prev": "cerebellum",
-    "index": 44
+    "prev": "cerebellum/language_is_reduce",
+    "index": 46
   },
   {
     "id": "power_of_language",
@@ -2461,7 +2498,7 @@
     },
     "next": "power_of_language/a_warm_beach",
     "prev": "the_living_tree_of_language",
-    "index": 45
+    "index": 47
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -2474,7 +2511,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 46
+    "index": 48
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -2487,7 +2524,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/a_warm_beach",
-    "index": 47
+    "index": 49
   },
   {
     "id": "power_of_language/as_coders",
@@ -2500,7 +2537,7 @@
     },
     "next": "language",
     "prev": "power_of_language/crackling_campfire",
-    "index": 48
+    "index": 50
   },
   {
     "id": "language",
@@ -2514,7 +2551,7 @@
     },
     "next": "the_sea0",
     "prev": "power_of_language/as_coders",
-    "index": 49
+    "index": 51
   },
   {
     "id": "the_sea0",
@@ -2525,7 +2562,7 @@
     },
     "next": "the_sea1",
     "prev": "language",
-    "index": 50,
+    "index": 52,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2645,7 +2682,7 @@
     },
     "next": "the_sea2",
     "prev": "the_sea0",
-    "index": 51,
+    "index": 53,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2765,7 +2802,7 @@
     },
     "next": "the_sea3",
     "prev": "the_sea1",
-    "index": 52,
+    "index": 54,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2885,7 +2922,7 @@
     },
     "next": "the_sea4",
     "prev": "the_sea2",
-    "index": 53,
+    "index": 55,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -3005,7 +3042,7 @@
     },
     "next": "the_sea5",
     "prev": "the_sea3",
-    "index": 54,
+    "index": 56,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3125,7 +3162,7 @@
     },
     "next": "the_sea6",
     "prev": "the_sea4",
-    "index": 55,
+    "index": 57,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3245,7 +3282,7 @@
     },
     "next": "the_sea7",
     "prev": "the_sea5",
-    "index": 56,
+    "index": 58,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3365,7 +3402,7 @@
     },
     "next": "the_sea8",
     "prev": "the_sea6",
-    "index": 57,
+    "index": 59,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3503,7 +3540,7 @@
     },
     "next": "the_sea9",
     "prev": "the_sea7",
-    "index": 58,
+    "index": 60,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3650,7 +3687,7 @@
     },
     "next": "the_sea10",
     "prev": "the_sea8",
-    "index": 59,
+    "index": 61,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3778,7 +3815,7 @@
     },
     "next": "the_sea10a",
     "prev": "the_sea9",
-    "index": 60,
+    "index": 62,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3912,7 +3949,7 @@
     },
     "next": "the_sea11",
     "prev": "the_sea10",
-    "index": 61,
+    "index": 63,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4056,7 +4093,7 @@
       "frame": "ending/seed/seed11"
     },
     "prev": "the_sea10a",
-    "index": 62,
+    "index": 64,
     "paths": {
       "Space": {
         "id": "Space",

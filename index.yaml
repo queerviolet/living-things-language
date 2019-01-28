@@ -459,23 +459,18 @@ Subvocal Speech Recognition:
 
     It recognizes the question you're saying in your head, asks
     Google about it, and answers by vibrating the bones of your jaw.
-Not Just Stories:
-  bg: black
+  
+Baddley Diagram Again:
+  img: phonological-loop.jpg
+  bg: white
   note: |
-    Subvocalization is fascinating to me because it highlights our bodies
-    role in constructing the experience of language.
+    This diagram identifies key brain areas that have been shaped by
+    language. Here, we see the phonological loop located in the Broca's
+    and Wernicke's areas of the brain—areas of the cortex commonly
+    associated with language.
 
-    We think of language as airy and disembodied, and this phenomena gives
-    lie to that: language, as we experience it, depends on the body, comes
-    from the body.
-
-    We are not just stories.
-
-    We are stories embedded in flesh.
-    
-    We are stories that grow from our squishy, meaty bodies. From the
-    incredible amount of data they receive on a daily basis. From
-    the billions of years of evolution that brought us to that point.
+    But there's a growing body of evidence that there's another part of
+    the brain that's quite important for language:
 
 Cerebellum:
   bg: black
@@ -487,7 +482,59 @@ Cerebellum:
       <img id=grayCerebellum src='${res['gray-cerebellum-pink.png']}'>
       <img id=soboCerebellum src='${res['sobo-cerebellum-pink.png']}'>
     `
+  note: |
+    The cerebellum is quite special.
+    It contains half the neurons in our nervous system.
+    All action commands from the brain to the body route through it
+    All sensations from the body to the brain, too
+    It has long been recognized as vitally important to our motor coordination.
+    Like this: **touch end of clicker**
+    People with cerebellar damage have difficulty performing this action smoothly.
+    With cerebellar damage, our movements become jerky, laggy.
+    It's theorized that the cerebellum acts as a Smith predictor. <!-- Miall, R. C., Weir, D. J., Wolpert, D. M., and Stein, J. F. (1993). Is the cerebellum a Smith Predictor? J. Motor Behav., 25(3):203–216.) -->
+    Our brain's controller for our latency-distant bodies
+    able to estimate the body's current state
+    integrate sensory feedback to update that model
+    and decompose gross actions generated elsewhere in the brain
+    into a fine-tuned, continuously adjusted control signal
 
+    Once you've evolved it, such a thing has many uses.
+  
+  Movement is a Reduce Operation:
+    bg: black
+    note: |
+      Processing movement is a kind of reduce operation.
+
+      Say you're trying to spear a bison.
+
+      First, you need to know where the bison will be by the time you
+      throw the spear. So you take a stream of input from your senses
+      and decode observations. Based on the patterns of light and dark
+      cast on your retina, you recognize shapes and patterns and, eventually,
+      creatures, movement, and gestures.
+
+      Then you reduce that stream of gestures into a model for the bison:
+      where is it going to be at some future time `t`?
+
+      Now you know where you want the spear to be. So now, all you have
+      to do is run that entire process in reverse, to create a sequence
+      of commands for your own movements that will deliver the spear
+      to that point, at time `t` in the future.
+
+      Then you cue those commands, and throw the spear.
+  Language is Reduce:
+    bg: black
+    note: |
+      Language, too, is a reduce operation.
+
+      When we're listening, we are reducing a sequence of words into a
+      meaning: a model describing the movement of the speaker in cognitive
+      space.
+
+      When we speak, we need to serialize an inner meaning into a sequence
+      of words.
+      
+      
 
 The Living Tree of Language:
   img: language-tree-mina-sundberg.jpg
