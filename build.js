@@ -27,12 +27,13 @@ const getBuilds = (script, path=[]) =>
       return [first, ...getBuilds(data, self)]
     })
     .reduce((all, one) => all.concat(one), [])
+    .map((build, order) => Object.assign(build, order))
 
 function extractResources(builds) {
   const entries = builds
     .reduce((all, b) => {
-      const {img, video} = b.data
-      if (!img && !video) return all
+      const {img, video, load} = b.data
+      if (!img && !video && !load) return all
       const r = []
       img &&
         r.push({
@@ -40,10 +41,18 @@ function extractResources(builds) {
           path: `./res/${img}`
         })
       video &&
-      r.push({
-        key: video,
-        path: `./res/${video}`
-      })
+        r.push({
+          key: video,
+          path: `./res/${video}`
+        })
+      load &&
+        r.push(
+          ...Array.isArray(load)
+            ? load.map(key => ({
+              key, path: `./res/${key}`
+            }))
+            : [{key: load, path: `./res/${load}`}]
+        )
       return [...all, ...r]
     }, [])
   const imports = entries

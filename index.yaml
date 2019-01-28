@@ -388,29 +388,30 @@ Subvocalization:
       And since we *already have* a way to convert words that we hear or
       signs that we see into word-meanings, our brain just... uses that.
   The Loop:
-      This process also gives longevity to the words we're holding in our
-      head.
+      note: |
+        This process also gives longevity to the words we're holding in our
+        head.
 
-      The Baddley model holds that there is effectively no storage for
-      words that exists purely in the brain. We have a short-term
-      phonological store, but information held there decays very quickly,
-      unless it's committed to long-term memory, or refreshed.
+        The Baddley model holds that there is effectively no storage for
+        words that exists purely in the brain. We have a short-term
+        phonological store, but information held there decays very quickly,
+        unless it's committed to long-term memory, or refreshed.
 
-      Refreshing our word buffer is where the "Loop" part of the "Phonological
-      Loop" comes in. If we want to hold some piece of information in
-      our minds, we need to refresh our phonological store through rehearsal.
+        Refreshing our word buffer is where the "Loop" part of the "Phonological
+        Loop" comes in. If we want to hold some piece of information in
+        our minds, we need to refresh our phonological store through rehearsal.
 
-      You’re familiar with rehearsal: it’s what you’re doing when you mutter
-      a phone number to yourself, over and over
-      
-      ..."8675309" "8675309"...
-      
-      ...Trying to keep the memory of it from decaying. You are bouncing
-      the pattern of the words off your body so that you can perceive them
-      again and refresh your memory.
+        You’re familiar with rehearsal: it’s what you’re doing when you mutter
+        a phone number to yourself, over and over
+        
+        ..."8675309" "8675309"...
+        
+        ...Trying to keep the memory of it from decaying. You are bouncing
+        the pattern of the words off your body so that you can perceive them
+        again and refresh your memory.
 
-      So this is how our brains store words in working memory. Using
-      our bodies as buffers.
+        So this is how our brains store words in working memory. Using
+        our bodies as buffers.
   Reading:
     note: |
       Subvocalization is particularly noticeable in kids, because it's often
@@ -475,6 +476,17 @@ Not Just Stories:
     We are stories that grow from our squishy, meaty bodies. From the
     incredible amount of data they receive on a daily basis. From
     the billions of years of evolution that brought us to that point.
+
+Cerebellum:
+  bg: black
+  load:
+    - gray-cerebellum-pink.png
+    - sobo-cerebellum-pink.png
+  htmlFunc: |
+    (_, res) => `
+      <img id=grayCerebellum src='${res['gray-cerebellum-pink.png']}'>
+      <img id=soboCerebellum src='${res['sobo-cerebellum-pink.png']}'>
+    `
 
 
 The Living Tree of Language:

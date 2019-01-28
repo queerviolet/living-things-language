@@ -2306,10 +2306,13 @@
         "note": "Turns out you hear them because you are *actually saying them*.\n\nAlmost.\n\nYou're saying them, just... very quietly. Without any vocal\noomph to go with it.\n\nWhen you speak internally, you *subvocalize*.\n\nThat is, your brain actually sends to your body the a softer\nshadow of the motor impulses that would cause\nyou to speak the words. For sign language users, these motor\nimpulses go to the arms, hands, and face. For speaking people,\nthey go to the tongue and larynx.\n"
       },
       "Echoes": {
-        "note": "Echoes of these impulses then return to the brain. You feel a\n*little* like you're actually hearing speech, or seeing signs.\nThis sensation can then be processed by the same mechanisms we\nuse to process words said by anyone else.\n\nReading the written word is, effectively, a type-coercion operation.\nWe need to convert pictures of words into a stream of words-meanings.\nAnd since we *already have* a way to convert words that we hear or\nsigns that we see into word-meanings, our brain just... uses that.\n\nAnd this is how our brains store words in working memory. Using\nour bodies as buffers.\n"
+        "note": "Echoes of these impulses then return to the brain. You feel a\n*little* like you're actually hearing speech, or seeing signs.\nThis sensation can then be processed by the same mechanisms we\nuse to process words said by anyone else.\n\nReading the written word is, effectively, a type-coercion operation.\nWe need to convert pictures of words into a stream of words-meanings.\nAnd since we *already have* a way to convert words that we hear or\nsigns that we see into word-meanings, our brain just... uses that.\n"
+      },
+      "The Loop": {
+        "note": "This process also gives longevity to the words we're holding in our\nhead.\n\nThe Baddley model holds that there is effectively no storage for\nwords that exists purely in the brain. We have a short-term\nphonological store, but information held there decays very quickly,\nunless it's committed to long-term memory, or refreshed.\n\nRefreshing our word buffer is where the \"Loop\" part of the \"Phonological\nLoop\" comes in. If we want to hold some piece of information in\nour minds, we need to refresh our phonological store through rehearsal.\n\nYou’re familiar with rehearsal: it’s what you’re doing when you mutter\na phone number to yourself, over and over\n\n...\"8675309\" \"8675309\"...\n\n...Trying to keep the memory of it from decaying. You are bouncing\nthe pattern of the words off your body so that you can perceive them\nagain and refresh your memory.\n\nSo this is how our brains store words in working memory. Using\nour bodies as buffers.\n"
       },
       "Reading": {
-        "note": "This is particularly noticeable in kids, who often narrate their\ninner speech out loud, or by explicitly signing it, before learning\nto suppress the more noticeable elements of it.\n      \nKids also learn to read, generally, by reading audibly or signing\nvisibly, and this too never quite goes away.\n"
+        "note": "Subvocalization is particularly noticeable in kids, because it's often\nnot \"sub\" at all. I remember watching my niece play when she was younger.\nShe would narrate what she was doing to nobody in particular.\n\nAnd this is pretty normal. Early in the language-acquisition phase, you'll\noften find kids narrating their inner speech out loud, or by explicitly\nsigning it, before developing subvocalization.\n      \nSame thing with reading. We mostly learn to read by reading aloud, and\ntraces of this fact never really go away.\n"
       },
       "Evidence": {
         "note": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voice.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n"
@@ -2335,25 +2338,37 @@
     "id": "subvocalization/echoes",
     "url": "subvocalization/echoes",
     "class": "subvocalization-echoes",
-    "markdown": "Echoes of these impulses then return to the brain. You feel a\n*little* like you're actually hearing speech, or seeing signs.\nThis sensation can then be processed by the same mechanisms we\nuse to process words said by anyone else.\n\nReading the written word is, effectively, a type-coercion operation.\nWe need to convert pictures of words into a stream of words-meanings.\nAnd since we *already have* a way to convert words that we hear or\nsigns that we see into word-meanings, our brain just... uses that.\n\nAnd this is how our brains store words in working memory. Using\nour bodies as buffers.\n",
+    "markdown": "Echoes of these impulses then return to the brain. You feel a\n*little* like you're actually hearing speech, or seeing signs.\nThis sensation can then be processed by the same mechanisms we\nuse to process words said by anyone else.\n\nReading the written word is, effectively, a type-coercion operation.\nWe need to convert pictures of words into a stream of words-meanings.\nAnd since we *already have* a way to convert words that we hear or\nsigns that we see into word-meanings, our brain just... uses that.\n",
     "data": {
-      "note": "Echoes of these impulses then return to the brain. You feel a\n*little* like you're actually hearing speech, or seeing signs.\nThis sensation can then be processed by the same mechanisms we\nuse to process words said by anyone else.\n\nReading the written word is, effectively, a type-coercion operation.\nWe need to convert pictures of words into a stream of words-meanings.\nAnd since we *already have* a way to convert words that we hear or\nsigns that we see into word-meanings, our brain just... uses that.\n\nAnd this is how our brains store words in working memory. Using\nour bodies as buffers.\n"
+      "note": "Echoes of these impulses then return to the brain. You feel a\n*little* like you're actually hearing speech, or seeing signs.\nThis sensation can then be processed by the same mechanisms we\nuse to process words said by anyone else.\n\nReading the written word is, effectively, a type-coercion operation.\nWe need to convert pictures of words into a stream of words-meanings.\nAnd since we *already have* a way to convert words that we hear or\nsigns that we see into word-meanings, our brain just... uses that.\n"
     },
-    "next": "subvocalization/reading",
+    "next": "subvocalization/the_loop",
     "prev": "subvocalization/actually_saying_them",
     "index": 37
+  },
+  {
+    "id": "subvocalization/the_loop",
+    "url": "subvocalization/the_loop",
+    "class": "subvocalization-the_loop",
+    "markdown": "This process also gives longevity to the words we're holding in our\nhead.\n\nThe Baddley model holds that there is effectively no storage for\nwords that exists purely in the brain. We have a short-term\nphonological store, but information held there decays very quickly,\nunless it's committed to long-term memory, or refreshed.\n\nRefreshing our word buffer is where the \"Loop\" part of the \"Phonological\nLoop\" comes in. If we want to hold some piece of information in\nour minds, we need to refresh our phonological store through rehearsal.\n\nYou’re familiar with rehearsal: it’s what you’re doing when you mutter\na phone number to yourself, over and over\n\n...\"8675309\" \"8675309\"...\n\n...Trying to keep the memory of it from decaying. You are bouncing\nthe pattern of the words off your body so that you can perceive them\nagain and refresh your memory.\n\nSo this is how our brains store words in working memory. Using\nour bodies as buffers.\n",
+    "data": {
+      "note": "This process also gives longevity to the words we're holding in our\nhead.\n\nThe Baddley model holds that there is effectively no storage for\nwords that exists purely in the brain. We have a short-term\nphonological store, but information held there decays very quickly,\nunless it's committed to long-term memory, or refreshed.\n\nRefreshing our word buffer is where the \"Loop\" part of the \"Phonological\nLoop\" comes in. If we want to hold some piece of information in\nour minds, we need to refresh our phonological store through rehearsal.\n\nYou’re familiar with rehearsal: it’s what you’re doing when you mutter\na phone number to yourself, over and over\n\n...\"8675309\" \"8675309\"...\n\n...Trying to keep the memory of it from decaying. You are bouncing\nthe pattern of the words off your body so that you can perceive them\nagain and refresh your memory.\n\nSo this is how our brains store words in working memory. Using\nour bodies as buffers.\n"
+    },
+    "next": "subvocalization/reading",
+    "prev": "subvocalization/echoes",
+    "index": 38
   },
   {
     "id": "subvocalization/reading",
     "url": "subvocalization/reading",
     "class": "subvocalization-reading",
-    "markdown": "This is particularly noticeable in kids, who often narrate their\ninner speech out loud, or by explicitly signing it, before learning\nto suppress the more noticeable elements of it.\n      \nKids also learn to read, generally, by reading audibly or signing\nvisibly, and this too never quite goes away.\n",
+    "markdown": "Subvocalization is particularly noticeable in kids, because it's often\nnot \"sub\" at all. I remember watching my niece play when she was younger.\nShe would narrate what she was doing to nobody in particular.\n\nAnd this is pretty normal. Early in the language-acquisition phase, you'll\noften find kids narrating their inner speech out loud, or by explicitly\nsigning it, before developing subvocalization.\n      \nSame thing with reading. We mostly learn to read by reading aloud, and\ntraces of this fact never really go away.\n",
     "data": {
-      "note": "This is particularly noticeable in kids, who often narrate their\ninner speech out loud, or by explicitly signing it, before learning\nto suppress the more noticeable elements of it.\n      \nKids also learn to read, generally, by reading audibly or signing\nvisibly, and this too never quite goes away.\n"
+      "note": "Subvocalization is particularly noticeable in kids, because it's often\nnot \"sub\" at all. I remember watching my niece play when she was younger.\nShe would narrate what she was doing to nobody in particular.\n\nAnd this is pretty normal. Early in the language-acquisition phase, you'll\noften find kids narrating their inner speech out loud, or by explicitly\nsigning it, before developing subvocalization.\n      \nSame thing with reading. We mostly learn to read by reading aloud, and\ntraces of this fact never really go away.\n"
     },
     "next": "subvocalization/evidence",
-    "prev": "subvocalization/echoes",
-    "index": 38
+    "prev": "subvocalization/the_loop",
+    "index": 39
   },
   {
     "id": "subvocalization/evidence",
@@ -2365,7 +2380,7 @@
     },
     "next": "subvocal_speech_recognition",
     "prev": "subvocalization/reading",
-    "index": 39
+    "index": 40
   },
   {
     "id": "subvocal_speech_recognition",
@@ -2379,20 +2394,36 @@
     },
     "next": "not_just_stories",
     "prev": "subvocalization/evidence",
-    "index": 40
+    "index": 41
   },
   {
     "id": "not_just_stories",
     "url": "not_just_stories",
     "class": "not_just_stories",
-    "markdown": "Subvocalization is fascinating to me because it highlights our bodies\nrole in constructing our experience of language.\n\nWe think of language as airy and disembodied, and this phenomena gives\nlie to that: when we read, we need to coerce \n\nAll this tells us: we are not just stories.\n\nWe are stories embedded in bodies.\n\nWe are stories that grew from our squishy, meaty bodies. From the\nincredible amount of data they receive on a daily basis. From\nthe billions of years of evolution that brought us to that point.\n",
+    "markdown": "Subvocalization is fascinating to me because it highlights our bodies\nrole in constructing the experience of language.\n\nWe think of language as airy and disembodied, and this phenomena gives\nlie to that: language, as we experience it, depends on the body, comes\nfrom the body.\n\nWe are not just stories.\n\nWe are stories embedded in flesh.\n\nWe are stories that grow from our squishy, meaty bodies. From the\nincredible amount of data they receive on a daily basis. From\nthe billions of years of evolution that brought us to that point.\n",
     "data": {
       "bg": "black",
-      "note": "Subvocalization is fascinating to me because it highlights our bodies\nrole in constructing our experience of language.\n\nWe think of language as airy and disembodied, and this phenomena gives\nlie to that: when we read, we need to coerce \n\nAll this tells us: we are not just stories.\n\nWe are stories embedded in bodies.\n\nWe are stories that grew from our squishy, meaty bodies. From the\nincredible amount of data they receive on a daily basis. From\nthe billions of years of evolution that brought us to that point.\n"
+      "note": "Subvocalization is fascinating to me because it highlights our bodies\nrole in constructing the experience of language.\n\nWe think of language as airy and disembodied, and this phenomena gives\nlie to that: language, as we experience it, depends on the body, comes\nfrom the body.\n\nWe are not just stories.\n\nWe are stories embedded in flesh.\n\nWe are stories that grow from our squishy, meaty bodies. From the\nincredible amount of data they receive on a daily basis. From\nthe billions of years of evolution that brought us to that point.\n"
+    },
+    "next": "cerebellum",
+    "prev": "subvocal_speech_recognition",
+    "index": 42
+  },
+  {
+    "id": "cerebellum",
+    "url": "cerebellum",
+    "class": "cerebellum",
+    "data": {
+      "bg": "black",
+      "load": [
+        "gray-cerebellum-pink.png",
+        "sobo-cerebellum-pink.png"
+      ],
+      "htmlFunc": "(_, res) => `\n  <img id=grayCerebellum src='${res['gray-cerebellum-pink.png']}'>\n  <img id=soboCerebellum src='${res['sobo-cerebellum-pink.png']}'>\n`\n"
     },
     "next": "the_living_tree_of_language",
-    "prev": "subvocal_speech_recognition",
-    "index": 41
+    "prev": "not_just_stories",
+    "index": 43
   },
   {
     "id": "the_living_tree_of_language",
@@ -2407,8 +2438,8 @@
       "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n\nThere are, of course, many more.\n"
     },
     "next": "power_of_language",
-    "prev": "not_just_stories",
-    "index": 42
+    "prev": "cerebellum",
+    "index": 44
   },
   {
     "id": "power_of_language",
@@ -2430,7 +2461,7 @@
     },
     "next": "power_of_language/a_warm_beach",
     "prev": "the_living_tree_of_language",
-    "index": 43
+    "index": 45
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -2443,7 +2474,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 44
+    "index": 46
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -2456,7 +2487,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/a_warm_beach",
-    "index": 45
+    "index": 47
   },
   {
     "id": "power_of_language/as_coders",
@@ -2469,7 +2500,7 @@
     },
     "next": "language",
     "prev": "power_of_language/crackling_campfire",
-    "index": 46
+    "index": 48
   },
   {
     "id": "language",
@@ -2483,7 +2514,7 @@
     },
     "next": "the_sea0",
     "prev": "power_of_language/as_coders",
-    "index": 47
+    "index": 49
   },
   {
     "id": "the_sea0",
@@ -2494,7 +2525,7 @@
     },
     "next": "the_sea1",
     "prev": "language",
-    "index": 48,
+    "index": 50,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2614,7 +2645,7 @@
     },
     "next": "the_sea2",
     "prev": "the_sea0",
-    "index": 49,
+    "index": 51,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2734,7 +2765,7 @@
     },
     "next": "the_sea3",
     "prev": "the_sea1",
-    "index": 50,
+    "index": 52,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2854,7 +2885,7 @@
     },
     "next": "the_sea4",
     "prev": "the_sea2",
-    "index": 51,
+    "index": 53,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2974,7 +3005,7 @@
     },
     "next": "the_sea5",
     "prev": "the_sea3",
-    "index": 52,
+    "index": 54,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3094,7 +3125,7 @@
     },
     "next": "the_sea6",
     "prev": "the_sea4",
-    "index": 53,
+    "index": 55,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3214,7 +3245,7 @@
     },
     "next": "the_sea7",
     "prev": "the_sea5",
-    "index": 54,
+    "index": 56,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3334,7 +3365,7 @@
     },
     "next": "the_sea8",
     "prev": "the_sea6",
-    "index": 55,
+    "index": 57,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3472,7 +3503,7 @@
     },
     "next": "the_sea9",
     "prev": "the_sea7",
-    "index": 56,
+    "index": 58,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3619,7 +3650,7 @@
     },
     "next": "the_sea10",
     "prev": "the_sea8",
-    "index": 57,
+    "index": 59,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3747,7 +3778,7 @@
     },
     "next": "the_sea10a",
     "prev": "the_sea9",
-    "index": 58,
+    "index": 60,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3881,7 +3912,7 @@
     },
     "next": "the_sea11",
     "prev": "the_sea10",
-    "index": 59,
+    "index": 61,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4025,7 +4056,7 @@
       "frame": "ending/seed/seed11"
     },
     "prev": "the_sea10a",
-    "index": 60,
+    "index": 62,
     "paths": {
       "Space": {
         "id": "Space",

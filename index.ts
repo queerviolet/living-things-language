@@ -28,7 +28,7 @@ function createElements() {
     el.style.zIndex = zIndex
 
     if (html) el.innerHTML = html
-    if (htmlFunc) el.innerHTML += eval(htmlFunc)(b)
+    if (htmlFunc) el.innerHTML += eval(htmlFunc)(b, resources)
     
     if (img)
       el.style.backgroundImage = `url(${resources[img]})`  
@@ -43,7 +43,10 @@ function createElements() {
       }
     }
   }
-  onDispose(() => script.forEach(b => b.element && b.element.parentNode.removeChild(b.element)))
+  onDispose(() => script.forEach(b =>
+    b.element &&
+    b.element.parentNode &&
+    b.element.parentNode.removeChild(b.element)))
 }
 
 function buildTimeline() {
@@ -289,6 +292,7 @@ function notesFrom(script: any) {
       id: build.id,
       url: build.url,
       markdown: build.markdown,
+      order: build.order,
     })
   }
   return JSON.stringify(notes)

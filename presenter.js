@@ -41,7 +41,7 @@ class BuildNote extends HTMLElement {
     const md = (markdown || '').replace(/\n +/g, '\n')
     console.log(md)
     this.content.innerHTML = marked(md)
-    // this.style.order = order
+    this.style.order = order
   }
 }
 
