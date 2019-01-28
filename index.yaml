@@ -533,9 +533,64 @@ Cerebellum:
 
       When we speak, we need to serialize an inner meaning into a sequence
       of words.
-      
-      
 
+      With both language and movement, we are transforming coordinate
+      spaces: translating the state of our inner worlds—a point within
+      some space of all possible experiences—into a sequence of moves
+      that will move us to that point.
+
+      Whether the point is cognitive or physical doesn't really matter—the
+      math is the same. Language is dance; dance is communication.
+
+Gradual Origins:
+  bg: white  
+  note: |
+    This suggests an origin for language that's quite different from
+    the discontinuous origin offered by Chomsky.
+
+    There are some open questions with that story, after all.
+
+    For one thing, even if the capability for language is a small enough
+    set of mutations to have spontaneously arose in a single individual,
+    how did *language* arise? Language, after all, is a process of
+    communication. Who did Prometheus talk to?
+
+    For another...
+  The Larynx:
+    bg: white
+    load:
+      - gray-larynx-anterior.png
+      - gray-larynx-front.png
+      - gray-larynx-saggital.png
+    htmlFunc: (_, res) => `
+      <img src='${res['gray-larynx-anterior.png']}'>
+      <img src='${res['gray-larynx-front.png']}'>
+      <img src='${res['gray-larynx-saggital.png']}'>`
+    note: |
+      Language has deeply shaped our bodies. The human voice box is capable
+      of some pretty incredible feats, feats no other animal can quite
+      reproduce.
+      
+      Some birds do a remarkably good facimile, but our primate cousins
+      don't. How will you speak, Mr. Anderson, without a voice box?    
+    Gesture-first theory:
+      bg: white
+      note: |
+        Michael Corballis and others have offered a solution: language did
+        not arise with speech. It arose with gesture. The first languages
+        were *sign* languages.
+
+        And this seems at least viable. We know of primates who can use sign
+        language. And once sign language is established, there are some good
+        adaptive reasons to transition to the spoken word. For one thing, speech
+        allows us to communicate over greater distance, when line of sight isn't
+        available, and when our hands are otherwise occupied—possibly with spears.
+
+        Of course, the machinery has to change little. We already use acoustic
+        information to build up a physical model of our surroundings. Tweaking
+        *how* that information is integrated seems almost within the plasticity of
+        our individual brains, to say nothing of the capacity for evolution to
+        change the structure of those brains.
 The Living Tree of Language:
   img: language-tree-mina-sundberg.jpg
   bg: black

@@ -2429,7 +2429,7 @@
       },
       "Language is Reduce": {
         "bg": "black",
-        "note": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n"
+        "note": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n\nWith both language and movement, we are transforming coordinate\nspaces: translating the state of our inner worlds—a point within\nsome space of all possible experiences—into a sequence of moves\nthat will move us to that point.\n\nWhether the point is cognitive or physical doesn't really matter—the\nmath is the same. Language is dance; dance is communication.\n"
       }
     },
     "next": "cerebellum/movement_is_a_reduce_operation",
@@ -2453,14 +2453,77 @@
     "id": "cerebellum/language_is_reduce",
     "url": "cerebellum/language_is_reduce",
     "class": "cerebellum-language_is_reduce",
-    "markdown": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n",
+    "markdown": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n\nWith both language and movement, we are transforming coordinate\nspaces: translating the state of our inner worlds—a point within\nsome space of all possible experiences—into a sequence of moves\nthat will move us to that point.\n\nWhether the point is cognitive or physical doesn't really matter—the\nmath is the same. Language is dance; dance is communication.\n",
     "data": {
       "bg": "black",
-      "note": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n"
+      "note": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n\nWith both language and movement, we are transforming coordinate\nspaces: translating the state of our inner worlds—a point within\nsome space of all possible experiences—into a sequence of moves\nthat will move us to that point.\n\nWhether the point is cognitive or physical doesn't really matter—the\nmath is the same. Language is dance; dance is communication.\n"
     },
-    "next": "the_living_tree_of_language",
+    "next": "gradual_origins",
     "prev": "cerebellum/movement_is_a_reduce_operation",
     "index": 45
+  },
+  {
+    "id": "gradual_origins",
+    "url": "gradual_origins",
+    "class": "gradual_origins",
+    "markdown": "This suggests an origin for language that's quite different from\nthe discontinuous origin offered by Chomsky.\n\nThere are some open questions with that story, after all.\n\nFor one thing, even if the capability for language is a small enough\nset of mutations to have spontaneously arose in a single individual,\nhow did *language* arise? Language, after all, is a process of\ncommunication. Who did Prometheus talk to?\n\nFor another...\n",
+    "data": {
+      "bg": "white",
+      "note": "This suggests an origin for language that's quite different from\nthe discontinuous origin offered by Chomsky.\n\nThere are some open questions with that story, after all.\n\nFor one thing, even if the capability for language is a small enough\nset of mutations to have spontaneously arose in a single individual,\nhow did *language* arise? Language, after all, is a process of\ncommunication. Who did Prometheus talk to?\n\nFor another...\n",
+      "The Larynx": {
+        "bg": "white",
+        "load": [
+          "gray-larynx-anterior.png",
+          "gray-larynx-front.png",
+          "gray-larynx-saggital.png"
+        ],
+        "htmlFunc": "(_, res) => ` <img src='${res['gray-larynx-anterior.png']}'> <img src='${res['gray-larynx-front.png']}'> <img src='${res['gray-larynx-saggital.png']}'>`",
+        "note": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. How will you speak, Mr. Anderson, without a voice box?    \n",
+        "Gesture-first theory": {
+          "bg": "white",
+          "note": "Michael Corballis and others have offered a solution: language did\nnot arise with speech. It arose with gesture. The first languages\nwere *sign* languages.\n\nAnd this seems at least viable. We know of primates who can use sign\nlanguage. And once sign language is established, there are some good\nadaptive reasons to transition to the spoken word. For one thing, speech\nallows us to communicate over greater distance, when line of sight isn't\navailable, and when our hands are otherwise occupied—possibly with spears.\n\nOf course, the machinery has to change little. We already use acoustic\ninformation to build up a physical model of our surroundings. Tweaking\n*how* that information is integrated seems almost within the plasticity of\nour individual brains, to say nothing of the capacity for evolution to\nchange the structure of those brains.\n"
+        }
+      }
+    },
+    "next": "gradual_origins/the_larynx",
+    "prev": "cerebellum/language_is_reduce",
+    "index": 46
+  },
+  {
+    "id": "gradual_origins/the_larynx",
+    "url": "gradual_origins/the_larynx",
+    "class": "gradual_origins-the_larynx",
+    "markdown": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. How will you speak, Mr. Anderson, without a voice box?    \n",
+    "data": {
+      "bg": "white",
+      "load": [
+        "gray-larynx-anterior.png",
+        "gray-larynx-front.png",
+        "gray-larynx-saggital.png"
+      ],
+      "htmlFunc": "(_, res) => ` <img src='${res['gray-larynx-anterior.png']}'> <img src='${res['gray-larynx-front.png']}'> <img src='${res['gray-larynx-saggital.png']}'>`",
+      "note": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. How will you speak, Mr. Anderson, without a voice box?    \n",
+      "Gesture-first theory": {
+        "bg": "white",
+        "note": "Michael Corballis and others have offered a solution: language did\nnot arise with speech. It arose with gesture. The first languages\nwere *sign* languages.\n\nAnd this seems at least viable. We know of primates who can use sign\nlanguage. And once sign language is established, there are some good\nadaptive reasons to transition to the spoken word. For one thing, speech\nallows us to communicate over greater distance, when line of sight isn't\navailable, and when our hands are otherwise occupied—possibly with spears.\n\nOf course, the machinery has to change little. We already use acoustic\ninformation to build up a physical model of our surroundings. Tweaking\n*how* that information is integrated seems almost within the plasticity of\nour individual brains, to say nothing of the capacity for evolution to\nchange the structure of those brains.\n"
+      }
+    },
+    "next": "gradual_origins/the_larynx/gesture-first_theory",
+    "prev": "gradual_origins",
+    "index": 47
+  },
+  {
+    "id": "gradual_origins/the_larynx/gesture-first_theory",
+    "url": "gradual_origins/the_larynx/gesture-first_theory",
+    "class": "gradual_origins-the_larynx-gesture-first_theory",
+    "markdown": "Michael Corballis and others have offered a solution: language did\nnot arise with speech. It arose with gesture. The first languages\nwere *sign* languages.\n\nAnd this seems at least viable. We know of primates who can use sign\nlanguage. And once sign language is established, there are some good\nadaptive reasons to transition to the spoken word. For one thing, speech\nallows us to communicate over greater distance, when line of sight isn't\navailable, and when our hands are otherwise occupied—possibly with spears.\n\nOf course, the machinery has to change little. We already use acoustic\ninformation to build up a physical model of our surroundings. Tweaking\n*how* that information is integrated seems almost within the plasticity of\nour individual brains, to say nothing of the capacity for evolution to\nchange the structure of those brains.\n",
+    "data": {
+      "bg": "white",
+      "note": "Michael Corballis and others have offered a solution: language did\nnot arise with speech. It arose with gesture. The first languages\nwere *sign* languages.\n\nAnd this seems at least viable. We know of primates who can use sign\nlanguage. And once sign language is established, there are some good\nadaptive reasons to transition to the spoken word. For one thing, speech\nallows us to communicate over greater distance, when line of sight isn't\navailable, and when our hands are otherwise occupied—possibly with spears.\n\nOf course, the machinery has to change little. We already use acoustic\ninformation to build up a physical model of our surroundings. Tweaking\n*how* that information is integrated seems almost within the plasticity of\nour individual brains, to say nothing of the capacity for evolution to\nchange the structure of those brains.\n"
+    },
+    "next": "the_living_tree_of_language",
+    "prev": "gradual_origins/the_larynx",
+    "index": 48
   },
   {
     "id": "the_living_tree_of_language",
@@ -2475,8 +2538,8 @@
       "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n\nThere are, of course, many more.\n"
     },
     "next": "power_of_language",
-    "prev": "cerebellum/language_is_reduce",
-    "index": 46
+    "prev": "gradual_origins/the_larynx/gesture-first_theory",
+    "index": 49
   },
   {
     "id": "power_of_language",
@@ -2498,7 +2561,7 @@
     },
     "next": "power_of_language/a_warm_beach",
     "prev": "the_living_tree_of_language",
-    "index": 47
+    "index": 50
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -2511,7 +2574,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 48
+    "index": 51
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -2524,7 +2587,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/a_warm_beach",
-    "index": 49
+    "index": 52
   },
   {
     "id": "power_of_language/as_coders",
@@ -2537,7 +2600,7 @@
     },
     "next": "language",
     "prev": "power_of_language/crackling_campfire",
-    "index": 50
+    "index": 53
   },
   {
     "id": "language",
@@ -2551,7 +2614,7 @@
     },
     "next": "the_sea0",
     "prev": "power_of_language/as_coders",
-    "index": 51
+    "index": 54
   },
   {
     "id": "the_sea0",
@@ -2562,7 +2625,7 @@
     },
     "next": "the_sea1",
     "prev": "language",
-    "index": 52,
+    "index": 55,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2682,7 +2745,7 @@
     },
     "next": "the_sea2",
     "prev": "the_sea0",
-    "index": 53,
+    "index": 56,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2802,7 +2865,7 @@
     },
     "next": "the_sea3",
     "prev": "the_sea1",
-    "index": 54,
+    "index": 57,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2922,7 +2985,7 @@
     },
     "next": "the_sea4",
     "prev": "the_sea2",
-    "index": 55,
+    "index": 58,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -3042,7 +3105,7 @@
     },
     "next": "the_sea5",
     "prev": "the_sea3",
-    "index": 56,
+    "index": 59,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3162,7 +3225,7 @@
     },
     "next": "the_sea6",
     "prev": "the_sea4",
-    "index": 57,
+    "index": 60,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3282,7 +3345,7 @@
     },
     "next": "the_sea7",
     "prev": "the_sea5",
-    "index": 58,
+    "index": 61,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3402,7 +3465,7 @@
     },
     "next": "the_sea8",
     "prev": "the_sea6",
-    "index": 59,
+    "index": 62,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3540,7 +3603,7 @@
     },
     "next": "the_sea9",
     "prev": "the_sea7",
-    "index": 60,
+    "index": 63,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3687,7 +3750,7 @@
     },
     "next": "the_sea10",
     "prev": "the_sea8",
-    "index": 61,
+    "index": 64,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3815,7 +3878,7 @@
     },
     "next": "the_sea10a",
     "prev": "the_sea9",
-    "index": 62,
+    "index": 65,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3949,7 +4012,7 @@
     },
     "next": "the_sea11",
     "prev": "the_sea10",
-    "index": 63,
+    "index": 66,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4093,7 +4156,7 @@
       "frame": "ending/seed/seed11"
     },
     "prev": "the_sea10a",
-    "index": 64,
+    "index": 67,
     "paths": {
       "Space": {
         "id": "Space",
