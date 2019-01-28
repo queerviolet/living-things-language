@@ -563,9 +563,9 @@ Gradual Origins:
       - gray-larynx-front.png
       - gray-larynx-saggital.png
     htmlFunc: (_, res) => `
-      <img src='${res['gray-larynx-anterior.png']}'>
-      <img src='${res['gray-larynx-front.png']}'>
-      <img src='${res['gray-larynx-saggital.png']}'>`
+      <img class=one-third src='${res['gray-larynx-anterior.png']}'>
+      <img class=one-third src='${res['gray-larynx-front.png']}'>
+      <img class=one-third src='${res['gray-larynx-saggital.png']}'>`
     note: |
       Language has deeply shaped our bodies. The human voice box is capable
       of some pretty incredible feats, feats no other animal can quite

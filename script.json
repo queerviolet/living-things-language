@@ -2477,7 +2477,7 @@
           "gray-larynx-front.png",
           "gray-larynx-saggital.png"
         ],
-        "htmlFunc": "(_, res) => ` <img src='${res['gray-larynx-anterior.png']}'> <img src='${res['gray-larynx-front.png']}'> <img src='${res['gray-larynx-saggital.png']}'>`",
+        "htmlFunc": "(_, res) => ` <img class=one-third src='${res['gray-larynx-anterior.png']}'> <img class=one-third src='${res['gray-larynx-front.png']}'> <img class=one-third src='${res['gray-larynx-saggital.png']}'>`",
         "note": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. How will you speak, Mr. Anderson, without a voice box?    \n",
         "Gesture-first theory": {
           "bg": "white",
@@ -2501,7 +2501,7 @@
         "gray-larynx-front.png",
         "gray-larynx-saggital.png"
       ],
-      "htmlFunc": "(_, res) => ` <img src='${res['gray-larynx-anterior.png']}'> <img src='${res['gray-larynx-front.png']}'> <img src='${res['gray-larynx-saggital.png']}'>`",
+      "htmlFunc": "(_, res) => ` <img class=one-third src='${res['gray-larynx-anterior.png']}'> <img class=one-third src='${res['gray-larynx-front.png']}'> <img class=one-third src='${res['gray-larynx-saggital.png']}'>`",
       "note": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. How will you speak, Mr. Anderson, without a voice box?    \n",
       "Gesture-first theory": {
         "bg": "white",

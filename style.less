@@ -50,7 +50,7 @@ body, html {
 
 .slide {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row nowrap;
   position: fixed;
   top: var(--letterbox-top);
   left: var(--letterbox-left);
@@ -65,6 +65,14 @@ body, html {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+
+  > img {
+    max-height: 100%;
+  }
+}
+
+.one-third {
+  width: calc(100% / 3);
 }
 
 .slide.active {
