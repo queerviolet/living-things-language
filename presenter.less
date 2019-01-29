@@ -2,8 +2,6 @@
 @electric-blue: lightblue;
 
 body {
-  display: flex;
-  flex-flow: column nowrap;
   font-family: Monaco;
   margin: 0;
   background: black;
@@ -11,6 +9,11 @@ body {
 
   font-size: 22pt;
   font-weight: bold;
+}
+
+#script {
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 button.timer {
@@ -35,7 +38,7 @@ button.timer {
   }
 }
 
-build-note {
+.build {
   display: block;
   position: relative;
   margin: 0;
@@ -61,6 +64,11 @@ build-note {
     color: @electric-blue;
     display: inline-block;
     border-radius: 6px;
+  }
+
+  > .time-estimate {
+    font-size: 12px;
+    color: lightgray;    
   }
 
   > .timer {

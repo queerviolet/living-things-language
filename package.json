@@ -6,13 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "nodemon -e yaml,js -w index.yaml -w build.js build.js",
-    "start": "parcel index.html"
+    "serve": "parcel index.html",
+    "start": "concurrently npm:build npm:serve"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/gsap": "^1.20.0",
     "color-rgba": "^2.1.0",
+    "concurrently": "^4.1.0",
     "js-yaml": "^3.12.1",
     "less": "^3.9.0",
     "nodemon": "^1.18.9",

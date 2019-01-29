@@ -7,6 +7,12 @@ simplify_title: &simplify_title
   Roots2: 100
   Shadow: 50
   Tree2: 10
+In The Beginning:
+  html: Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος
+  note: |
+    In the beginning was the Word
+    and the Word was with God
+    and the Word was God
 Hi:
   frame: title
   simplify: *simplify_title
@@ -416,9 +422,9 @@ Subvocalization:
     note: |
       Subvocalization is particularly noticeable in kids, because it's often
       not "sub" at all. I remember watching my niece play when she was younger.
-      She would narrate what she was doing to nobody in particular.
+      She would narrate what she was doing, constantly, to nobody in particular.
 
-      And this is pretty normal. Early in the language-acquisition phase, you'll
+      And this that's pretty normal. Early in the language-acquisition phase, you'll
       often find kids narrating their inner speech out loud, or by explicitly
       signing it, before developing subvocalization.
             
@@ -572,7 +578,8 @@ Gradual Origins:
       reproduce.
       
       Some birds do a remarkably good facimile, but our primate cousins
-      don't. How will you speak, Mr. Anderson, without a voice box?    
+      don't. Tell me, Mr. Anderson, what good is recursive grammar when you
+      are unable to speak?
     Gesture-first theory:
       bg: white
       note: |
@@ -591,6 +598,23 @@ Gradual Origins:
         *how* that information is integrated seems almost within the plasticity of
         our individual brains, to say nothing of the capacity for evolution to
         change the structure of those brains.
+    Other theories:
+      bg: white
+      note: |
+        There are other gradualist theories of the origin of language. Some folks
+        say language began as grunts intended to synchronize manual labor. Heave, ho.
+
+        Others—and I do love this theory—say that it began as baby talk: coos and
+        and babble between mothers and children that slowly gained semantics.
+
+        Some literally say that language started as dance.
+
+        I doubt we'll ever be able to truly disentangle which of these theories
+        actually happened. Not that it matters so much. All these theories speak
+        to truths about language. They all sound plausible enough; we can see
+        each theory reflected in our experience of language today.
+
+        But language has evolved.
 The Living Tree of Language:
   img: language-tree-mina-sundberg.jpg
   bg: black
@@ -602,10 +626,15 @@ The Living Tree of Language:
     This beautiful tree, drawn by Mina Sundberg, just shows the old world
     languages, those from Europe and Asia.
     
-    Most of them are descended from Proto-Indo-European, a language by people
-    in the Ural steppes about six thousand years ago.
+    Most of them are descended from Proto-Indo-European, a language spoken
+    by people in the Ural steppes four to six thousand years ago.
 
     There are, of course, many more.
+
+    There were earlier languages we have since forgotten, and it was these
+    earlier langauges which shaped our bodies, giving us vocal chords and
+    giving us stories. Narrative, that tremendous technology which gives us
+    thread from which we weave our cognitive worlds.
 Power of Language:
   A warm beach:
     html: A warm beach on a sunny day.

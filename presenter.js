@@ -1,60 +1,57 @@
 import marked from 'marked'
+import resources from './resources'
+import script from './script.json'
 
-class BuildNote extends HTMLElement {
+class BuildNote {
   static update(note) {
-    const e = findOrCreateById('build-note', note.id)
+    const e = new BuildNote(findOrCreateById('div', note.id))
     e.update(note)
   }
 
-  connectedCallback() {
-    this.addEventListener('click', this.onClick)
-  }
-
-  disconnectedCallback() {
-    this.removeEventListener('click', this.onClick)
-  }
-
-  onClick() {
-    localStorage.currentBuild = this.id
-    update({key: 'currentBuild', newValue: this.id})
+  constructor(element) {
+    this.element = element
+    element.className = 'build'
   }
 
   get title() {
-    return findOrCreateByClass('h1', 'title', this)
+    return findOrCreateByClass('h1', 'title', this.element)
+  }
+
+  get timeEstimate() {
+    return findOrCreateByClass('h2', 'time-estimate', this.element)
   }
 
   get content() {
-    return findOrCreateByClass('div', 'note', this)
+    return findOrCreateByClass('div', 'note', this.element)
   }
 
   get timer() {
-    return findOrCreateByClass('div', 'timer', this)
+    return findOrCreateByClass('div', 'timer', this.element)
   }
 
   set time(time) {
     this.timer.textContent = time && tformat(time)
   }
 
-  update({markdown, order, id}) {
+  update({md, order, id, url, wordCount}) {
+    const { element } = this
     this.id = id
-    this.title.textContent = id
-    const md = (markdown || '').replace(/\n +/g, '\n')
-    console.log(md)
+    element.id = id
+    this.title.textContent = url
+    this.timeEstimate.textContent = `${tformat(wordCount * WORD_MS)} — ${wordCount} words`
     this.content.innerHTML = marked(md)
-    this.style.order = order
+    element.style.order = order
   }
 }
 
-customElements.define('build-note', BuildNote)
-
-const findOrCreateById = (tag, id, container=document.body) => {
+const findOrCreateById = (tag, id, container=document.getElementById('script')) => {
   let e = document.getElementById(id)
   if (e) return e
   container.appendChild(e = document.createElement(tag))
   return e
 }
 
-const findOrCreateByClass = (tag, className, container=document.body) => {
+const findOrCreateByClass = (tag, className, container) => {
   let e = container.getElementsByClassName(className)[0]
   if (e) return e
   e = document.createElement(tag)
@@ -63,32 +60,51 @@ const findOrCreateByClass = (tag, className, container=document.body) => {
   return e
 }
 
+const minutes = m => sec(m * 60)
+const sec = s => s * 1000
+
+const WORDS_PER_MIN = 120
+const WORD_MS = minutes(1) / WORDS_PER_MIN
+
 const BUILDS = {}
-const updateNotes = (notes=JSON.parse(localStorage.buildNotes)) => {
+const updateNotes = (notes=script) => {
+  const container = document.getElementById('script')  
+  container && (container.innerHTML = '')
+  let totalWords = 0
   notes.forEach(note => {
+    const md = (note.markdown || '').replace(/\n +/g, '\n')
+    const wordCount = md.split(/[\s\n]+/g).filter(Boolean).length
+    const timeEstimate = wordCount * WORDS_PER_MIN
+    Object.assign(note, {md, wordCount, timeEstimate})
+    totalWords += wordCount
     BuildNote.update(note)
     BUILDS[note.id] = note
   })
+  console.log('Total words:', totalWords, 'words')  
+  console.log('Estimated total time:', tformat(totalWords * WORD_MS))
 }
+window.BUILDS = BUILDS
 
 const updateScroll = (id=localStorage.currentBuild) => {
   const e = document.getElementById(id)
   if (!e) return
   process.nextTick(() => e.scrollIntoView({block: 'start', behavior: 'smooth'}))
-  const current = document.querySelector('build-note.current')
+  const current = document.querySelector('.build.current')
   current && current.classList.remove('current')
   e.classList.add('current')
 }
 
-const init = () =>
+const init = () => {
   Object.entries(localStorage)
     .forEach(([key, newValue]) => update({key, newValue}))
+  updateNotes()
+}
 
 function onKey({code}) {
   switch (code) {
     case 'ArrowRight':
     case 'PageDown':
-      const next = BUILDS[localStorage.currentBuild].nextBuildId
+      const { next } = BUILDS[localStorage.currentBuild]
       if (next) {
         localStorage.currentBuild = next
         update({key: 'currentBuild', newValue: next})
@@ -97,7 +113,7 @@ function onKey({code}) {
     
     case 'ArrowLeft':
     case 'PageUp':
-      const prev = BUILDS[localStorage.currentBuild].prevBuildId
+      const { prev } = BUILDS[localStorage.currentBuild]
       if (prev) {
         localStorage.currentBuild = prev
         update({key: 'currentBuild', newValue: prev})
@@ -106,12 +122,10 @@ function onKey({code}) {
   }
 }
 
-function update({key, newValue, oldValue}) {
+function update({key, newValue}) {
   switch (key) {
   case 'currentBuild':
     return updateScroll(newValue)
-  case 'buildNotes':
-    return updateNotes(JSON.parse(newValue))
   }
 
   if (key.startsWith('time:')) {
@@ -120,12 +134,32 @@ function update({key, newValue, oldValue}) {
   }
 }
 
-addEventListener('DOMContentLoaded', init)
-addEventListener('storage', update)
-addEventListener('keydown', onKey)
+function setup() {
+  init()
+  addEventListener('storage', update)
+  addEventListener('keydown', onKey)
+  addEventListener('click', onClick)
+  __timer.addEventListener('click', onClickTimer)
+
+  onDispose(() => {
+    removeEventListener('DOMContentLoaded', init)
+    removeEventListener('storage', update)
+    removeEventListener('keydown', onKey)
+    removeEventListener('click', onClick)
+    __timer.removeEventListener('click', onClickTimer)
+  })
+}
+
+function onClick(e) {
+  const build = e.target.closest('.build')
+  if (!build) return
+  localStorage.currentBuild = build.id
+  update({key: 'currentBuild', newValue: build.id})
+}
+
 
 let raf = null
-__timer.addEventListener('click', () => {
+function onClickTimer() {
   if (raf) {
     console.log('cancelling', raf)
     cancelAnimationFrame(raf)
@@ -135,7 +169,7 @@ __timer.addEventListener('click', () => {
   }
   lastTick = null
   raf = requestAnimationFrame(tick)
-})
+}
 
 let lastTick = null
 function tick(ts) {
@@ -179,3 +213,9 @@ const resetTimer = () => {
 }
 
 global.resetTimer = resetTimer
+
+function onDispose(run) {
+  module.hot && module.hot.dispose(run)
+}
+
+setup()

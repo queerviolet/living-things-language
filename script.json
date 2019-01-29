@@ -1,5 +1,17 @@
 [
   {
+    "id": "in_the_beginning",
+    "url": "in_the_beginning",
+    "class": "in_the_beginning",
+    "markdown": "In the beginning was the Word\nand the Word was with God\nand the Word was God\n",
+    "data": {
+      "html": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος",
+      "note": "In the beginning was the Word\nand the Word was with God\nand the Word was God\n"
+    },
+    "next": "hi",
+    "index": 0
+  },
+  {
     "id": "hi",
     "url": "hi",
     "class": "hi",
@@ -28,7 +40,8 @@
       }
     },
     "next": "hi/languages_are_living_things",
-    "index": 0,
+    "prev": "in_the_beginning",
+    "index": 1,
     "paths": {
       "Space": {
         "id": "Space",
@@ -185,7 +198,7 @@
     },
     "next": "hi/language_is_powerful",
     "prev": "hi",
-    "index": 1
+    "index": 2
   },
   {
     "id": "hi/language_is_powerful",
@@ -197,7 +210,7 @@
     },
     "next": "hi/language_is_in_the_body",
     "prev": "hi/languages_are_living_things",
-    "index": 2
+    "index": 3
   },
   {
     "id": "hi/language_is_in_the_body",
@@ -209,7 +222,7 @@
     },
     "next": "remember",
     "prev": "hi/language_is_powerful",
-    "index": 3
+    "index": 4
   },
   {
     "id": "remember",
@@ -326,7 +339,7 @@
     },
     "next": "remember/ten_years_ago",
     "prev": "hi/language_is_in_the_body",
-    "index": 4,
+    "index": 5,
     "paths": {
       "Space": {
         "id": "Space",
@@ -484,7 +497,7 @@
     },
     "next": "remember/we_were_creating",
     "prev": "remember",
-    "index": 5,
+    "index": 6,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -506,7 +519,7 @@
     },
     "next": "remember/talking",
     "prev": "remember/ten_years_ago",
-    "index": 6,
+    "index": 7,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -581,7 +594,7 @@
     },
     "next": "remember/distributed",
     "prev": "remember/we_were_creating",
-    "index": 7,
+    "index": 8,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -648,7 +661,7 @@
     },
     "next": "remember/networked",
     "prev": "remember/talking",
-    "index": 8,
+    "index": 9,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -679,7 +692,7 @@
     },
     "next": "remember/socially_networked",
     "prev": "remember/distributed",
-    "index": 9,
+    "index": 10,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -710,7 +723,7 @@
     },
     "next": "remember/look",
     "prev": "remember/networked",
-    "index": 10,
+    "index": 11,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -741,7 +754,7 @@
     },
     "next": "remember/arab_spring",
     "prev": "remember/socially_networked",
-    "index": 11,
+    "index": 12,
     "paths": {
       "Blossom2": {
         "id": "Blossom2",
@@ -810,7 +823,7 @@
     },
     "next": "remember/catalyzed",
     "prev": "remember/look",
-    "index": 12,
+    "index": 13,
     "paths": {
       "Blossom2": {
         "id": "Blossom2",
@@ -881,7 +894,7 @@
     },
     "next": "remember/obamas",
     "prev": "remember/arab_spring",
-    "index": 13,
+    "index": 14,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -968,7 +981,7 @@
     },
     "next": "remember/a_new_culture",
     "prev": "remember/catalyzed",
-    "index": 14,
+    "index": 15,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1219,7 +1232,7 @@
     },
     "next": "remember/without_nations_and_borders",
     "prev": "remember/obamas",
-    "index": 15,
+    "index": 16,
     "paths": {
       "Inside": {
         "id": "Inside",
@@ -1291,7 +1304,7 @@
     },
     "next": "remember/punch_only_masks",
     "prev": "remember/a_new_culture",
-    "index": 16,
+    "index": 17,
     "paths": {
       "g3982": {
         "id": "g3982",
@@ -1359,7 +1372,7 @@
     },
     "next": "remember/racism",
     "prev": "remember/without_nations_and_borders",
-    "index": 17,
+    "index": 18,
     "paths": {
       "0": {
         "id": 0,
@@ -1616,7 +1629,7 @@
     },
     "next": "remember/new_minds",
     "prev": "remember/punch_only_masks",
-    "index": 18,
+    "index": 19,
     "paths": {
       "0": {
         "id": 0,
@@ -1945,7 +1958,7 @@
     },
     "next": "remember/see",
     "prev": "remember/racism",
-    "index": 19,
+    "index": 20,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -1993,7 +2006,7 @@
     },
     "next": "remember/want",
     "prev": "remember/new_minds",
-    "index": 20,
+    "index": 21,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2041,7 +2054,7 @@
     },
     "next": "remember/lie",
     "prev": "remember/see",
-    "index": 21,
+    "index": 22,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2089,7 +2102,7 @@
     },
     "next": "remember/retrospect",
     "prev": "remember/want",
-    "index": 22,
+    "index": 23,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2136,7 +2149,7 @@
     },
     "next": "remember/what_happened",
     "prev": "remember/lie",
-    "index": 23
+    "index": 24
   },
   {
     "id": "remember/what_happened",
@@ -2149,7 +2162,7 @@
     },
     "next": "remember/may_not_believe_it_now",
     "prev": "remember/retrospect",
-    "index": 24
+    "index": 25
   },
   {
     "id": "remember/may_not_believe_it_now",
@@ -2162,7 +2175,7 @@
     },
     "next": "origins_of_language",
     "prev": "remember/what_happened",
-    "index": 25
+    "index": 26
   },
   {
     "id": "origins_of_language",
@@ -2174,7 +2187,7 @@
     },
     "next": "recursion",
     "prev": "remember/may_not_believe_it_now",
-    "index": 26
+    "index": 27
   },
   {
     "id": "recursion",
@@ -2191,7 +2204,7 @@
     },
     "next": "recursion/opens_but_never_closes",
     "prev": "origins_of_language",
-    "index": 27
+    "index": 28
   },
   {
     "id": "recursion/opens_but_never_closes",
@@ -2204,7 +2217,7 @@
     },
     "next": "more_common_phrases",
     "prev": "recursion",
-    "index": 28
+    "index": 29
   },
   {
     "id": "more_common_phrases",
@@ -2221,7 +2234,7 @@
     },
     "next": "more_common_phrases/embedding",
     "prev": "recursion/opens_but_never_closes",
-    "index": 29
+    "index": 30
   },
   {
     "id": "more_common_phrases/embedding",
@@ -2234,7 +2247,7 @@
     },
     "next": "the_recursive_mind",
     "prev": "more_common_phrases",
-    "index": 30
+    "index": 31
   },
   {
     "id": "the_recursive_mind",
@@ -2256,7 +2269,7 @@
     },
     "next": "the_recursive_mind/three",
     "prev": "more_common_phrases/embedding",
-    "index": 31
+    "index": 32
   },
   {
     "id": "the_recursive_mind/three",
@@ -2268,7 +2281,7 @@
     },
     "next": "the_recursive_mind/past_present_future",
     "prev": "the_recursive_mind",
-    "index": 32
+    "index": 33
   },
   {
     "id": "the_recursive_mind/past_present_future",
@@ -2280,7 +2293,7 @@
     },
     "next": "the_recursive_mind/we_are_stories",
     "prev": "the_recursive_mind/three",
-    "index": 33
+    "index": 34
   },
   {
     "id": "the_recursive_mind/we_are_stories",
@@ -2292,7 +2305,7 @@
     },
     "next": "subvocalization",
     "prev": "the_recursive_mind/past_present_future",
-    "index": 34
+    "index": 35
   },
   {
     "id": "subvocalization",
@@ -2312,7 +2325,7 @@
         "note": "This process also gives longevity to the words we're holding in our\nhead.\n\nThe Baddley model holds that there is effectively no storage for\nwords that exists purely in the brain. We have a short-term\nphonological store, but information held there decays very quickly,\nunless it's committed to long-term memory, or refreshed.\n\nRefreshing our word buffer is where the \"Loop\" part of the \"Phonological\nLoop\" comes in. If we want to hold some piece of information in\nour minds, we need to refresh our phonological store through rehearsal.\n\nYou’re familiar with rehearsal: it’s what you’re doing when you mutter\na phone number to yourself, over and over\n\n...\"8675309\" \"8675309\"...\n\n...Trying to keep the memory of it from decaying. You are bouncing\nthe pattern of the words off your body so that you can perceive them\nagain and refresh your memory.\n\nSo this is how our brains store words in working memory. Using\nour bodies as buffers.\n"
       },
       "Reading": {
-        "note": "Subvocalization is particularly noticeable in kids, because it's often\nnot \"sub\" at all. I remember watching my niece play when she was younger.\nShe would narrate what she was doing to nobody in particular.\n\nAnd this is pretty normal. Early in the language-acquisition phase, you'll\noften find kids narrating their inner speech out loud, or by explicitly\nsigning it, before developing subvocalization.\n      \nSame thing with reading. We mostly learn to read by reading aloud, and\ntraces of this fact never really go away.\n"
+        "note": "Subvocalization is particularly noticeable in kids, because it's often\nnot \"sub\" at all. I remember watching my niece play when she was younger.\nShe would narrate what she was doing, constantly, to nobody in particular.\n\nAnd this that's pretty normal. Early in the language-acquisition phase, you'll\noften find kids narrating their inner speech out loud, or by explicitly\nsigning it, before developing subvocalization.\n      \nSame thing with reading. We mostly learn to read by reading aloud, and\ntraces of this fact never really go away.\n"
       },
       "Evidence": {
         "note": "In fact, one of the pieces of evidence for this comes from reading\ncomprehension. If you make people hold their tongues against the\nroofs of their mouths while they're reading a passage, they show\npoorer comprehension of the text than people who you've gotten to\ndo some unrelatedly annoying motor task, like tapping their fingers.\n\nPinning the tongue literally pins your inner tongue, muffling your\ninner voice.\n\nThis is an almost bizzarely prosaic explanation for something that\nseems so intimate: our inner voice.\n\nIf this is happening, surely we could detect it? And even do speech\nrecognition on it?\n"
@@ -2320,7 +2333,7 @@
     },
     "next": "subvocalization/actually_saying_them",
     "prev": "the_recursive_mind/we_are_stories",
-    "index": 35
+    "index": 36
   },
   {
     "id": "subvocalization/actually_saying_them",
@@ -2332,7 +2345,7 @@
     },
     "next": "subvocalization/echoes",
     "prev": "subvocalization",
-    "index": 36
+    "index": 37
   },
   {
     "id": "subvocalization/echoes",
@@ -2344,7 +2357,7 @@
     },
     "next": "subvocalization/the_loop",
     "prev": "subvocalization/actually_saying_them",
-    "index": 37
+    "index": 38
   },
   {
     "id": "subvocalization/the_loop",
@@ -2356,19 +2369,19 @@
     },
     "next": "subvocalization/reading",
     "prev": "subvocalization/echoes",
-    "index": 38
+    "index": 39
   },
   {
     "id": "subvocalization/reading",
     "url": "subvocalization/reading",
     "class": "subvocalization-reading",
-    "markdown": "Subvocalization is particularly noticeable in kids, because it's often\nnot \"sub\" at all. I remember watching my niece play when she was younger.\nShe would narrate what she was doing to nobody in particular.\n\nAnd this is pretty normal. Early in the language-acquisition phase, you'll\noften find kids narrating their inner speech out loud, or by explicitly\nsigning it, before developing subvocalization.\n      \nSame thing with reading. We mostly learn to read by reading aloud, and\ntraces of this fact never really go away.\n",
+    "markdown": "Subvocalization is particularly noticeable in kids, because it's often\nnot \"sub\" at all. I remember watching my niece play when she was younger.\nShe would narrate what she was doing, constantly, to nobody in particular.\n\nAnd this that's pretty normal. Early in the language-acquisition phase, you'll\noften find kids narrating their inner speech out loud, or by explicitly\nsigning it, before developing subvocalization.\n      \nSame thing with reading. We mostly learn to read by reading aloud, and\ntraces of this fact never really go away.\n",
     "data": {
-      "note": "Subvocalization is particularly noticeable in kids, because it's often\nnot \"sub\" at all. I remember watching my niece play when she was younger.\nShe would narrate what she was doing to nobody in particular.\n\nAnd this is pretty normal. Early in the language-acquisition phase, you'll\noften find kids narrating their inner speech out loud, or by explicitly\nsigning it, before developing subvocalization.\n      \nSame thing with reading. We mostly learn to read by reading aloud, and\ntraces of this fact never really go away.\n"
+      "note": "Subvocalization is particularly noticeable in kids, because it's often\nnot \"sub\" at all. I remember watching my niece play when she was younger.\nShe would narrate what she was doing, constantly, to nobody in particular.\n\nAnd this that's pretty normal. Early in the language-acquisition phase, you'll\noften find kids narrating their inner speech out loud, or by explicitly\nsigning it, before developing subvocalization.\n      \nSame thing with reading. We mostly learn to read by reading aloud, and\ntraces of this fact never really go away.\n"
     },
     "next": "subvocalization/evidence",
     "prev": "subvocalization/the_loop",
-    "index": 39
+    "index": 40
   },
   {
     "id": "subvocalization/evidence",
@@ -2380,7 +2393,7 @@
     },
     "next": "subvocal_speech_recognition",
     "prev": "subvocalization/reading",
-    "index": 40
+    "index": 41
   },
   {
     "id": "subvocal_speech_recognition",
@@ -2394,7 +2407,7 @@
     },
     "next": "baddley_diagram_again",
     "prev": "subvocalization/evidence",
-    "index": 41
+    "index": 42
   },
   {
     "id": "baddley_diagram_again",
@@ -2408,7 +2421,7 @@
     },
     "next": "cerebellum",
     "prev": "subvocal_speech_recognition",
-    "index": 42
+    "index": 43
   },
   {
     "id": "cerebellum",
@@ -2434,7 +2447,7 @@
     },
     "next": "cerebellum/movement_is_a_reduce_operation",
     "prev": "baddley_diagram_again",
-    "index": 43
+    "index": 44
   },
   {
     "id": "cerebellum/movement_is_a_reduce_operation",
@@ -2447,7 +2460,7 @@
     },
     "next": "cerebellum/language_is_reduce",
     "prev": "cerebellum",
-    "index": 44
+    "index": 45
   },
   {
     "id": "cerebellum/language_is_reduce",
@@ -2460,7 +2473,7 @@
     },
     "next": "gradual_origins",
     "prev": "cerebellum/movement_is_a_reduce_operation",
-    "index": 45
+    "index": 46
   },
   {
     "id": "gradual_origins",
@@ -2478,22 +2491,26 @@
           "gray-larynx-saggital.png"
         ],
         "htmlFunc": "(_, res) => ` <img class=one-third src='${res['gray-larynx-anterior.png']}'> <img class=one-third src='${res['gray-larynx-front.png']}'> <img class=one-third src='${res['gray-larynx-saggital.png']}'>`",
-        "note": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. How will you speak, Mr. Anderson, without a voice box?    \n",
+        "note": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. Tell me, Mr. Anderson, what good is recursive grammar when you\nare unable to speak?\n",
         "Gesture-first theory": {
           "bg": "white",
           "note": "Michael Corballis and others have offered a solution: language did\nnot arise with speech. It arose with gesture. The first languages\nwere *sign* languages.\n\nAnd this seems at least viable. We know of primates who can use sign\nlanguage. And once sign language is established, there are some good\nadaptive reasons to transition to the spoken word. For one thing, speech\nallows us to communicate over greater distance, when line of sight isn't\navailable, and when our hands are otherwise occupied—possibly with spears.\n\nOf course, the machinery has to change little. We already use acoustic\ninformation to build up a physical model of our surroundings. Tweaking\n*how* that information is integrated seems almost within the plasticity of\nour individual brains, to say nothing of the capacity for evolution to\nchange the structure of those brains.\n"
+        },
+        "Other theories": {
+          "bg": "white",
+          "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n\nBut language has evolved.\n"
         }
       }
     },
     "next": "gradual_origins/the_larynx",
     "prev": "cerebellum/language_is_reduce",
-    "index": 46
+    "index": 47
   },
   {
     "id": "gradual_origins/the_larynx",
     "url": "gradual_origins/the_larynx",
     "class": "gradual_origins-the_larynx",
-    "markdown": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. How will you speak, Mr. Anderson, without a voice box?    \n",
+    "markdown": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. Tell me, Mr. Anderson, what good is recursive grammar when you\nare unable to speak?\n",
     "data": {
       "bg": "white",
       "load": [
@@ -2502,15 +2519,19 @@
         "gray-larynx-saggital.png"
       ],
       "htmlFunc": "(_, res) => ` <img class=one-third src='${res['gray-larynx-anterior.png']}'> <img class=one-third src='${res['gray-larynx-front.png']}'> <img class=one-third src='${res['gray-larynx-saggital.png']}'>`",
-      "note": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. How will you speak, Mr. Anderson, without a voice box?    \n",
+      "note": "Language has deeply shaped our bodies. The human voice box is capable\nof some pretty incredible feats, feats no other animal can quite\nreproduce.\n\nSome birds do a remarkably good facimile, but our primate cousins\ndon't. Tell me, Mr. Anderson, what good is recursive grammar when you\nare unable to speak?\n",
       "Gesture-first theory": {
         "bg": "white",
         "note": "Michael Corballis and others have offered a solution: language did\nnot arise with speech. It arose with gesture. The first languages\nwere *sign* languages.\n\nAnd this seems at least viable. We know of primates who can use sign\nlanguage. And once sign language is established, there are some good\nadaptive reasons to transition to the spoken word. For one thing, speech\nallows us to communicate over greater distance, when line of sight isn't\navailable, and when our hands are otherwise occupied—possibly with spears.\n\nOf course, the machinery has to change little. We already use acoustic\ninformation to build up a physical model of our surroundings. Tweaking\n*how* that information is integrated seems almost within the plasticity of\nour individual brains, to say nothing of the capacity for evolution to\nchange the structure of those brains.\n"
+      },
+      "Other theories": {
+        "bg": "white",
+        "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n\nBut language has evolved.\n"
       }
     },
     "next": "gradual_origins/the_larynx/gesture-first_theory",
     "prev": "gradual_origins",
-    "index": 47
+    "index": 48
   },
   {
     "id": "gradual_origins/the_larynx/gesture-first_theory",
@@ -2521,25 +2542,38 @@
       "bg": "white",
       "note": "Michael Corballis and others have offered a solution: language did\nnot arise with speech. It arose with gesture. The first languages\nwere *sign* languages.\n\nAnd this seems at least viable. We know of primates who can use sign\nlanguage. And once sign language is established, there are some good\nadaptive reasons to transition to the spoken word. For one thing, speech\nallows us to communicate over greater distance, when line of sight isn't\navailable, and when our hands are otherwise occupied—possibly with spears.\n\nOf course, the machinery has to change little. We already use acoustic\ninformation to build up a physical model of our surroundings. Tweaking\n*how* that information is integrated seems almost within the plasticity of\nour individual brains, to say nothing of the capacity for evolution to\nchange the structure of those brains.\n"
     },
-    "next": "the_living_tree_of_language",
+    "next": "gradual_origins/the_larynx/other_theories",
     "prev": "gradual_origins/the_larynx",
-    "index": 48
+    "index": 49
+  },
+  {
+    "id": "gradual_origins/the_larynx/other_theories",
+    "url": "gradual_origins/the_larynx/other_theories",
+    "class": "gradual_origins-the_larynx-other_theories",
+    "markdown": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n\nBut language has evolved.\n",
+    "data": {
+      "bg": "white",
+      "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n\nBut language has evolved.\n"
+    },
+    "next": "the_living_tree_of_language",
+    "prev": "gradual_origins/the_larynx/gesture-first_theory",
+    "index": 50
   },
   {
     "id": "the_living_tree_of_language",
     "url": "the_living_tree_of_language",
     "class": "the_living_tree_of_language",
-    "markdown": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n\nThere are, of course, many more.\n",
+    "markdown": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language spoken\nby people in the Ural steppes four to six thousand years ago.\n\nThere are, of course, many more.\n\nThere were earlier languages we have since forgotten, and it was these\nearlier langauges which shaped our bodies, giving us vocal chords and\ngiving us stories. Narrative, that tremendous technology which gives us\nthread from which we weave our cognitive worlds.\n",
     "data": {
       "img": "language-tree-mina-sundberg.jpg",
       "bg": "black",
       "class": "cover-pan-up",
       "html": "<cite>art by Mina Sundberg</cite>",
-      "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language by people\nin the Ural steppes about six thousand years ago.\n\nThere are, of course, many more.\n"
+      "note": "A perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language spoken\nby people in the Ural steppes four to six thousand years ago.\n\nThere are, of course, many more.\n\nThere were earlier languages we have since forgotten, and it was these\nearlier langauges which shaped our bodies, giving us vocal chords and\ngiving us stories. Narrative, that tremendous technology which gives us\nthread from which we weave our cognitive worlds.\n"
     },
     "next": "power_of_language",
-    "prev": "gradual_origins/the_larynx/gesture-first_theory",
-    "index": 49
+    "prev": "gradual_origins/the_larynx/other_theories",
+    "index": 51
   },
   {
     "id": "power_of_language",
@@ -2561,7 +2595,7 @@
     },
     "next": "power_of_language/a_warm_beach",
     "prev": "the_living_tree_of_language",
-    "index": 50
+    "index": 52
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -2574,7 +2608,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 51
+    "index": 53
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -2587,7 +2621,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/a_warm_beach",
-    "index": 52
+    "index": 54
   },
   {
     "id": "power_of_language/as_coders",
@@ -2600,7 +2634,7 @@
     },
     "next": "language",
     "prev": "power_of_language/crackling_campfire",
-    "index": 53
+    "index": 55
   },
   {
     "id": "language",
@@ -2614,7 +2648,7 @@
     },
     "next": "the_sea0",
     "prev": "power_of_language/as_coders",
-    "index": 54
+    "index": 56
   },
   {
     "id": "the_sea0",
@@ -2625,7 +2659,7 @@
     },
     "next": "the_sea1",
     "prev": "language",
-    "index": 55,
+    "index": 57,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2745,7 +2779,7 @@
     },
     "next": "the_sea2",
     "prev": "the_sea0",
-    "index": 56,
+    "index": 58,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2865,7 +2899,7 @@
     },
     "next": "the_sea3",
     "prev": "the_sea1",
-    "index": 57,
+    "index": 59,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -2985,7 +3019,7 @@
     },
     "next": "the_sea4",
     "prev": "the_sea2",
-    "index": 58,
+    "index": 60,
     "paths": {
       "Stone_line": {
         "id": "Stone_line",
@@ -3105,7 +3139,7 @@
     },
     "next": "the_sea5",
     "prev": "the_sea3",
-    "index": 59,
+    "index": 61,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3225,7 +3259,7 @@
     },
     "next": "the_sea6",
     "prev": "the_sea4",
-    "index": 60,
+    "index": 62,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3345,7 +3379,7 @@
     },
     "next": "the_sea7",
     "prev": "the_sea5",
-    "index": 61,
+    "index": 63,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3465,7 +3499,7 @@
     },
     "next": "the_sea8",
     "prev": "the_sea6",
-    "index": 62,
+    "index": 64,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3603,7 +3637,7 @@
     },
     "next": "the_sea9",
     "prev": "the_sea7",
-    "index": 63,
+    "index": 65,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3750,7 +3784,7 @@
     },
     "next": "the_sea10",
     "prev": "the_sea8",
-    "index": 64,
+    "index": 66,
     "paths": {
       "Space": {
         "id": "Space",
@@ -3878,7 +3912,7 @@
     },
     "next": "the_sea10a",
     "prev": "the_sea9",
-    "index": 65,
+    "index": 67,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4012,7 +4046,7 @@
     },
     "next": "the_sea11",
     "prev": "the_sea10",
-    "index": 66,
+    "index": 68,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4156,7 +4190,7 @@
       "frame": "ending/seed/seed11"
     },
     "prev": "the_sea10a",
-    "index": 67,
+    "index": 69,
     "paths": {
       "Space": {
         "id": "Space",
