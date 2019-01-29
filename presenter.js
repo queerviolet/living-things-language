@@ -11,6 +11,11 @@ class BuildNote {
   constructor(element) {
     this.element = element
     element.className = 'build'
+    if (!Object.getOwnPropertyDescriptor(element, 'time'))
+      Object.defineProperty(element, 'time', {
+        set: time =>
+          this.timer.textContent = time && tformat(time)
+      })
   }
 
   get title() {
@@ -27,10 +32,6 @@ class BuildNote {
 
   get timer() {
     return findOrCreateByClass('div', 'timer', this.element)
-  }
-
-  set time(time) {
-    this.timer.textContent = time && tformat(time)
   }
 
   update({md, order, id, url, wordCount}) {
@@ -95,9 +96,9 @@ const updateScroll = (id=localStorage.currentBuild) => {
 }
 
 const init = () => {
+  updateNotes()
   Object.entries(localStorage)
     .forEach(([key, newValue]) => update({key, newValue}))
-  updateNotes()
 }
 
 function onKey({code}) {
@@ -140,6 +141,7 @@ function setup() {
   addEventListener('keydown', onKey)
   addEventListener('click', onClick)
   __timer.addEventListener('click', onClickTimer)
+  __timer.addEventListener('dblclick', resetTimer)
 
   onDispose(() => {
     removeEventListener('DOMContentLoaded', init)
@@ -147,6 +149,7 @@ function setup() {
     removeEventListener('keydown', onKey)
     removeEventListener('click', onClick)
     __timer.removeEventListener('click', onClickTimer)
+    __timer.removeEventListener('dblclick', resetTimer)
   })
 }
 
@@ -157,11 +160,9 @@ function onClick(e) {
   update({key: 'currentBuild', newValue: build.id})
 }
 
-
 let raf = null
 function onClickTimer() {
   if (raf) {
-    console.log('cancelling', raf)
     cancelAnimationFrame(raf)
     __timer.classList.remove('running')
     raf = null
@@ -204,6 +205,7 @@ const zpad = (x, count=2) => {
 const resetTimer = () => {
   localStorage.removeItem('totalTime')
   update({key: 'totalTime'})
+  __timer_display.textContent = ''
   Object.keys(localStorage)
     .filter(k => k.startsWith('time:'))
     .forEach(key => {
