@@ -7,6 +7,24 @@ simplify_title: &simplify_title
   Roots2: 100
   Shadow: 50
   Tree2: 10
+simplify_title_2: &simplify_title_2
+  Space: 100
+  Earth: 30
+  Layer_1: 8
+  Inside: 500
+  Outside: 500
+  Roots2: 200
+  Shadow: 50
+  Tree2: 15
+simplify_title_3: &simplify_title_3
+  Space: 100
+  Earth: 50
+  Layer_1: 20
+  Inside: 500
+  Outside: 500
+  Roots2: 300
+  Shadow: 50
+  Tree2: 20
 In The Beginning:
   html: Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος
   note: |
@@ -88,16 +106,21 @@ Remember:
     so the hemoglobin inside them can release CO2 and trap oxygen.
     
     You are alive, so you are made up of living things.
-    
-    Remember the cells of your body. Remember the fibers of your muscles.
+  
+  Cells:
+    frame: title
+    simplify: *simplify_title_2
+    note: |
+      Remember the cells of your body. Remember the fibers of your muscles.
 
-    Remember your heart, squeezing and squishing your blood around to drive
-    oxidization in your cells.
-    
-    Remember that oxidization is burning, and so inside of you are thirty seven
-    trillion tiny fires.
+      Remember your heart, squeezing and squishing your blood around to drive
+      oxidization in your cells.
+      
+      Remember that oxidization is burning, and so inside of you are thirty seven
+      trillion tiny fires.
   Crackling:
     frame: title
+    simplify: *simplify_title_3
     note: |
       Remember the crackling of depolarizing membranes in your brain, neurons
       strobing with information.
@@ -726,7 +749,7 @@ The Living Tree of Language:
   Living Things:
     bg: black
     video: dna-drew-berry.mov
-    startAt: 65
+    startAt: 55
     note: |
       Where does language exist? A particular language, the English language,
       where is it?

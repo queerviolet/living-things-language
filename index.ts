@@ -72,29 +72,40 @@ function buildTimeline() {
           return tween
         })
       tl.addLabel(`build-in:${build.id}`)
-      tl.addCallback(() => {
-        console.log('build in', build.id)
-        const sorted = [...layers].sort(
-          (a, b) => {
-            const za = (a && paths[a.index]) ? paths[a.index].zIndex : 0
-            const zb = (b && paths[b.index]) ? paths[b.index].zIndex : 0
-            return za - zb
-          }
-        )
-        sorted.forEach(layer =>
-          layer && layer.parentElement.appendChild(layer))
-      })
       tl.add(tweens)
       tl.addLabel(build.id)
       lastBuildWithFramesId = build.id
     }
     
     build.didEnter = compose(build.didEnter, () => {
+      console.log('did enter', build.id)
+
       const frame = frames[build.id]
       const paths = frame ? frame.paths : []
       let i = paths.length; while (i --> 0) {
         layers[i].setAttribute('class', (paths[i] && paths[i].class) ? paths[i].class : '')
         layers[i].dataset.name = paths[i] && paths[i].id
+      }
+
+      const sorted = [...layers].sort(
+        (a, b) => {
+          const za = (a && paths[a.index]) ? paths[a.index].zIndex : 0
+          const zb = (b && paths[b.index]) ? paths[b.index].zIndex : 0
+          return za - zb
+        }
+      )
+      const existingIds = 
+        Array.from(sorted[0].closest('svg').querySelectorAll('path'))
+          .filter(p => paths[p.dataset.index])
+          .map(l => l.id)
+      const sortedIds = sorted.filter(l => paths[l.index]).map(l => l.id)
+      if (JSON.stringify(existingIds) !== JSON.stringify(sortedIds)) {
+        console.log('resorting for', build.id)
+        console.log(existingIds, sortedIds)
+        sorted.forEach(layer =>
+          layer && layer.parentElement.appendChild(layer))
+      } else {
+        console.log('already sorted for', build.id)
       }
     })
 
