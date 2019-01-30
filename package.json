@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/gsap": "^1.20.0",
+    "charter-webfont": "^3.0.1",
     "color-rgba": "^2.1.0",
     "concurrently": "^4.1.0",
     "js-yaml": "^3.12.1",
