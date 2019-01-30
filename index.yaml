@@ -26,10 +26,13 @@ simplify_title_3: &simplify_title_3
   Shadow: 50
   Tree2: 20
 In The Beginning:
-  html: Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος
+  bg: black
+  html: Ἐν ἀρχῇ ἦν ὁ λόγος<br>καὶ ὁ λόγος ἦν πρὸς τὸν θεόν<br>καὶ θεὸς ἦν ὁ λόγος
   note: |
     In the beginning was the Word
+
     and the Word was with God
+
     and the Word was God
 Hi:
   frame: title
@@ -918,17 +921,19 @@ Don't be afraid:
     note: |
       And we definitely will.
 Seeds:
-  frame: ending/seed/seed04
+  frame: ending/seed/seed04  
   simplify: 5
   note: |
     But I think
   We will also:
     frame: ending/seed/seed05
+    tweenDuration: 2
     simplify: 5
     note: |
       We will also
   Plant seeds:
     frame: ending/seed/seed06
+    tweenDuration: 2
     simplify: 5
     note: |
       Plant seeds
@@ -939,27 +944,24 @@ Seeds:
       That will grow
   Into something new:
     frame: ending/seed/seed08
+    tweenDuration: 2
     simplify: 5
     note: |
       Into something new
   Into new kinds of life:
     bg: space
     frame: ending/seed/seed09
+    tweenDuration: 2
     simplify: 5
     note: |
       Into new kinds of life
-  Into futures:
-    bg: space
-    frame: ending/seed/seed10
-    simplify: 5
-    note: |
-      Into futures
-  We cannot:
+  Into futures unimaginable:
     bg: space
     frame: ending/seed/seed10a
+    tweenDuration: 3
     simplify: 5
     note: |
-      We cannot yet imagine.
+      Into futures we cannot yet imagine.      
   The End:
     bg: space
     frame: ending/seed/seed11
