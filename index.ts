@@ -40,6 +40,7 @@ function createElements() {
       vid.volume = 0
       el.prepend(vid)
       b.didEnter = () => {
+        console.log('did enter', b)
         vid.currentTime = startAt
         vid.play()
       }
@@ -109,17 +110,21 @@ const setBuildState = (build, state: BuildState) => {
   if (!build) return
   const { element } = build
   setBuildClass(element, state)
-  build.state = state
-  switch (state) {
-    case 'active':
-      document.body.className = `${build.class} ${build.data.bg || ''}`
-      return build.didEnter && build.didEnter()
-    case 'staged':
-      return build.willEnter && build.willEnter()
-    case 'was-active':
-      return build.didExit && build.didExit()
-    case 'inactive':
-      return build.didSleep && build.didSleep()
+  try {
+    if (build.state !== state)
+    switch (state) {
+      case 'active':
+        document.body.className = `${build.class} ${build.data.bg || ''}`
+        return build.didEnter && build.didEnter()
+      case 'staged':
+        return build.willEnter && build.willEnter()
+      case 'was-active':
+        return build.didExit && build.didExit()
+      case 'inactive':
+        return build.didSleep && build.didSleep()
+    }
+  } finally {
+    build.state = state
   }
 }
 

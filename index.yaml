@@ -278,7 +278,12 @@ Remember:
 
       There's a lot of theories on how language came to be.
 
-Origins of Language:  
+Origins of Language:
+  bg: black
+  video: dna-drew-berry.mov
+  startAt: 120
+  html: |
+    <cite>Animation: Drew Berry, WEHI</cite>
   note: |
     One theory, favored by Noam Chomsky, says that it arose suddenly, about
     100,000 years ago, the result of a small number of mutations in a singular
@@ -647,33 +652,38 @@ Gradual Origins:
         to truths about language. They all sound plausible enough; we can see
         each theory reflected in our experience of language today.
 
-        But language has evolved.
 The Living Tree of Language:
-  img: language-tree-mina-sundberg.jpg
   bg: black
-  class: cover-pan-up
-  html: <cite>art by Mina Sundberg</cite>
   note: |
-    We have now a perfusion of languages spread across the globe.
+    But language has evolved.
+  Tree:
+    img: language-tree-mina-sundberg.jpg
+    bg: black
+    class: cover-pan-up
+    html: <cite>art by Mina Sundberg</cite>
+    note: |
+      We have now a perfusion of languages spread across the globe.
 
-    This beautiful tree, drawn by Mina Sundberg, just shows the old world
-    languages, those from Europe and Asia.
-    
-    Most of them are descended from Proto-Indo-European, a language spoken
-    by people in the Ural steppes four to six thousand years ago.
+      This beautiful tree, drawn by Mina Sundberg, just shows the old world
+      languages, those from Europe and Asia.
+      
+      Most of them are descended from Proto-Indo-European, a language spoken
+      by people in the Ural steppes four to six thousand years ago.
 
-    There are, of course, many more.
+      There are, of course, many more.
 
-    There were earlier languages we have since forgotten, and it was these
-    earlier langauges which shaped our bodies, giving us vocal chords, and
-    shaped our minds, giving us stories. Narrative, that thread from which
-    we weave our cognitive worlds.
+      There were earlier languages we have since forgotten, and it was these
+      earlier langauges which shaped our bodies, giving us vocal chords, and
+      shaped our minds, giving us stories. Narrative, that thread from which
+      we weave our cognitive worlds.
 
-    That's power. That's magic! Language is a magical creature—a living thing
-    made not of flesh, but of ideas—that has shaped us just as much as we've
-    shaped it.
+      That's power. And it flows both ways. Language, this thing we made without
+      even fully realizing we were making it, has shaped us just as much as we've
+      shaped it.
   Living Things:
     bg: black
+    video: dna-drew-berry.mov
+    startAt: 65
     note: |
       Where does language exist? A particular language, the English language,
       where is it?
@@ -687,40 +697,43 @@ The Living Tree of Language:
       Each one of us holds a shard. Language is organized into shards, just
       as we are organized into cells.
       
-      The shards replicate. They are taught and learned.
-      
-      The shards adapt. The language we learn is not exactly the language
-      we were taught. The language of youngs, rather famously, is not
-      quite the language of olds.
+    Replicate:
+      bg: black
+      note: |
+        The shards replicate. They are taught and learned.
+        
+        The shards adapt. The language we learn is not exactly the language
+        we were taught. The language of youngs, rather famously, is not
+        quite the language of olds.
 
-      Biological systems, too, are made of self-replicating components, and
-      because of this they adapt and grow and come to homeostasis.
-      
-      They are governed by laws of statistical mechanics which guide them
-      into shapes that can effectively obtain energy and convert it into heat.
+        Biological systems, too, are made of self-replicating components, and
+        because of this they adapt and grow and come to homeostasis.
+        
+        They are governed by laws of statistical mechanics which guide them
+        into shapes that can effectively obtain energy and convert it into heat.
 
-      And language too, evolves in this way. Everything we build evolves.
+        And language too, evolves in this way. Everything we build evolves.
 
-      Everything comes alive.
+        Everything comes alive.
 
-      Everything we make joins an ecosystem that includes us.
+        Everything we make joins an ecosystem that includes us.
 
-      That shapes us.
+        That shapes us.
 
-      That, in a real sense, becomes us.
-  Magic:
-    bg: black
-    note: |
-      What we are doing, then—what all of us in this room are doing—
+        That becomes a part of us.
+    Magic:
+      bg: black
+      note: |
+        What we are doing, then—what all of us in this room are doing—
 
-      is Magic.
+        is Magic.
 
-      The oldest magic. Living things creating new living things. Living
-      things reshaping themselves.
+        The oldest magic. Living things creating new living things. Living
+        things reshaping themselves.
 
-      This is a great power.
+        This is a great power.
 
-      And with great power comes... well, you know the rest.
+        And with great power comes... well, you know the rest.
 Power of Language:
   note: |
     The thing about words is that once they're in you, you can't help but

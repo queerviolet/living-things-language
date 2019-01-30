@@ -2875,6 +2875,10 @@
     "class": "origins_of_language",
     "markdown": "One theory, favored by Noam Chomsky, says that it arose suddenly, about\n100,000 years ago, the result of a small number of mutations in a singular\nindividual that gave that person's brain the ability to process what Chomsky\ncalls \"digital infinity\".\n\nThis powerful capability spread like a seed crystal in the early human mind,\nopening up the capacity for language and modern human cognition.\n\nYou may know it by its other name: recursion.\n",
     "data": {
+      "bg": "black",
+      "video": "dna-drew-berry.mov",
+      "startAt": 120,
+      "html": "<cite>Animation: Drew Berry, WEHI</cite>\n",
       "note": "One theory, favored by Noam Chomsky, says that it arose suddenly, about\n100,000 years ago, the result of a small number of mutations in a singular\nindividual that gave that person's brain the ability to process what Chomsky\ncalls \"digital infinity\".\n\nThis powerful capability spread like a seed crystal in the early human mind,\nopening up the capacity for language and modern human cognition.\n\nYou may know it by its other name: recursion.\n"
     },
     "next": "recursion",
@@ -3226,7 +3230,7 @@
         },
         "Other theories": {
           "bg": "white",
-          "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n\nBut language has evolved.\n"
+          "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n"
         }
       }
     },
@@ -3254,7 +3258,7 @@
       },
       "Other theories": {
         "bg": "white",
-        "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n\nBut language has evolved.\n"
+        "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n"
       }
     },
     "next": "gradual_origins/the_larynx/gesture-first_theory",
@@ -3278,10 +3282,10 @@
     "id": "gradual_origins/the_larynx/other_theories",
     "url": "gradual_origins/the_larynx/other_theories",
     "class": "gradual_origins-the_larynx-other_theories",
-    "markdown": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n\nBut language has evolved.\n",
+    "markdown": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n",
     "data": {
       "bg": "white",
-      "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n\nBut language has evolved.\n"
+      "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n"
     },
     "next": "the_living_tree_of_language",
     "prev": "gradual_origins/the_larynx/gesture-first_theory",
@@ -3291,51 +3295,100 @@
     "id": "the_living_tree_of_language",
     "url": "the_living_tree_of_language",
     "class": "the_living_tree_of_language",
-    "markdown": "We have now a perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language spoken\nby people in the Ural steppes four to six thousand years ago.\n\nThere are, of course, many more.\n\nThere were earlier languages we have since forgotten, and it was these\nearlier langauges which shaped our bodies, giving us vocal chords, and\nshaped our minds, giving us stories. Narrative, that thread from which\nwe weave our cognitive worlds.\n\nThat's power. That's magic! Language is a magical creature—a living thing\nmade not of flesh, but of ideas—that has shaped us just as much as we've\nshaped it.\n",
+    "markdown": "But language has evolved.\n",
+    "data": {
+      "bg": "black",
+      "note": "But language has evolved.\n",
+      "Tree": {
+        "img": "language-tree-mina-sundberg.jpg",
+        "bg": "black",
+        "class": "cover-pan-up",
+        "html": "<cite>art by Mina Sundberg</cite>",
+        "note": "We have now a perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language spoken\nby people in the Ural steppes four to six thousand years ago.\n\nThere are, of course, many more.\n\nThere were earlier languages we have since forgotten, and it was these\nearlier langauges which shaped our bodies, giving us vocal chords, and\nshaped our minds, giving us stories. Narrative, that thread from which\nwe weave our cognitive worlds.\n\nThat's power. And it flows both ways. Language, this thing we made without\neven fully realizing we were making it, has shaped us just as much as we've\nshaped it.\n"
+      },
+      "Living Things": {
+        "bg": "black",
+        "video": "dna-drew-berry.mov",
+        "startAt": 65,
+        "note": "Where does language exist? A particular language, the English language,\nwhere is it?\n\nWell, it's in me. It's a program, running in my mind. But not just mine.\nIt's in yours, too. And hers, and his.\n\nIt's a distributed program running on a biological strata. A concept\ngiven tenancy on an infrastructure of many minds.\n\nEach one of us holds a shard. Language is organized into shards, just\nas we are organized into cells.\n",
+        "Replicate": {
+          "bg": "black",
+          "note": "The shards replicate. They are taught and learned.\n\nThe shards adapt. The language we learn is not exactly the language\nwe were taught. The language of youngs, rather famously, is not\nquite the language of olds.\n\nBiological systems, too, are made of self-replicating components, and\nbecause of this they adapt and grow and come to homeostasis.\n\nThey are governed by laws of statistical mechanics which guide them\ninto shapes that can effectively obtain energy and convert it into heat.\n\nAnd language too, evolves in this way. Everything we build evolves.\n\nEverything comes alive.\n\nEverything we make joins an ecosystem that includes us.\n\nThat shapes us.\n\nThat becomes a part of us.\n"
+        },
+        "Magic": {
+          "bg": "black",
+          "note": "What we are doing, then—what all of us in this room are doing—\n\nis Magic.\n\nThe oldest magic. Living things creating new living things. Living\nthings reshaping themselves.\n\nThis is a great power.\n\nAnd with great power comes... well, you know the rest.\n"
+        }
+      }
+    },
+    "next": "the_living_tree_of_language/tree",
+    "prev": "gradual_origins/the_larynx/other_theories",
+    "index": 54
+  },
+  {
+    "id": "the_living_tree_of_language/tree",
+    "url": "the_living_tree_of_language/tree",
+    "class": "the_living_tree_of_language-tree",
+    "markdown": "We have now a perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language spoken\nby people in the Ural steppes four to six thousand years ago.\n\nThere are, of course, many more.\n\nThere were earlier languages we have since forgotten, and it was these\nearlier langauges which shaped our bodies, giving us vocal chords, and\nshaped our minds, giving us stories. Narrative, that thread from which\nwe weave our cognitive worlds.\n\nThat's power. And it flows both ways. Language, this thing we made without\neven fully realizing we were making it, has shaped us just as much as we've\nshaped it.\n",
     "data": {
       "img": "language-tree-mina-sundberg.jpg",
       "bg": "black",
       "class": "cover-pan-up",
       "html": "<cite>art by Mina Sundberg</cite>",
-      "note": "We have now a perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language spoken\nby people in the Ural steppes four to six thousand years ago.\n\nThere are, of course, many more.\n\nThere were earlier languages we have since forgotten, and it was these\nearlier langauges which shaped our bodies, giving us vocal chords, and\nshaped our minds, giving us stories. Narrative, that thread from which\nwe weave our cognitive worlds.\n\nThat's power. That's magic! Language is a magical creature—a living thing\nmade not of flesh, but of ideas—that has shaped us just as much as we've\nshaped it.\n",
-      "Living Things": {
+      "note": "We have now a perfusion of languages spread across the globe.\n\nThis beautiful tree, drawn by Mina Sundberg, just shows the old world\nlanguages, those from Europe and Asia.\n\nMost of them are descended from Proto-Indo-European, a language spoken\nby people in the Ural steppes four to six thousand years ago.\n\nThere are, of course, many more.\n\nThere were earlier languages we have since forgotten, and it was these\nearlier langauges which shaped our bodies, giving us vocal chords, and\nshaped our minds, giving us stories. Narrative, that thread from which\nwe weave our cognitive worlds.\n\nThat's power. And it flows both ways. Language, this thing we made without\neven fully realizing we were making it, has shaped us just as much as we've\nshaped it.\n"
+    },
+    "next": "the_living_tree_of_language/living_things",
+    "prev": "the_living_tree_of_language",
+    "index": 55
+  },
+  {
+    "id": "the_living_tree_of_language/living_things",
+    "url": "the_living_tree_of_language/living_things",
+    "class": "the_living_tree_of_language-living_things",
+    "markdown": "Where does language exist? A particular language, the English language,\nwhere is it?\n\nWell, it's in me. It's a program, running in my mind. But not just mine.\nIt's in yours, too. And hers, and his.\n\nIt's a distributed program running on a biological strata. A concept\ngiven tenancy on an infrastructure of many minds.\n\nEach one of us holds a shard. Language is organized into shards, just\nas we are organized into cells.\n",
+    "data": {
+      "bg": "black",
+      "video": "dna-drew-berry.mov",
+      "startAt": 65,
+      "note": "Where does language exist? A particular language, the English language,\nwhere is it?\n\nWell, it's in me. It's a program, running in my mind. But not just mine.\nIt's in yours, too. And hers, and his.\n\nIt's a distributed program running on a biological strata. A concept\ngiven tenancy on an infrastructure of many minds.\n\nEach one of us holds a shard. Language is organized into shards, just\nas we are organized into cells.\n",
+      "Replicate": {
         "bg": "black",
-        "note": "Where does language exist? A particular language, the English language,\nwhere is it?\n\nWell, it's in me. It's a program, running in my mind. But not just mine.\nIt's in yours, too. And hers, and his.\n\nIt's a distributed program running on a biological strata. A concept\ngiven tenancy on an infrastructure of many minds.\n\nEach one of us holds a shard. Language is organized into shards, just\nas we are organized into cells.\n\nThe shards replicate. They are taught and learned.\n\nThe shards adapt. The language we learn is not exactly the language\nwe were taught. The language of youngs, rather famously, is not\nquite the language of olds.\n\nBiological systems, too, are made of self-replicating components, and\nbecause of this they adapt and grow and come to homeostasis.\n\nThey are governed by laws of statistical mechanics which guide them\ninto shapes that can effectively obtain energy and convert it into heat.\n\nAnd language too, evolves in this way. Everything we build evolves.\n\nEverything comes alive.\n\nEverything we make joins an ecosystem that includes us.\n\nThat shapes us.\n\nThat, in a real sense, becomes us.\n"
+        "note": "The shards replicate. They are taught and learned.\n\nThe shards adapt. The language we learn is not exactly the language\nwe were taught. The language of youngs, rather famously, is not\nquite the language of olds.\n\nBiological systems, too, are made of self-replicating components, and\nbecause of this they adapt and grow and come to homeostasis.\n\nThey are governed by laws of statistical mechanics which guide them\ninto shapes that can effectively obtain energy and convert it into heat.\n\nAnd language too, evolves in this way. Everything we build evolves.\n\nEverything comes alive.\n\nEverything we make joins an ecosystem that includes us.\n\nThat shapes us.\n\nThat becomes a part of us.\n"
       },
       "Magic": {
         "bg": "black",
         "note": "What we are doing, then—what all of us in this room are doing—\n\nis Magic.\n\nThe oldest magic. Living things creating new living things. Living\nthings reshaping themselves.\n\nThis is a great power.\n\nAnd with great power comes... well, you know the rest.\n"
       }
     },
-    "next": "the_living_tree_of_language/living_things",
-    "prev": "gradual_origins/the_larynx/other_theories",
-    "index": 54
+    "next": "the_living_tree_of_language/living_things/replicate",
+    "prev": "the_living_tree_of_language/tree",
+    "index": 56
   },
   {
-    "id": "the_living_tree_of_language/living_things",
-    "url": "the_living_tree_of_language/living_things",
-    "class": "the_living_tree_of_language-living_things",
-    "markdown": "Where does language exist? A particular language, the English language,\nwhere is it?\n\nWell, it's in me. It's a program, running in my mind. But not just mine.\nIt's in yours, too. And hers, and his.\n\nIt's a distributed program running on a biological strata. A concept\ngiven tenancy on an infrastructure of many minds.\n\nEach one of us holds a shard. Language is organized into shards, just\nas we are organized into cells.\n\nThe shards replicate. They are taught and learned.\n\nThe shards adapt. The language we learn is not exactly the language\nwe were taught. The language of youngs, rather famously, is not\nquite the language of olds.\n\nBiological systems, too, are made of self-replicating components, and\nbecause of this they adapt and grow and come to homeostasis.\n\nThey are governed by laws of statistical mechanics which guide them\ninto shapes that can effectively obtain energy and convert it into heat.\n\nAnd language too, evolves in this way. Everything we build evolves.\n\nEverything comes alive.\n\nEverything we make joins an ecosystem that includes us.\n\nThat shapes us.\n\nThat, in a real sense, becomes us.\n",
+    "id": "the_living_tree_of_language/living_things/replicate",
+    "url": "the_living_tree_of_language/living_things/replicate",
+    "class": "the_living_tree_of_language-living_things-replicate",
+    "markdown": "The shards replicate. They are taught and learned.\n\nThe shards adapt. The language we learn is not exactly the language\nwe were taught. The language of youngs, rather famously, is not\nquite the language of olds.\n\nBiological systems, too, are made of self-replicating components, and\nbecause of this they adapt and grow and come to homeostasis.\n\nThey are governed by laws of statistical mechanics which guide them\ninto shapes that can effectively obtain energy and convert it into heat.\n\nAnd language too, evolves in this way. Everything we build evolves.\n\nEverything comes alive.\n\nEverything we make joins an ecosystem that includes us.\n\nThat shapes us.\n\nThat becomes a part of us.\n",
     "data": {
       "bg": "black",
-      "note": "Where does language exist? A particular language, the English language,\nwhere is it?\n\nWell, it's in me. It's a program, running in my mind. But not just mine.\nIt's in yours, too. And hers, and his.\n\nIt's a distributed program running on a biological strata. A concept\ngiven tenancy on an infrastructure of many minds.\n\nEach one of us holds a shard. Language is organized into shards, just\nas we are organized into cells.\n\nThe shards replicate. They are taught and learned.\n\nThe shards adapt. The language we learn is not exactly the language\nwe were taught. The language of youngs, rather famously, is not\nquite the language of olds.\n\nBiological systems, too, are made of self-replicating components, and\nbecause of this they adapt and grow and come to homeostasis.\n\nThey are governed by laws of statistical mechanics which guide them\ninto shapes that can effectively obtain energy and convert it into heat.\n\nAnd language too, evolves in this way. Everything we build evolves.\n\nEverything comes alive.\n\nEverything we make joins an ecosystem that includes us.\n\nThat shapes us.\n\nThat, in a real sense, becomes us.\n"
+      "note": "The shards replicate. They are taught and learned.\n\nThe shards adapt. The language we learn is not exactly the language\nwe were taught. The language of youngs, rather famously, is not\nquite the language of olds.\n\nBiological systems, too, are made of self-replicating components, and\nbecause of this they adapt and grow and come to homeostasis.\n\nThey are governed by laws of statistical mechanics which guide them\ninto shapes that can effectively obtain energy and convert it into heat.\n\nAnd language too, evolves in this way. Everything we build evolves.\n\nEverything comes alive.\n\nEverything we make joins an ecosystem that includes us.\n\nThat shapes us.\n\nThat becomes a part of us.\n"
     },
-    "next": "the_living_tree_of_language/magic",
-    "prev": "the_living_tree_of_language",
-    "index": 55
+    "next": "the_living_tree_of_language/living_things/magic",
+    "prev": "the_living_tree_of_language/living_things",
+    "index": 57
   },
   {
-    "id": "the_living_tree_of_language/magic",
-    "url": "the_living_tree_of_language/magic",
-    "class": "the_living_tree_of_language-magic",
+    "id": "the_living_tree_of_language/living_things/magic",
+    "url": "the_living_tree_of_language/living_things/magic",
+    "class": "the_living_tree_of_language-living_things-magic",
     "markdown": "What we are doing, then—what all of us in this room are doing—\n\nis Magic.\n\nThe oldest magic. Living things creating new living things. Living\nthings reshaping themselves.\n\nThis is a great power.\n\nAnd with great power comes... well, you know the rest.\n",
     "data": {
       "bg": "black",
       "note": "What we are doing, then—what all of us in this room are doing—\n\nis Magic.\n\nThe oldest magic. Living things creating new living things. Living\nthings reshaping themselves.\n\nThis is a great power.\n\nAnd with great power comes... well, you know the rest.\n"
     },
     "next": "power_of_language",
-    "prev": "the_living_tree_of_language/living_things",
-    "index": 56
+    "prev": "the_living_tree_of_language/living_things/replicate",
+    "index": 58
   },
   {
     "id": "power_of_language",
@@ -3385,8 +3438,8 @@
       }
     },
     "next": "power_of_language/a_warm_beach",
-    "prev": "the_living_tree_of_language/magic",
-    "index": 57
+    "prev": "the_living_tree_of_language/living_things/magic",
+    "index": 59
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -3399,7 +3452,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 58
+    "index": 60
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -3418,7 +3471,7 @@
     },
     "next": "power_of_language/crackling_campfire/aflame",
     "prev": "power_of_language/a_warm_beach",
-    "index": 59
+    "index": 61
   },
   {
     "id": "power_of_language/crackling_campfire/aflame",
@@ -3433,7 +3486,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/crackling_campfire",
-    "index": 60,
+    "index": 62,
     "paths": {
       "Darkpatch": {
         "id": "Darkpatch",
@@ -3503,7 +3556,7 @@
     },
     "next": "power_of_language/visceral",
     "prev": "power_of_language/crackling_campfire/aflame",
-    "index": 61
+    "index": 63
   },
   {
     "id": "power_of_language/visceral",
@@ -3516,7 +3569,7 @@
     },
     "next": "power_of_language/trump",
     "prev": "power_of_language/as_coders",
-    "index": 62
+    "index": 64
   },
   {
     "id": "power_of_language/trump",
@@ -3530,7 +3583,7 @@
     },
     "next": "power_of_language/jair",
     "prev": "power_of_language/visceral",
-    "index": 63
+    "index": 65
   },
   {
     "id": "power_of_language/jair",
@@ -3543,7 +3596,7 @@
     },
     "next": "power_of_language/hitler",
     "prev": "power_of_language/trump",
-    "index": 64
+    "index": 66
   },
   {
     "id": "power_of_language/hitler",
@@ -3556,7 +3609,7 @@
     },
     "next": "power_of_language/everything_spreads",
     "prev": "power_of_language/jair",
-    "index": 65
+    "index": 67
   },
   {
     "id": "power_of_language/everything_spreads",
@@ -3569,7 +3622,7 @@
     },
     "next": "don't_be_afraid",
     "prev": "power_of_language/hitler",
-    "index": 66
+    "index": 68
   },
   {
     "id": "don't_be_afraid",
@@ -3610,7 +3663,7 @@
     },
     "next": "don't_be_afraid/magicians",
     "prev": "power_of_language/everything_spreads",
-    "index": 67
+    "index": 69
   },
   {
     "id": "don't_be_afraid/magicians",
@@ -3625,7 +3678,7 @@
     },
     "next": "don't_be_afraid/to_create_things_beyond_our_control",
     "prev": "don't_be_afraid",
-    "index": 68
+    "index": 70
   },
   {
     "id": "don't_be_afraid/to_create_things_beyond_our_control",
@@ -3640,7 +3693,7 @@
     },
     "next": "don't_be_afraid/live_beyond_us",
     "prev": "don't_be_afraid/magicians",
-    "index": 69
+    "index": 71
   },
   {
     "id": "don't_be_afraid/live_beyond_us",
@@ -3655,7 +3708,7 @@
     },
     "next": "don't_be_afraid/and_really_jack_things_up",
     "prev": "don't_be_afraid/to_create_things_beyond_our_control",
-    "index": 70
+    "index": 72
   },
   {
     "id": "don't_be_afraid/and_really_jack_things_up",
@@ -3670,7 +3723,7 @@
     },
     "next": "don't_be_afraid/and_we_will",
     "prev": "don't_be_afraid/live_beyond_us",
-    "index": 71
+    "index": 73
   },
   {
     "id": "don't_be_afraid/and_we_will",
@@ -3683,7 +3736,7 @@
     },
     "next": "seeds",
     "prev": "don't_be_afraid/and_really_jack_things_up",
-    "index": 72
+    "index": 74
   },
   {
     "id": "seeds",
@@ -3741,7 +3794,7 @@
     },
     "next": "seeds/we_will_also",
     "prev": "don't_be_afraid/and_we_will",
-    "index": 73,
+    "index": 75,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3894,7 +3947,7 @@
     },
     "next": "seeds/plant_seeds",
     "prev": "seeds",
-    "index": 74,
+    "index": 76,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -4047,7 +4100,7 @@
     },
     "next": "seeds/will_grow",
     "prev": "seeds/we_will_also",
-    "index": 75,
+    "index": 77,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -4200,7 +4253,7 @@
     },
     "next": "seeds/into_something_new",
     "prev": "seeds/plant_seeds",
-    "index": 76,
+    "index": 78,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4375,7 +4428,7 @@
     },
     "next": "seeds/into_new_kinds_of_life",
     "prev": "seeds/will_grow",
-    "index": 77,
+    "index": 79,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4562,7 +4615,7 @@
     },
     "next": "seeds/into_futures",
     "prev": "seeds/into_something_new",
-    "index": 78,
+    "index": 80,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4725,7 +4778,7 @@
     },
     "next": "seeds/we_cannot",
     "prev": "seeds/into_new_kinds_of_life",
-    "index": 79,
+    "index": 81,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4899,7 +4952,7 @@
     },
     "next": "seeds/the_end",
     "prev": "seeds/into_futures",
-    "index": 80,
+    "index": 82,
     "paths": {
       "Space": {
         "id": "Space",
@@ -5084,7 +5137,7 @@
     },
     "next": "end_title_card",
     "prev": "seeds/we_cannot",
-    "index": 81,
+    "index": 83,
     "paths": {
       "Space": {
         "id": "Space",
@@ -5291,7 +5344,7 @@
       "note": "I'm Ashi Krishnan.    \n"
     },
     "prev": "seeds/the_end",
-    "index": 82,
+    "index": 84,
     "paths": {
       "Space": {
         "id": "Space",
