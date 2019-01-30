@@ -1,5 +1,5 @@
 type Size = {width: number, height: number}
-type Position = {top: number, left: number}
+type Position = {top: number, left: number, bottom: number, right: number}
 type Box = Position & Size
 
 // aspect = width / height
@@ -11,20 +11,30 @@ export default (aspect: number, container: Size): Box => {
     // Container is flatter than content, lock to container
     // height and letterbox on left and right
     const width = aspect * container.height
+    const left = (container.width - width) / 2
+    const height = container.height
+    const top = 0
     return {
       width,
-      height: container.height,
-      top: 0,
-      left: (container.width - width) / 2,
+      height,
+      top,
+      left,
+      bottom: container.height - (top + height),
+      right: container.width - (left + width),
     }
   }
   // Container is taller than content, lock to container
   // width and letterbox on top and bottom
   const height = container.width / aspect
+  const top = (container.height - height) / 2
+  const width = container.width
+  const left = 0
   return {
-    width: container.width,
+    width,
     height,
-    top: (container.height - height) / 2,
-    left: 0,
+    top,
+    left,
+    bottom: container.height - (top + height),
+    right: container.width - (left + width),
   }
 }
