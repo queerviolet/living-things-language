@@ -30,6 +30,9 @@
         "Tree2": 10
       },
       "note": "Hi, my name's Ashi. Today's talk is the first in a series called\n*Living Things*. This one is about language.\n",
+      "I'm making a language": {
+        "note": "I am actually writing a programming language. This is not the big\nreveal. It's not quite ready yet. But what's fascinated me about\nthis process is how it is in some sense completely free. You can\nshape the language like anything.\n\nAnd that is slightly terrifying. It's the thing most like pure math\nthat I've ever done: setting out into the world of concepts and\ndrawing shapes and lines, essentially arbitrarily.\n\nAnd yet, in another sense, it's not arbitrary at all. There are some\ndesign decisions that would be clearly wrong. And others that are—frustratingly,\nusually a bit less clearly—right.\n\nThe language is taking shape, and in some sense, it's taking its own\nshape.\n\nI can tell as I design it that there's something it wants to be.\n"
+      },
       "Languages Are Living Things": {
         "note": "We've all heard that languages are living things. I think we treat this\nas metaphor. Languages that are spoken by people today—those we call \"alive\".\nLanguages that are no longer spoken—or are only spoken by a select\ngroup of academics—those we describe as \"dead\".\n\nFor the next thirty minutes, I want you to try and take this\nas literally as possible. Hopefully I'll do a bit to convince you\nof this. Languages do not breathe, they do not\nmetabolize, but they do shape the worlds of their speakers,\nthey reproduce, they consume resources, they come into equilibria\nwith their environments—environments which, notably, include our minds\nand bodies.\n"
       },
@@ -40,7 +43,7 @@
         "note": "Language has a reputation for being airy. Disconnected from the\nphysical. From our bodies. \"Shhhhhh,\" your lover might say. No\ntalking now. Just dance.\n\nBut this reputation, I think, conceals a vital truth: language\nis a thing of the body. Our bodies are made for language. For sign,\nfor speech, for song. And language is a thing that grows out of\nour bodies, is rooted in movement, has evolved with us, and is as\nmuch a thing of our bodies as our thumbs, as our frontal cortex,\nas our dance.\n\nSo right now...\n"
       }
     },
-    "next": "hi/languages_are_living_things",
+    "next": "hi/i'm_making_a_language",
     "prev": "in_the_beginning",
     "index": 1,
     "paths": {
@@ -229,6 +232,18 @@
     }
   },
   {
+    "id": "hi/i'm_making_a_language",
+    "url": "hi/i'm_making_a_language",
+    "class": "hi-i'm_making_a_language",
+    "markdown": "I am actually writing a programming language. This is not the big\nreveal. It's not quite ready yet. But what's fascinated me about\nthis process is how it is in some sense completely free. You can\nshape the language like anything.\n\nAnd that is slightly terrifying. It's the thing most like pure math\nthat I've ever done: setting out into the world of concepts and\ndrawing shapes and lines, essentially arbitrarily.\n\nAnd yet, in another sense, it's not arbitrary at all. There are some\ndesign decisions that would be clearly wrong. And others that are—frustratingly,\nusually a bit less clearly—right.\n\nThe language is taking shape, and in some sense, it's taking its own\nshape.\n\nI can tell as I design it that there's something it wants to be.\n",
+    "data": {
+      "note": "I am actually writing a programming language. This is not the big\nreveal. It's not quite ready yet. But what's fascinated me about\nthis process is how it is in some sense completely free. You can\nshape the language like anything.\n\nAnd that is slightly terrifying. It's the thing most like pure math\nthat I've ever done: setting out into the world of concepts and\ndrawing shapes and lines, essentially arbitrarily.\n\nAnd yet, in another sense, it's not arbitrary at all. There are some\ndesign decisions that would be clearly wrong. And others that are—frustratingly,\nusually a bit less clearly—right.\n\nThe language is taking shape, and in some sense, it's taking its own\nshape.\n\nI can tell as I design it that there's something it wants to be.\n"
+    },
+    "next": "hi/languages_are_living_things",
+    "prev": "hi",
+    "index": 2
+  },
+  {
     "id": "hi/languages_are_living_things",
     "url": "hi/languages_are_living_things",
     "class": "hi-languages_are_living_things",
@@ -237,8 +252,8 @@
       "note": "We've all heard that languages are living things. I think we treat this\nas metaphor. Languages that are spoken by people today—those we call \"alive\".\nLanguages that are no longer spoken—or are only spoken by a select\ngroup of academics—those we describe as \"dead\".\n\nFor the next thirty minutes, I want you to try and take this\nas literally as possible. Hopefully I'll do a bit to convince you\nof this. Languages do not breathe, they do not\nmetabolize, but they do shape the worlds of their speakers,\nthey reproduce, they consume resources, they come into equilibria\nwith their environments—environments which, notably, include our minds\nand bodies.\n"
     },
     "next": "hi/language_is_powerful",
-    "prev": "hi",
-    "index": 2
+    "prev": "hi/i'm_making_a_language",
+    "index": 3
   },
   {
     "id": "hi/language_is_powerful",
@@ -250,7 +265,7 @@
     },
     "next": "hi/language_is_in_the_body",
     "prev": "hi/languages_are_living_things",
-    "index": 3
+    "index": 4
   },
   {
     "id": "hi/language_is_in_the_body",
@@ -262,7 +277,7 @@
     },
     "next": "remember",
     "prev": "hi/language_is_powerful",
-    "index": 4
+    "index": 5
   },
   {
     "id": "remember",
@@ -386,7 +401,7 @@
     },
     "next": "remember/crackling",
     "prev": "hi/language_is_in_the_body",
-    "index": 5,
+    "index": 6,
     "paths": {
       "Space": {
         "id": "Space",
@@ -583,7 +598,7 @@
     },
     "next": "remember/ten_years_ago",
     "prev": "remember",
-    "index": 6,
+    "index": 7,
     "paths": {
       "Space": {
         "id": "Space",
@@ -780,7 +795,7 @@
     },
     "next": "remember/we_were_creating",
     "prev": "remember/crackling",
-    "index": 7,
+    "index": 8,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -805,7 +820,7 @@
     },
     "next": "remember/talking",
     "prev": "remember/ten_years_ago",
-    "index": 8,
+    "index": 9,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -898,7 +913,7 @@
     },
     "next": "remember/distributed",
     "prev": "remember/we_were_creating",
-    "index": 9,
+    "index": 10,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -983,7 +998,7 @@
     },
     "next": "remember/networked",
     "prev": "remember/talking",
-    "index": 10,
+    "index": 11,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1020,7 +1035,7 @@
     },
     "next": "remember/socially_networked",
     "prev": "remember/distributed",
-    "index": 11,
+    "index": 12,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1057,7 +1072,7 @@
     },
     "next": "remember/look",
     "prev": "remember/networked",
-    "index": 12,
+    "index": 13,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1094,7 +1109,7 @@
     },
     "next": "remember/arab_spring",
     "prev": "remember/socially_networked",
-    "index": 13,
+    "index": 14,
     "paths": {
       "Blossom2": {
         "id": "Blossom2",
@@ -1179,7 +1194,7 @@
     },
     "next": "remember/catalyzed",
     "prev": "remember/look",
-    "index": 14,
+    "index": 15,
     "paths": {
       "Blossom2": {
         "id": "Blossom2",
@@ -1266,7 +1281,7 @@
     },
     "next": "remember/obamas",
     "prev": "remember/arab_spring",
-    "index": 15,
+    "index": 16,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1375,7 +1390,7 @@
     },
     "next": "remember/a_new_culture",
     "prev": "remember/catalyzed",
-    "index": 16,
+    "index": 17,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1697,7 +1712,7 @@
     },
     "next": "remember/without_nations_and_borders",
     "prev": "remember/obamas",
-    "index": 17,
+    "index": 18,
     "paths": {
       "Inside": {
         "id": "Inside",
@@ -1791,7 +1806,7 @@
     },
     "next": "remember/punch_only_masks",
     "prev": "remember/a_new_culture",
-    "index": 18,
+    "index": 19,
     "paths": {
       "g3982": {
         "id": "g3982",
@@ -1878,7 +1893,7 @@
     },
     "next": "remember/racism",
     "prev": "remember/without_nations_and_borders",
-    "index": 19,
+    "index": 20,
     "paths": {
       "0": {
         "id": 0,
@@ -2196,7 +2211,7 @@
     },
     "next": "remember/new_minds",
     "prev": "remember/punch_only_masks",
-    "index": 20,
+    "index": 21,
     "paths": {
       "0": {
         "id": 0,
@@ -2602,7 +2617,7 @@
     },
     "next": "remember/see",
     "prev": "remember/racism",
-    "index": 21,
+    "index": 22,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2662,7 +2677,7 @@
     },
     "next": "remember/want",
     "prev": "remember/new_minds",
-    "index": 22,
+    "index": 23,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2722,7 +2737,7 @@
     },
     "next": "remember/lie",
     "prev": "remember/see",
-    "index": 23,
+    "index": 24,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2782,7 +2797,7 @@
     },
     "next": "remember/retrospect",
     "prev": "remember/want",
-    "index": 24,
+    "index": 25,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2841,7 +2856,7 @@
     },
     "next": "remember/what_happened",
     "prev": "remember/lie",
-    "index": 25
+    "index": 26
   },
   {
     "id": "remember/what_happened",
@@ -2854,7 +2869,7 @@
     },
     "next": "remember/may_not_believe_it_now",
     "prev": "remember/retrospect",
-    "index": 26
+    "index": 27
   },
   {
     "id": "remember/may_not_believe_it_now",
@@ -2867,7 +2882,7 @@
     },
     "next": "origins_of_language",
     "prev": "remember/what_happened",
-    "index": 27
+    "index": 28
   },
   {
     "id": "origins_of_language",
@@ -2883,7 +2898,7 @@
     },
     "next": "recursion",
     "prev": "remember/may_not_believe_it_now",
-    "index": 28
+    "index": 29
   },
   {
     "id": "recursion",
@@ -2900,7 +2915,7 @@
     },
     "next": "recursion/opens_but_never_closes",
     "prev": "origins_of_language",
-    "index": 29
+    "index": 30
   },
   {
     "id": "recursion/opens_but_never_closes",
@@ -2913,7 +2928,7 @@
     },
     "next": "more_common_phrases",
     "prev": "recursion",
-    "index": 30
+    "index": 31
   },
   {
     "id": "more_common_phrases",
@@ -2930,7 +2945,7 @@
     },
     "next": "more_common_phrases/embedding",
     "prev": "recursion/opens_but_never_closes",
-    "index": 31
+    "index": 32
   },
   {
     "id": "more_common_phrases/embedding",
@@ -2943,7 +2958,7 @@
     },
     "next": "the_recursive_mind",
     "prev": "more_common_phrases",
-    "index": 32
+    "index": 33
   },
   {
     "id": "the_recursive_mind",
@@ -2965,7 +2980,7 @@
     },
     "next": "the_recursive_mind/three",
     "prev": "more_common_phrases/embedding",
-    "index": 33
+    "index": 34
   },
   {
     "id": "the_recursive_mind/three",
@@ -2977,7 +2992,7 @@
     },
     "next": "the_recursive_mind/past_present_future",
     "prev": "the_recursive_mind",
-    "index": 34
+    "index": 35
   },
   {
     "id": "the_recursive_mind/past_present_future",
@@ -2989,7 +3004,7 @@
     },
     "next": "the_recursive_mind/we_are_stories",
     "prev": "the_recursive_mind/three",
-    "index": 35
+    "index": 36
   },
   {
     "id": "the_recursive_mind/we_are_stories",
@@ -3001,7 +3016,7 @@
     },
     "next": "subvocalization",
     "prev": "the_recursive_mind/past_present_future",
-    "index": 36
+    "index": 37
   },
   {
     "id": "subvocalization",
@@ -3029,7 +3044,7 @@
     },
     "next": "subvocalization/actually_saying_them",
     "prev": "the_recursive_mind/we_are_stories",
-    "index": 37
+    "index": 38
   },
   {
     "id": "subvocalization/actually_saying_them",
@@ -3041,7 +3056,7 @@
     },
     "next": "subvocalization/echoes",
     "prev": "subvocalization",
-    "index": 38
+    "index": 39
   },
   {
     "id": "subvocalization/echoes",
@@ -3053,7 +3068,7 @@
     },
     "next": "subvocalization/the_loop",
     "prev": "subvocalization/actually_saying_them",
-    "index": 39
+    "index": 40
   },
   {
     "id": "subvocalization/the_loop",
@@ -3065,7 +3080,7 @@
     },
     "next": "subvocalization/reading",
     "prev": "subvocalization/echoes",
-    "index": 40
+    "index": 41
   },
   {
     "id": "subvocalization/reading",
@@ -3077,7 +3092,7 @@
     },
     "next": "subvocalization/evidence",
     "prev": "subvocalization/the_loop",
-    "index": 41
+    "index": 42
   },
   {
     "id": "subvocalization/evidence",
@@ -3089,7 +3104,7 @@
     },
     "next": "subvocal_speech_recognition",
     "prev": "subvocalization/reading",
-    "index": 42
+    "index": 43
   },
   {
     "id": "subvocal_speech_recognition",
@@ -3103,7 +3118,7 @@
     },
     "next": "baddley_diagram_again",
     "prev": "subvocalization/evidence",
-    "index": 43
+    "index": 44
   },
   {
     "id": "baddley_diagram_again",
@@ -3117,13 +3132,13 @@
     },
     "next": "cerebellum",
     "prev": "subvocal_speech_recognition",
-    "index": 44
+    "index": 45
   },
   {
     "id": "cerebellum",
     "url": "cerebellum",
     "class": "cerebellum",
-    "markdown": "The cerebellum is quite special.\nIt contains half the neurons in our nervous system.\nAll action commands from the brain to the body route through it\nAll sensations from the body to the brain, too\nIt has long been recognized as vitally important to our motor coordination.\nLike this: **touch end of clicker**\nPeople with cerebellar damage have difficulty performing this action smoothly.\nWith cerebellar damage, our movements become jerky, laggy.\n",
+    "markdown": "The cerebellum is quite special.\n\nIt contains half the neurons in our nervous system.\n\nAll action commands from the brain to the body route through it\n\nAll sensations from the body to the brain, too\n\nIt has long been recognized as vitally important to our motor coordination.\n\nLike this: **touch end of clicker**\n\nPeople with cerebellar damage have difficulty performing this action smoothly.\n\nWith cerebellar damage, our movements become jerky, laggy.\n",
     "data": {
       "bg": "black",
       "load": [
@@ -3131,7 +3146,7 @@
         "sobo-cerebellum-pink.png"
       ],
       "htmlFunc": "(_, res) => `\n  <img id=grayCerebellum src='${res['gray-cerebellum-pink.png']}'>\n  <img id=soboCerebellum src='${res['sobo-cerebellum-pink.png']}'>\n`\n",
-      "note": "The cerebellum is quite special.\nIt contains half the neurons in our nervous system.\nAll action commands from the brain to the body route through it\nAll sensations from the body to the brain, too\nIt has long been recognized as vitally important to our motor coordination.\nLike this: **touch end of clicker**\nPeople with cerebellar damage have difficulty performing this action smoothly.\nWith cerebellar damage, our movements become jerky, laggy.\n",
+      "note": "The cerebellum is quite special.\n\nIt contains half the neurons in our nervous system.\n\nAll action commands from the brain to the body route through it\n\nAll sensations from the body to the brain, too\n\nIt has long been recognized as vitally important to our motor coordination.\n\nLike this: **touch end of clicker**\n\nPeople with cerebellar damage have difficulty performing this action smoothly.\n\nWith cerebellar damage, our movements become jerky, laggy.\n",
       "Smith Predictor": {
         "bg": "black",
         "html": "<cite>Miall, Weir, Wolpert, and Stein — Is the cerebellum a Smith Predictor? (1993)</cite>\n",
@@ -3145,14 +3160,21 @@
         "bg": "black",
         "note": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n\nWith both language and movement, we are transforming coordinate\nspaces: translating the state of our inner worlds—a point within\nsome space of all possible experiences—into a sequence of moves\nthat will move us to that point.\n\nWhether the point is cognitive or physical doesn't really matter—the\nmath is the same. Language is dance; dance is communication.\n"
       },
+      "Translation Dance": {
+        "bg": "black",
+        "note": "I was just in Mexico. And one evening there, I had the fascinating\nexperience of of listening to some Mexican and Columbian folks talking\n—in Spanish—about the differences between Colombian\nSpanish and Mexican Spanish.\n\nMy Spanish is pretty bad. I didn't know all the words. But I was able\nto follow this conversation.  Partially because a lot of it was literally\nexplanation, but also because... they were dancing around each other.\n\nIt didn't matter that I didn't know all the words, because they were\nexploring the graph, revealing the connections, revealing the topography\nof a cognitive landscape.\n"
+      },
       "Shows Up in How We Talk": {
         "bg": "black",
-        "note": "This shows up in how we talk. A *lot*.\n\nWe take *stances* on issues: yours might be on the left, or the right.\n\nWhen we've said too much, we walk back.\n\nWhen you walk back too often, you're flip-flopping, or dancing around\nthe issue.\n\nWe move towards ideas we want to embody and distance ourselves from\nideas we no longer like.\n\nThese are all metaphors, of course, but I'd argue that our readiness\nto liken concepts to positions suggests that they are processed\nvery similarly in our brains. The newly-evolved faculty of language\nrelying on ancient circuits evolved to do the hardest thing in the world:\nmove around in it.\n"
+        "note": "The physicality of language shows up in other ways. It shows up in how\nwe talk. A *lot*.\n\nWe take *stances* on issues: yours might be on the left, or the right.\n\nWhen we've said too much, we walk back.\n\nWhen you walk back too often, you're flip-flopping, or dancing around\nthe issue.\n\nWe move towards ideas we want to embody and distance ourselves from\nideas we no longer like.\n"
+      },
+      "All Metaphors": {
+        "note": "These are all metaphors, of course, but I'd argue that our readiness\nto liken concepts to positions suggests that they are processed\nvery similarly in our brains. The newly-evolved faculty of language\nrelying on ancient circuits evolved to do the hardest thing in the world:\nmove around in it.\n"
       }
     },
     "next": "cerebellum/smith_predictor",
     "prev": "baddley_diagram_again",
-    "index": 45
+    "index": 46
   },
   {
     "id": "cerebellum/smith_predictor",
@@ -3166,7 +3188,7 @@
     },
     "next": "cerebellum/movement_is_a_reduce_operation",
     "prev": "cerebellum",
-    "index": 46
+    "index": 47
   },
   {
     "id": "cerebellum/movement_is_a_reduce_operation",
@@ -3179,7 +3201,7 @@
     },
     "next": "cerebellum/language_is_reduce",
     "prev": "cerebellum/smith_predictor",
-    "index": 47
+    "index": 48
   },
   {
     "id": "cerebellum/language_is_reduce",
@@ -3190,22 +3212,47 @@
       "bg": "black",
       "note": "Language, too, is a reduce operation.\n\nWhen we're listening, we are reducing a sequence of words into a\nmeaning: a model describing the movement of the speaker in cognitive\nspace.\n\nWhen we speak, we need to serialize an inner meaning into a sequence\nof words.\n\nWith both language and movement, we are transforming coordinate\nspaces: translating the state of our inner worlds—a point within\nsome space of all possible experiences—into a sequence of moves\nthat will move us to that point.\n\nWhether the point is cognitive or physical doesn't really matter—the\nmath is the same. Language is dance; dance is communication.\n"
     },
-    "next": "cerebellum/shows_up_in_how_we_talk",
+    "next": "cerebellum/translation_dance",
     "prev": "cerebellum/movement_is_a_reduce_operation",
-    "index": 48
+    "index": 49
+  },
+  {
+    "id": "cerebellum/translation_dance",
+    "url": "cerebellum/translation_dance",
+    "class": "cerebellum-translation_dance",
+    "markdown": "I was just in Mexico. And one evening there, I had the fascinating\nexperience of of listening to some Mexican and Columbian folks talking\n—in Spanish—about the differences between Colombian\nSpanish and Mexican Spanish.\n\nMy Spanish is pretty bad. I didn't know all the words. But I was able\nto follow this conversation.  Partially because a lot of it was literally\nexplanation, but also because... they were dancing around each other.\n\nIt didn't matter that I didn't know all the words, because they were\nexploring the graph, revealing the connections, revealing the topography\nof a cognitive landscape.\n",
+    "data": {
+      "bg": "black",
+      "note": "I was just in Mexico. And one evening there, I had the fascinating\nexperience of of listening to some Mexican and Columbian folks talking\n—in Spanish—about the differences between Colombian\nSpanish and Mexican Spanish.\n\nMy Spanish is pretty bad. I didn't know all the words. But I was able\nto follow this conversation.  Partially because a lot of it was literally\nexplanation, but also because... they were dancing around each other.\n\nIt didn't matter that I didn't know all the words, because they were\nexploring the graph, revealing the connections, revealing the topography\nof a cognitive landscape.\n"
+    },
+    "next": "cerebellum/shows_up_in_how_we_talk",
+    "prev": "cerebellum/language_is_reduce",
+    "index": 50
   },
   {
     "id": "cerebellum/shows_up_in_how_we_talk",
     "url": "cerebellum/shows_up_in_how_we_talk",
     "class": "cerebellum-shows_up_in_how_we_talk",
-    "markdown": "This shows up in how we talk. A *lot*.\n\nWe take *stances* on issues: yours might be on the left, or the right.\n\nWhen we've said too much, we walk back.\n\nWhen you walk back too often, you're flip-flopping, or dancing around\nthe issue.\n\nWe move towards ideas we want to embody and distance ourselves from\nideas we no longer like.\n\nThese are all metaphors, of course, but I'd argue that our readiness\nto liken concepts to positions suggests that they are processed\nvery similarly in our brains. The newly-evolved faculty of language\nrelying on ancient circuits evolved to do the hardest thing in the world:\nmove around in it.\n",
+    "markdown": "The physicality of language shows up in other ways. It shows up in how\nwe talk. A *lot*.\n\nWe take *stances* on issues: yours might be on the left, or the right.\n\nWhen we've said too much, we walk back.\n\nWhen you walk back too often, you're flip-flopping, or dancing around\nthe issue.\n\nWe move towards ideas we want to embody and distance ourselves from\nideas we no longer like.\n",
     "data": {
       "bg": "black",
-      "note": "This shows up in how we talk. A *lot*.\n\nWe take *stances* on issues: yours might be on the left, or the right.\n\nWhen we've said too much, we walk back.\n\nWhen you walk back too often, you're flip-flopping, or dancing around\nthe issue.\n\nWe move towards ideas we want to embody and distance ourselves from\nideas we no longer like.\n\nThese are all metaphors, of course, but I'd argue that our readiness\nto liken concepts to positions suggests that they are processed\nvery similarly in our brains. The newly-evolved faculty of language\nrelying on ancient circuits evolved to do the hardest thing in the world:\nmove around in it.\n"
+      "note": "The physicality of language shows up in other ways. It shows up in how\nwe talk. A *lot*.\n\nWe take *stances* on issues: yours might be on the left, or the right.\n\nWhen we've said too much, we walk back.\n\nWhen you walk back too often, you're flip-flopping, or dancing around\nthe issue.\n\nWe move towards ideas we want to embody and distance ourselves from\nideas we no longer like.\n"
+    },
+    "next": "cerebellum/all_metaphors",
+    "prev": "cerebellum/translation_dance",
+    "index": 51
+  },
+  {
+    "id": "cerebellum/all_metaphors",
+    "url": "cerebellum/all_metaphors",
+    "class": "cerebellum-all_metaphors",
+    "markdown": "These are all metaphors, of course, but I'd argue that our readiness\nto liken concepts to positions suggests that they are processed\nvery similarly in our brains. The newly-evolved faculty of language\nrelying on ancient circuits evolved to do the hardest thing in the world:\nmove around in it.\n",
+    "data": {
+      "note": "These are all metaphors, of course, but I'd argue that our readiness\nto liken concepts to positions suggests that they are processed\nvery similarly in our brains. The newly-evolved faculty of language\nrelying on ancient circuits evolved to do the hardest thing in the world:\nmove around in it.\n"
     },
     "next": "gradual_origins",
-    "prev": "cerebellum/language_is_reduce",
-    "index": 49
+    "prev": "cerebellum/shows_up_in_how_we_talk",
+    "index": 52
   },
   {
     "id": "gradual_origins",
@@ -3230,13 +3277,13 @@
         },
         "Other theories": {
           "bg": "white",
-          "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n"
+          "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n"
         }
       }
     },
     "next": "gradual_origins/the_larynx",
-    "prev": "cerebellum/shows_up_in_how_we_talk",
-    "index": 50
+    "prev": "cerebellum/all_metaphors",
+    "index": 53
   },
   {
     "id": "gradual_origins/the_larynx",
@@ -3258,12 +3305,12 @@
       },
       "Other theories": {
         "bg": "white",
-        "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n"
+        "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n"
       }
     },
     "next": "gradual_origins/the_larynx/gesture-first_theory",
     "prev": "gradual_origins",
-    "index": 51
+    "index": 54
   },
   {
     "id": "gradual_origins/the_larynx/gesture-first_theory",
@@ -3276,20 +3323,20 @@
     },
     "next": "gradual_origins/the_larynx/other_theories",
     "prev": "gradual_origins/the_larynx",
-    "index": 52
+    "index": 55
   },
   {
     "id": "gradual_origins/the_larynx/other_theories",
     "url": "gradual_origins/the_larynx/other_theories",
     "class": "gradual_origins-the_larynx-other_theories",
-    "markdown": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n",
+    "markdown": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n",
     "data": {
       "bg": "white",
-      "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos and\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n"
+      "note": "There are other gradualist theories of the origin of language. Some folks\nsay language began as grunts intended to synchronize manual labor. Heave, ho.\n\nOthers—and I do love this theory—say that it began as baby talk: coos\nand babble between mothers and children that slowly gained semantics.\n\nSome literally say that language started as dance.\n\nI doubt we'll ever be able to truly disentangle which of these theories\nactually happened. Not that it matters so much. All these theories speak\nto truths about language. They all sound plausible enough; we can see\neach theory reflected in our experience of language today.\n"
     },
     "next": "the_living_tree_of_language",
     "prev": "gradual_origins/the_larynx/gesture-first_theory",
-    "index": 53
+    "index": 56
   },
   {
     "id": "the_living_tree_of_language",
@@ -3323,7 +3370,7 @@
     },
     "next": "the_living_tree_of_language/tree",
     "prev": "gradual_origins/the_larynx/other_theories",
-    "index": 54
+    "index": 57
   },
   {
     "id": "the_living_tree_of_language/tree",
@@ -3339,7 +3386,7 @@
     },
     "next": "the_living_tree_of_language/living_things",
     "prev": "the_living_tree_of_language",
-    "index": 55
+    "index": 58
   },
   {
     "id": "the_living_tree_of_language/living_things",
@@ -3362,7 +3409,7 @@
     },
     "next": "the_living_tree_of_language/living_things/replicate",
     "prev": "the_living_tree_of_language/tree",
-    "index": 56
+    "index": 59
   },
   {
     "id": "the_living_tree_of_language/living_things/replicate",
@@ -3375,7 +3422,7 @@
     },
     "next": "the_living_tree_of_language/living_things/magic",
     "prev": "the_living_tree_of_language/living_things",
-    "index": 57
+    "index": 60
   },
   {
     "id": "the_living_tree_of_language/living_things/magic",
@@ -3388,7 +3435,7 @@
     },
     "next": "power_of_language",
     "prev": "the_living_tree_of_language/living_things/replicate",
-    "index": 58
+    "index": 61
   },
   {
     "id": "power_of_language",
@@ -3439,7 +3486,7 @@
     },
     "next": "power_of_language/a_warm_beach",
     "prev": "the_living_tree_of_language/living_things/magic",
-    "index": 59
+    "index": 62
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -3452,7 +3499,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 60
+    "index": 63
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -3471,7 +3518,7 @@
     },
     "next": "power_of_language/crackling_campfire/aflame",
     "prev": "power_of_language/a_warm_beach",
-    "index": 61
+    "index": 64
   },
   {
     "id": "power_of_language/crackling_campfire/aflame",
@@ -3486,7 +3533,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/crackling_campfire",
-    "index": 62,
+    "index": 65,
     "paths": {
       "Darkpatch": {
         "id": "Darkpatch",
@@ -3556,7 +3603,7 @@
     },
     "next": "power_of_language/visceral",
     "prev": "power_of_language/crackling_campfire/aflame",
-    "index": 63
+    "index": 66
   },
   {
     "id": "power_of_language/visceral",
@@ -3569,7 +3616,7 @@
     },
     "next": "power_of_language/trump",
     "prev": "power_of_language/as_coders",
-    "index": 64
+    "index": 67
   },
   {
     "id": "power_of_language/trump",
@@ -3583,7 +3630,7 @@
     },
     "next": "power_of_language/jair",
     "prev": "power_of_language/visceral",
-    "index": 65
+    "index": 68
   },
   {
     "id": "power_of_language/jair",
@@ -3596,7 +3643,7 @@
     },
     "next": "power_of_language/hitler",
     "prev": "power_of_language/trump",
-    "index": 66
+    "index": 69
   },
   {
     "id": "power_of_language/hitler",
@@ -3609,7 +3656,7 @@
     },
     "next": "power_of_language/everything_spreads",
     "prev": "power_of_language/jair",
-    "index": 67
+    "index": 70
   },
   {
     "id": "power_of_language/everything_spreads",
@@ -3622,7 +3669,7 @@
     },
     "next": "don't_be_afraid",
     "prev": "power_of_language/hitler",
-    "index": 68
+    "index": 71
   },
   {
     "id": "don't_be_afraid",
@@ -3663,7 +3710,7 @@
     },
     "next": "don't_be_afraid/magicians",
     "prev": "power_of_language/everything_spreads",
-    "index": 69
+    "index": 72
   },
   {
     "id": "don't_be_afraid/magicians",
@@ -3678,7 +3725,7 @@
     },
     "next": "don't_be_afraid/to_create_things_beyond_our_control",
     "prev": "don't_be_afraid",
-    "index": 70
+    "index": 73
   },
   {
     "id": "don't_be_afraid/to_create_things_beyond_our_control",
@@ -3693,7 +3740,7 @@
     },
     "next": "don't_be_afraid/live_beyond_us",
     "prev": "don't_be_afraid/magicians",
-    "index": 71
+    "index": 74
   },
   {
     "id": "don't_be_afraid/live_beyond_us",
@@ -3708,7 +3755,7 @@
     },
     "next": "don't_be_afraid/and_really_jack_things_up",
     "prev": "don't_be_afraid/to_create_things_beyond_our_control",
-    "index": 72
+    "index": 75
   },
   {
     "id": "don't_be_afraid/and_really_jack_things_up",
@@ -3723,7 +3770,7 @@
     },
     "next": "don't_be_afraid/and_we_will",
     "prev": "don't_be_afraid/live_beyond_us",
-    "index": 73
+    "index": 76
   },
   {
     "id": "don't_be_afraid/and_we_will",
@@ -3736,7 +3783,7 @@
     },
     "next": "seeds",
     "prev": "don't_be_afraid/and_really_jack_things_up",
-    "index": 74
+    "index": 77
   },
   {
     "id": "seeds",
@@ -3794,7 +3841,7 @@
     },
     "next": "seeds/we_will_also",
     "prev": "don't_be_afraid/and_we_will",
-    "index": 75,
+    "index": 78,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -3947,7 +3994,7 @@
     },
     "next": "seeds/plant_seeds",
     "prev": "seeds",
-    "index": 76,
+    "index": 79,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -4100,7 +4147,7 @@
     },
     "next": "seeds/will_grow",
     "prev": "seeds/we_will_also",
-    "index": 77,
+    "index": 80,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -4253,7 +4300,7 @@
     },
     "next": "seeds/into_something_new",
     "prev": "seeds/plant_seeds",
-    "index": 78,
+    "index": 81,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4428,7 +4475,7 @@
     },
     "next": "seeds/into_new_kinds_of_life",
     "prev": "seeds/will_grow",
-    "index": 79,
+    "index": 82,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4615,7 +4662,7 @@
     },
     "next": "seeds/into_futures",
     "prev": "seeds/into_something_new",
-    "index": 80,
+    "index": 83,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4778,7 +4825,7 @@
     },
     "next": "seeds/we_cannot",
     "prev": "seeds/into_new_kinds_of_life",
-    "index": 81,
+    "index": 84,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4952,7 +4999,7 @@
     },
     "next": "seeds/the_end",
     "prev": "seeds/into_futures",
-    "index": 82,
+    "index": 85,
     "paths": {
       "Space": {
         "id": "Space",
@@ -5137,7 +5184,7 @@
     },
     "next": "end_title_card",
     "prev": "seeds/we_cannot",
-    "index": 83,
+    "index": 86,
     "paths": {
       "Space": {
         "id": "Space",
@@ -5344,7 +5391,7 @@
       "note": "I'm Ashi Krishnan.    \n"
     },
     "prev": "seeds/the_end",
-    "index": 84,
+    "index": 87,
     "paths": {
       "Space": {
         "id": "Space",

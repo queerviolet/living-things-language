@@ -20,6 +20,25 @@ Hi:
   note: |
     Hi, my name's Ashi. Today's talk is the first in a series called
     *Living Things*. This one is about language.
+  I'm making a language:
+    note: |
+      I am actually writing a programming language. This is not the big
+      reveal. It's not quite ready yet. But what's fascinated me about
+      this process is how it is in some sense completely free. You can
+      shape the language like anything.
+
+      And that is slightly terrifying. It's the thing most like pure math
+      that I've ever done: setting out into the world of concepts and
+      drawing shapes and lines, essentially arbitrarily.
+
+      And yet, in another sense, it's not arbitrary at all. There are some
+      design decisions that would be clearly wrong. And others that are—frustratingly,
+      usually a bit less clearly—right.
+
+      The language is taking shape, and in some sense, it's taking its own
+      shape.
+      
+      I can tell as I design it that there's something it wants to be.
   Languages Are Living Things:
     note: |
       We've all heard that languages are living things. I think we treat this
@@ -505,12 +524,19 @@ Cerebellum:
     `
   note: |
     The cerebellum is quite special.
+    
     It contains half the neurons in our nervous system.
+
     All action commands from the brain to the body route through it
+    
     All sensations from the body to the brain, too
+    
     It has long been recognized as vitally important to our motor coordination.
+    
     Like this: **touch end of clicker**
+    
     People with cerebellar damage have difficulty performing this action smoothly.
+    
     With cerebellar damage, our movements become jerky, laggy.
   Smith Predictor:
     bg: black
@@ -566,10 +592,26 @@ Cerebellum:
 
       Whether the point is cognitive or physical doesn't really matter—the
       math is the same. Language is dance; dance is communication.
+  Translation Dance:
+    bg: black
+    note: |
+      I was just in Mexico. And one evening there, I had the fascinating
+      experience of of listening to some Mexican and Columbian folks talking
+      —in Spanish—about the differences between Colombian
+      Spanish and Mexican Spanish.
+
+      My Spanish is pretty bad. I didn't know all the words. But I was able
+      to follow this conversation.  Partially because a lot of it was literally
+      explanation, but also because... they were dancing around each other.
+      
+      It didn't matter that I didn't know all the words, because they were
+      exploring the graph, revealing the connections, revealing the topography
+      of a cognitive landscape.
   Shows Up in How We Talk:
     bg: black
     note: |
-      This shows up in how we talk. A *lot*.
+      The physicality of language shows up in other ways. It shows up in how
+      we talk. A *lot*.
       
       We take *stances* on issues: yours might be on the left, or the right.
 
@@ -580,7 +622,8 @@ Cerebellum:
 
       We move towards ideas we want to embody and distance ourselves from
       ideas we no longer like.
-
+  All Metaphors:
+    note: |
       These are all metaphors, of course, but I'd argue that our readiness
       to liken concepts to positions suggests that they are processed
       very similarly in our brains. The newly-evolved faculty of language
@@ -642,7 +685,7 @@ Gradual Origins:
         There are other gradualist theories of the origin of language. Some folks
         say language began as grunts intended to synchronize manual labor. Heave, ho.
 
-        Others—and I do love this theory—say that it began as baby talk: coos and
+        Others—and I do love this theory—say that it began as baby talk: coos
         and babble between mothers and children that slowly gained semantics.
 
         Some literally say that language started as dance.
