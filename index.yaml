@@ -77,18 +77,20 @@ Remember:
     
     Remember that oxidization is burning, and so inside of you are thirty seven
     trillion tiny fires.
-    
-    Remember the crackling of depolarizing membranes in your brain, neurons
-    strobing with information.
-    
-    You are alive, so you are a part of living things. You are a cell
-    within tissues shaped like cities and families and nations.
+  Crackling:
+    frame: title
+    note: |
+      Remember the crackling of depolarizing membranes in your brain, neurons
+      strobing with information.
+      
+      You are alive, so you are a part of living things. You are a cell
+      within tissues shaped like cities and families and nations.
 
-    You are alive, so you hvae come from living things.
-    Remember your ancestors. Remember the story that has brought you here.
-    Remember your past.
+      You are alive, so you hvae come from living things.
+      Remember your ancestors. Remember the story that has brought you here.
+      Remember your past.
 
-    Remember... about ten years ago.
+      Remember... about ten years ago.
   Ten Years Ago:
     frame: white
     note: Remember ten years ago?
@@ -671,6 +673,7 @@ The Living Tree of Language:
     made not of flesh, but of ideas—that has shaped us just as much as we've
     shaped it.
   Living Things:
+    bg: black
     note: |
       Where does language exist? A particular language, the English language,
       where is it?
@@ -706,6 +709,7 @@ The Living Tree of Language:
 
       That, in a real sense, becomes us.
   Magic:
+    bg: black
     note: |
       What we are doing, then—what all of us in this room are doing—
 

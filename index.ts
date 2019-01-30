@@ -54,14 +54,13 @@ function createElements() {
 function buildTimeline() {
   const { numTracks, frames } = script.reduce(toSequence, {})
   ;(window as any).frames = frames
-  const layers = Array.from({ length: numTracks }, (_, i) => pathWithId(`layer_${i}`))
+  const layers = Array.from({ length: numTracks }, (_, i) => layerForTrack(i))
  
   let lastBuildWithFramesId = null
   script.forEach(build => {
     const frame = frames[build.id]
     const paths = frame.paths    
     if (!paths.find(Boolean) && build.id.startsWith(lastBuildWithFramesId)) {
-      console.log('sub', build.id, lastBuildWithFramesId)
       tl.addLabel(`build-in:${build.id}`)
       tl.addLabel(build.id)
     } else {
@@ -72,6 +71,18 @@ function buildTimeline() {
           return tween
         })
       tl.addLabel(`build-in:${build.id}`)
+      tl.addCallback(() => {
+        console.log('build in', build.id)
+        const sorted = [...layers].sort(
+          (a, b) => {
+            const za = (a && paths[a.index]) ? paths[a.index].zIndex : 0
+            const zb = (b && paths[b.index]) ? paths[b.index].zIndex : 0
+            return za - zb
+          }
+        )
+        sorted.forEach(layer =>
+          layer && layer.parentElement.appendChild(layer))
+      })
       tl.add(tweens)
       tl.addLabel(build.id)
       lastBuildWithFramesId = build.id
@@ -140,11 +151,22 @@ const CIRCLE = {
   'stroke-width': 1,
 }
 
-function pathWithId(id: string) {
+interface IndexedLayer extends SVGPathElement {
+  index?: number
+}
+
+const isIndexedLayer =
+  (e: any): e is IndexedLayer =>
+    e instanceof SVGPathElement
+
+function layerForTrack(i: number): IndexedLayer {
+  const id = `layer_${i}`
   const p = document.getElementById(id)
-  if (p) return p
-  const path = document.createElementNS('http://www.w3.org/2000/svg', 'path')
+  if (isIndexedLayer(p)) return p
+  const path: IndexedLayer = document.createElementNS('http://www.w3.org/2000/svg', 'path')
   path.id = id
+  path.index = i
+  path.dataset.index = String(i)
   svg.appendChild(path)
   Object.keys(CIRCLE).forEach(k =>
     k !== 'morphSVG' && path.setAttribute(k, CIRCLE[k]))
