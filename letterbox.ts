@@ -1,6 +1,6 @@
 type Size = {width: number, height: number}
 type Position = {top: number, left: number, bottom: number, right: number}
-type Box = Position & Size
+export type Box = Position & Size
 
 // aspect = width / height
 // width = aspect * height

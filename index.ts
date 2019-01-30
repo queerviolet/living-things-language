@@ -296,8 +296,9 @@ function setupNavigation() {
   }
 }
 
-import letterbox from './letterbox'
+import letterbox, { Box } from './letterbox'
 function setupWindowSize() {
+  let handle = null
   function onResize() {
     const box =
       letterbox(16 / 9, {width: innerWidth, height: innerHeight})
