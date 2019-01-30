@@ -72,3 +72,26 @@
   .absolute(@top: 50%, @left: 50%, @width: auto, @height: auto);
   transform: translate3d(-50%, -50%, 0);
 }
+
+.letterbox-bar(@color: black) {
+  background: black;
+  position: fixed;
+  z-index: 2000;
+  box-sizing: border-box;
+}
+
+#letterbox-bar-1 {
+  .letterbox-bar();
+  top: var(--letterbox-bars-0-top);
+  left: var(--letterbox-bars-0-left);
+  width: var(--letterbox-bars-0-width);
+  height: var(--letterbox-bars-0-height);
+}
+
+#letterbox-bar-2 {
+  .letterbox-bar();
+  top: var(--letterbox-bars-1-top);
+  left: var(--letterbox-bars-1-left);
+  width: var(--letterbox-bars-1-width);
+  height: var(--letterbox-bars-1-height);
+}

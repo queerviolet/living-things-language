@@ -307,24 +307,8 @@ function setupNavigation() {
   }
 }
 
-import letterbox, { Box } from './letterbox'
-function setupWindowSize() {
-  let handle = null
-  function onResize() {
-    const box =
-      letterbox(16 / 9, {width: innerWidth, height: innerHeight})
-    Object.keys(box).forEach(k => 
-      document.body.style.setProperty(`--letterbox-${k}`, px(box[k]))
-    )
-  }
-  window.addEventListener('resize', onResize)
-  onResize()
-  onDispose(() => window.removeEventListener('resize', onResize))
-}
-
-const px = (px: number) => `${px}px`
-
-setupWindowSize()
+import {applyLetterbox} from './letterbox'
+applyLetterbox(16 / 9)
 createElements()
 buildTimeline()
 animateFloaties()

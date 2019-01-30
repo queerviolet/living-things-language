@@ -3410,6 +3410,7 @@
         "note": "The physicality of language shows up in other ways. It shows up in how\nwe talk. A *lot*.\n\nWe take *stances* on issues: yours might be on the left, or the right.\n\nWhen we've said too much, we walk back.\n\nWhen you walk back too often, you're flip-flopping, or dancing around\nthe issue.\n\nWe move towards ideas we want to embody and distance ourselves from\nideas we no longer like.\n"
       },
       "All Metaphors": {
+        "bg": "black",
         "note": "These are all metaphors, of course, but I'd argue that our readiness\nto liken concepts to positions suggests that they are processed\nvery similarly in our brains. The newly-evolved faculty of language\nrelying on ancient circuits evolved to do the hardest thing in the world:\nmove around in it.\n"
       }
     },
@@ -3489,6 +3490,7 @@
     "class": "cerebellum-all_metaphors",
     "markdown": "These are all metaphors, of course, but I'd argue that our readiness\nto liken concepts to positions suggests that they are processed\nvery similarly in our brains. The newly-evolved faculty of language\nrelying on ancient circuits evolved to do the hardest thing in the world:\nmove around in it.\n",
     "data": {
+      "bg": "black",
       "note": "These are all metaphors, of course, but I'd argue that our readiness\nto liken concepts to positions suggests that they are processed\nvery similarly in our brains. The newly-evolved faculty of language\nrelying on ancient circuits evolved to do the hardest thing in the world:\nmove around in it.\n"
     },
     "next": "gradual_origins",
