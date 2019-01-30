@@ -3919,10 +3919,25 @@
     "id": "don't_be_afraid",
     "url": "don't_be_afraid",
     "class": "don't_be_afraid",
-    "markdown": "Don't be afraid.\n\nMy purpose here isn't to strike fear into your heart.\n\nIt's to help you remember something you already know.\n\nWe are all magicians.\n",
+    "markdown": "Don't be afraid.\n",
     "data": {
       "bg": "black",
-      "note": "Don't be afraid.\n\nMy purpose here isn't to strike fear into your heart.\n\nIt's to help you remember something you already know.\n\nWe are all magicians.\n",
+      "note": "Don't be afraid.\n",
+      "When the Angels": {
+        "bg": "black",
+        "html": "“When angels speak of love they tell us it is only by loving that we enter an earthly paradise. They tell us paradise is our home and love our true destiny.” <cite>bell hooks</cite>",
+        "note": "My purpose here isn't to strike fear into your heart.\n"
+      },
+      "No Longer Accepting": {
+        "bg": "black",
+        "html": "“I am no longer accepting the things I cannot change.<br>I am changing the things I cannot accept.” <cite>Angela Davis</cite>",
+        "note": "It's to help you remember something you already know.\n"
+      },
+      "Another world": {
+        "bg": "black",
+        "html": "“Another world is not only possible, she is on her way.<br>On a quiet day, I can hear her breathing.” <cite>Arundhati Roy</cite>",
+        "note": "We are all magicians.\n"
+      },
       "Magicians": {
         "bg": "black",
         "video": "sorcerers-apprentice.mp4",
@@ -3952,9 +3967,51 @@
         "note": "And we definitely will.\n"
       }
     },
-    "next": "don't_be_afraid/magicians",
+    "next": "don't_be_afraid/when_the_angels",
     "prev": "power_of_language/everything_spreads",
     "index": 73
+  },
+  {
+    "id": "don't_be_afraid/when_the_angels",
+    "url": "don't_be_afraid/when_the_angels",
+    "class": "don't_be_afraid-when_the_angels",
+    "markdown": "My purpose here isn't to strike fear into your heart.\n",
+    "data": {
+      "bg": "black",
+      "html": "“When angels speak of love they tell us it is only by loving that we enter an earthly paradise. They tell us paradise is our home and love our true destiny.” <cite>bell hooks</cite>",
+      "note": "My purpose here isn't to strike fear into your heart.\n"
+    },
+    "next": "don't_be_afraid/no_longer_accepting",
+    "prev": "don't_be_afraid",
+    "index": 74
+  },
+  {
+    "id": "don't_be_afraid/no_longer_accepting",
+    "url": "don't_be_afraid/no_longer_accepting",
+    "class": "don't_be_afraid-no_longer_accepting",
+    "markdown": "It's to help you remember something you already know.\n",
+    "data": {
+      "bg": "black",
+      "html": "“I am no longer accepting the things I cannot change.<br>I am changing the things I cannot accept.” <cite>Angela Davis</cite>",
+      "note": "It's to help you remember something you already know.\n"
+    },
+    "next": "don't_be_afraid/another_world",
+    "prev": "don't_be_afraid/when_the_angels",
+    "index": 75
+  },
+  {
+    "id": "don't_be_afraid/another_world",
+    "url": "don't_be_afraid/another_world",
+    "class": "don't_be_afraid-another_world",
+    "markdown": "We are all magicians.\n",
+    "data": {
+      "bg": "black",
+      "html": "“Another world is not only possible, she is on her way.<br>On a quiet day, I can hear her breathing.” <cite>Arundhati Roy</cite>",
+      "note": "We are all magicians.\n"
+    },
+    "next": "don't_be_afraid/magicians",
+    "prev": "don't_be_afraid/no_longer_accepting",
+    "index": 76
   },
   {
     "id": "don't_be_afraid/magicians",
@@ -3968,8 +4025,8 @@
       "note": "We the living things of earth have created this world.\n\nWe have created its joys and its sorrows.\n\nWe have within us incredible power.\n\nTo heal, to shape, to create.\n"
     },
     "next": "don't_be_afraid/to_create_things_beyond_our_control",
-    "prev": "don't_be_afraid",
-    "index": 74
+    "prev": "don't_be_afraid/another_world",
+    "index": 77
   },
   {
     "id": "don't_be_afraid/to_create_things_beyond_our_control",
@@ -3984,7 +4041,7 @@
     },
     "next": "don't_be_afraid/live_beyond_us",
     "prev": "don't_be_afraid/magicians",
-    "index": 75
+    "index": 78
   },
   {
     "id": "don't_be_afraid/live_beyond_us",
@@ -3999,7 +4056,7 @@
     },
     "next": "don't_be_afraid/and_really_jack_things_up",
     "prev": "don't_be_afraid/to_create_things_beyond_our_control",
-    "index": 76
+    "index": 79
   },
   {
     "id": "don't_be_afraid/and_really_jack_things_up",
@@ -4014,7 +4071,7 @@
     },
     "next": "don't_be_afraid/and_we_will",
     "prev": "don't_be_afraid/live_beyond_us",
-    "index": 77
+    "index": 80
   },
   {
     "id": "don't_be_afraid/and_we_will",
@@ -4027,7 +4084,7 @@
     },
     "next": "seeds",
     "prev": "don't_be_afraid/and_really_jack_things_up",
-    "index": 78
+    "index": 81
   },
   {
     "id": "seeds",
@@ -4084,7 +4141,7 @@
     },
     "next": "seeds/we_will_also",
     "prev": "don't_be_afraid/and_we_will",
-    "index": 79,
+    "index": 82,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -4238,7 +4295,7 @@
     },
     "next": "seeds/plant_seeds",
     "prev": "seeds",
-    "index": 80,
+    "index": 83,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -4392,7 +4449,7 @@
     },
     "next": "seeds/will_grow",
     "prev": "seeds/we_will_also",
-    "index": 81,
+    "index": 84,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -4545,7 +4602,7 @@
     },
     "next": "seeds/into_something_new",
     "prev": "seeds/plant_seeds",
-    "index": 82,
+    "index": 85,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4721,7 +4778,7 @@
     },
     "next": "seeds/into_new_kinds_of_life",
     "prev": "seeds/will_grow",
-    "index": 83,
+    "index": 86,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4909,7 +4966,7 @@
     },
     "next": "seeds/into_futures_unimaginable",
     "prev": "seeds/into_something_new",
-    "index": 84,
+    "index": 87,
     "paths": {
       "Space": {
         "id": "Space",
@@ -5073,7 +5130,7 @@
     },
     "next": "seeds/the_end",
     "prev": "seeds/into_new_kinds_of_life",
-    "index": 85,
+    "index": 88,
     "paths": {
       "Space": {
         "id": "Space",
@@ -5258,7 +5315,7 @@
     },
     "next": "end_title_card",
     "prev": "seeds/into_futures_unimaginable",
-    "index": 86,
+    "index": 89,
     "paths": {
       "Space": {
         "id": "Space",
@@ -5465,7 +5522,7 @@
       "note": "I'm Ashi Krishnan.    \n"
     },
     "prev": "seeds/the_end",
-    "index": 87,
+    "index": 90,
     "paths": {
       "Space": {
         "id": "Space",

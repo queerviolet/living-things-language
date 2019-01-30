@@ -880,12 +880,29 @@ Don't be afraid:
   bg: black
   note: |
     Don't be afraid.
-
-    My purpose here isn't to strike fear into your heart.
-
-    It's to help you remember something you already know.
-
-    We are all magicians.
+  When the Angels:
+    bg: black
+    html:
+      “When angels speak of love they tell us it is only by
+      loving that we enter an earthly paradise. They tell us paradise
+      is our home and love our true destiny.”
+      <cite>bell hooks</cite>
+    note: |
+      My purpose here isn't to strike fear into your heart.
+  No Longer Accepting:
+    bg: black
+    html:
+      “I am no longer accepting the things I cannot change.<br>I am changing the things I cannot accept.”
+      <cite>Angela Davis</cite>
+    note: |
+      It's to help you remember something you already know.
+  Another world:
+    bg: black
+    html:
+      “Another world is not only possible, she is on her way.<br>On a quiet day, I can hear her breathing.”
+      <cite>Arundhati Roy</cite>
+    note: |
+      We are all magicians.
   Magicians:
     bg: black
     video: sorcerers-apprentice.mp4
