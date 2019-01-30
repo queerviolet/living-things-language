@@ -15,6 +15,7 @@ In The Beginning:
     and the Word was God
 Hi:
   frame: title
+  bg: space
   simplify: *simplify_title
   note: |
     Hi, my name's Ashi. Today's talk is the first in a series called
@@ -148,6 +149,7 @@ Remember:
       Connecting in a new way.
   Without Nations and Borders:
     frame: fist2
+    tweenDuration: 30
     bg: black
     note: |
       Richer. More direct.
@@ -162,7 +164,8 @@ Remember:
       authoritarians fear to tread.
   Punch Only Masks:
     frame: anonymous
-    simplify: 20
+    tweenDuration: 10
+    simplify: 30
     ungrouped: true
     bg: black
     note: |
@@ -173,6 +176,7 @@ Remember:
       A place where every story can be told, true or not.
   Racism:
     frame: kekistan
+    tweenDuration: 20
     ungrouped: true
     bg: black
     note: |
@@ -260,7 +264,11 @@ Remember:
 
       It doesn't have a singular inventor, either. In fact,
       some elements of language acquisition seem to be hardwired into
-      us. Communities will create language if it isn't given to them.
+      us.
+      
+      Deaf children will create their own sign languagres.
+      
+      Communities who don't already share a language will create one.
 
       But many of our technologies do not have singular inventors. Many
       of them have been discovered and re-discovered time and again,
@@ -497,15 +505,19 @@ Cerebellum:
     Like this: **touch end of clicker**
     People with cerebellar damage have difficulty performing this action smoothly.
     With cerebellar damage, our movements become jerky, laggy.
-    It's theorized that the cerebellum acts as a Smith predictor. <!-- Miall, R. C., Weir, D. J., Wolpert, D. M., and Stein, J. F. (1993). Is the cerebellum a Smith Predictor? J. Motor Behav., 25(3):203–216.) -->
-    Our brain's controller for our latency-distant bodies
-    able to estimate the body's current state
-    integrate sensory feedback to update that model
-    and decompose gross actions generated elsewhere in the brain
-    into a fine-tuned, continuously adjusted control signal
+  Smith Predictor:
+    bg: black
+    html: |
+      <cite>Miall, Weir, Wolpert, and Stein — Is the cerebellum a Smith Predictor? (1993)</cite>
+    note: |
+      It's theorized that the cerebellum acts as a Smith predictor.
+      Our brain's controller for our latency-distant bodies
+      able to estimate the body's current state
+      integrate sensory feedback to update that model
+      and decompose gross actions generated elsewhere in the brain
+      into a fine-tuned, continuously adjusted control signal
 
-    Once you've evolved it, such a thing has many uses.
-  
+      Once you've evolved it, such a thing has many uses.  
   Movement is a Reduce Operation:
     bg: black
     note: |
@@ -547,11 +559,30 @@ Cerebellum:
 
       Whether the point is cognitive or physical doesn't really matter—the
       math is the same. Language is dance; dance is communication.
+  Shows Up in How We Talk:
+    bg: black
+    note: |
+      This shows up in how we talk. A *lot*.
+      
+      We take *stances* on issues: yours might be on the left, or the right.
 
+      When we've said too much, we walk back.
+
+      When you walk back too often, you're flip-flopping, or dancing around
+      the issue.
+
+      We move towards ideas we want to embody and distance ourselves from
+      ideas we no longer like.
+
+      These are all metaphors, of course, but I'd argue that our readiness
+      to liken concepts to positions suggests that they are processed
+      very similarly in our brains. The newly-evolved faculty of language
+      relying on ancient circuits evolved to do the hardest thing in the world:
+      move around in it.
 Gradual Origins:
   bg: white  
   note: |
-    This suggests an origin for language that's quite different from
+    All this may also suggest an origin for language that's quite different from
     the discontinuous origin offered by Chomsky.
 
     There are some open questions with that story, after all.
@@ -621,7 +652,7 @@ The Living Tree of Language:
   class: cover-pan-up
   html: <cite>art by Mina Sundberg</cite>
   note: |
-    A perfusion of languages spread across the globe.
+    We have now a perfusion of languages spread across the globe.
 
     This beautiful tree, drawn by Mina Sundberg, just shows the old world
     languages, those from Europe and Asia.
@@ -632,62 +663,234 @@ The Living Tree of Language:
     There are, of course, many more.
 
     There were earlier languages we have since forgotten, and it was these
-    earlier langauges which shaped our bodies, giving us vocal chords and
-    giving us stories. Narrative, that tremendous technology which gives us
-    thread from which we weave our cognitive worlds.
+    earlier langauges which shaped our bodies, giving us vocal chords, and
+    shaped our minds, giving us stories. Narrative, that thread from which
+    we weave our cognitive worlds.
+
+    That's power. That's magic! Language is a magical creature—a living thing
+    made not of flesh, but of ideas—that has shaped us just as much as we've
+    shaped it.
+  Living Things:
+    note: |
+      Where does language exist? A particular language, the English language,
+      where is it?
+
+      Well, it's in me. It's a program, running in my mind. But not just mine.
+      It's in yours, too. And hers, and his.
+      
+      It's a distributed program running on a biological strata. A concept
+      given tenancy on an infrastructure of many minds.
+
+      Each one of us holds a shard. Language is organized into shards, just
+      as we are organized into cells.
+      
+      The shards replicate. They are taught and learned.
+      
+      The shards adapt. The language we learn is not exactly the language
+      we were taught. The language of youngs, rather famously, is not
+      quite the language of olds.
+
+      Biological systems, too, are made of self-replicating components, and
+      because of this they adapt and grow and come to homeostasis.
+      
+      They are governed by laws of statistical mechanics which guide them
+      into shapes that can effectively obtain energy and convert it into heat.
+
+      And language too, evolves in this way. Everything we build evolves.
+
+      Everything comes alive.
+
+      Everything we make joins an ecosystem that includes us.
+
+      That shapes us.
+
+      That, in a real sense, becomes us.
+  Magic:
+    note: |
+      What we are doing, then—what all of us in this room are doing—
+
+      is Magic.
+
+      The oldest magic. Living things creating new living things. Living
+      things reshaping themselves.
+
+      This is a great power.
+
+      And with great power comes... well, you know the rest.
 Power of Language:
+  note: |
+    The thing about words is that once they're in you, you can't help but
+    experience them.
   A warm beach:
     html: A warm beach on a sunny day.
     note: |
       You see these words, and you go somewhere nice. You don't have to do
       anything. In fact, you can't do anything.
-  Crackling campfire:
+  Crackling campfire:    
     html: A crackling campfire on an ice cold night.
     note: |
-      It just happens. This little cognitive superpower allows us to
-      operate on the hypotheses using the the tools of
-      physical manipulation.
+      It just...
+    Aflame:
+      bg: black
+      frame: fire0
+      simplify: 10
+      note: |
+        ...happens.
   As coders:
     html: c² = a² + b²    
     note: |
-      As creators, and particularly as coders, I think we develop
-      an intuitive grasp of this. We have physicalized inner
+      As creators and coders, I think we develop
+      an intuitive grasp of this. We develop physicalized inner
       worlds that represent the abstract things we work with every day.
 
       I see this? The triangle pops into my head.
+  Visceral:
+    html: “These migrants are like cockroaches.” <cite>Katie Hopkins</cite>
+    note: |
+      And this... this taps something visceral. 
 
-      How does that work?
+      The feeling of a tiny creature crawling in your skin.
+      
+      A compromise of bodily integrity.
+      
+      I'm referring, of course, to Katie Hopkins. Whose words are designed
+      to *get into you*.
+  Trump:
+    class: white
+    html: |
+      “They don’t care about crime and want illegal immigrants,
+      no matter how bad they may be, to pour into and infest our Country.”
+      <cite>Donald Trump</cite>
+    note: |
+      You can't help but envision them, and in envisioning
+      them, you can't help but form an association, and that association is
+      a spell, a power being enacted on your mind.
+  Jair:
+    html: |
+      “The only mistake of the dictatorship was torturing and not killing.”
+      <cite>Jair Bolsonaro</cite>
+    note: |
+      This is, effectively, a security hole in our brains.
 
-  ## TODO: Segue into subvocalization
+      A security hole that is, currently, being exploited with alarming
+      efficency.
+  Hitler:
+    html: |
+      “Whenever Aryans have mingled their blood with that of an inferior
+      race the result has been the downfall of the people who were
+      the standard-bearers of a higher culture.”
+      <cite>Adolf Hitler</cite>
+    note: |
+      The exploits are not themselves new. But we are giving them powerful
+      new vectors, as we open more and more avenues for communication.
 
-Language:
+      That's the downside of a connected world.
+  Everything spreads:
+    bg: black
+    note: |
+      Everything spreads.
+Don't be afraid:
   bg: black
-  html: Hi.
   note: |
-    That technology? Language.
-The sea0:
-  frame: ending/seed/seed00
-The sea1:
-  frame: ending/seed/seed01
-The sea2:
-  frame: ending/seed/seed02
-The sea3:
-  frame: ending/seed/seed03
-The sea4:
+    Don't be afraid.
+
+    My purpose here isn't to strike fear into your heart.
+
+    It's to help you remember something you already know.
+
+    We are all magicians.
+  Magicians:
+    bg: black
+    video: sorcerers-apprentice.mp4
+    startAt: 280
+    note: |
+      We the living things of earth have created this world.
+
+      We have created its joys and its sorrows.
+
+      We have within us incredible power.
+
+      To heal, to shape, to create.
+  To Create Things Beyond Our Control:
+    bg: black
+    video: sorcerers-apprentice.mp4
+    startAt: 400
+    note: |
+      ...to create things beyond our control...
+  Live Beyond Us:
+    bg: black
+    video: sorcerers-apprentice.mp4
+    startAt: 427
+    note: |
+      ...things that live far longer than we do...
+  And Really Jack Things Up:
+    bg: black
+    video: sorcerers-apprentice.mp4
+    startAt: 560
+    note: |
+      We could really screw things up.
+  And We Will:
+    bg: white
+    note: |
+      And we definitely will.
+Seeds:
   frame: ending/seed/seed04
-The sea5:
-  frame: ending/seed/seed05
-The sea6:
-  frame: ending/seed/seed06
-The sea7:
-  frame: ending/seed/seed07
-The sea8:
-  frame: ending/seed/seed08
-The sea9:
-  frame: ending/seed/seed09
-The sea10:
-  frame: ending/seed/seed10
-The sea10a:
-  frame: ending/seed/seed10a
-The sea11:
-  frame: ending/seed/seed11
+  simplify: 5
+  note: |
+    But I think
+  We will also:
+    frame: ending/seed/seed05
+    simplify: 5
+    note: |
+      We will also
+  Plant seeds:
+    frame: ending/seed/seed06
+    simplify: 5
+    note: |
+      Plant seeds
+  Will grow:
+    frame: ending/seed/seed07
+    simplify: 5
+    note: |
+      That will grow
+  Into something new:
+    frame: ending/seed/seed08
+    simplify: 5
+    note: |
+      Into something new
+  Into new kinds of life:
+    bg: space
+    frame: ending/seed/seed09
+    simplify: 5
+    note: |
+      Into new kinds of life
+  Into futures:
+    bg: space
+    frame: ending/seed/seed10
+    simplify: 5
+    note: |
+      Into futures
+  We cannot:
+    bg: space
+    frame: ending/seed/seed10a
+    simplify: 5
+    note: |
+      We cannot yet imagine.
+  The End:
+    bg: space
+    frame: ending/seed/seed11
+    simplify: 3
+    note: |
+      Thank you.
+End Title Card:
+  frame: title
+  bg: space
+  simplify: *simplify_title
+  note: |
+    I'm Ashi Krishnan.    
+
+
+
+
+
+

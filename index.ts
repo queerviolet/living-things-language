@@ -3,9 +3,10 @@ import script from './script.json'
 localStorage.buildNotes = notesFrom(script)
 
 import { TimelineMax, TweenLite } from 'gsap/TweenMax'
+import AttrPlugin from 'gsap/AttrPlugin'
 import MorphSVG from './gsap/MorphSVGPlugin'
 import toSequence from './to-sequence.js'
-console.log('Loaded', MorphSVG)
+console.log('Loaded', MorphSVG, AttrPlugin)
 
 
 import resources from './resources'
@@ -19,7 +20,7 @@ const tl = new TimelineMax
 
 function createElements() {
   for (const b of script) {
-    const {class: className='', html, htmlFunc, img, video, zIndex=0} = b.data
+    const {class: className='', html, htmlFunc, img, video, zIndex=0, startAt=0} = b.data
     if (!html && !htmlFunc && !img && !video && !className) continue
     const el = document.createElement('div')
     el.id = b.class
@@ -34,12 +35,13 @@ function createElements() {
       el.style.backgroundImage = `url(${resources[img]})`  
 
     if (video) {
-      const video = document.createElement('video')
-      video.src = resources[video]
-      el.prepend(video)
+      const vid = document.createElement('video')
+      vid.src = resources[video]
+      vid.volume = 0
+      el.prepend(vid)
       b.didEnter = () => {
-        video.currentTime = b.data.startAt || 0
-        video.play()
+        vid.currentTime = startAt
+        vid.play()
       }
     }
   }
@@ -65,7 +67,7 @@ function buildTimeline() {
     } else {
       const tweens = Array.from({ length: numTracks }, (_, i) => {
           const tween = new TweenLite.to(
-            layers[i], 1,
+            layers[i], build.data.tweenDuration || 1,
             paths[i] && paths[i].tween ? paths[i].tween : CIRCLE)
           return tween
         })
@@ -130,8 +132,12 @@ const compose = (...funcs: Function[]) => (...args) => {
 
 const CIRCLE = {
   morphSVG: `M 1920,1080 L1920,1079 L1921,1079 L1921,1081 Z`,
-  fill: 'rgba(255, 255, 255, 0)',
-  stroke: 'rgba(255, 255, 255, 0)',
+  fill: '#000000',
+  stroke: '#000000',
+  opacity: 0,
+  'fill-opacity': 0,
+  'stroke-opacity': 0,
+  'stroke-width': 1,
 }
 
 function pathWithId(id: string) {

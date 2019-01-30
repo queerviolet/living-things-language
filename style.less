@@ -43,10 +43,12 @@ svg {
 body, html {
   margin: 0; padding: 0;
   transition: background 1s, color 0.2s;
+  text-align: center;
 }
 
 .black { background: black; color: white; }
 .white { background: white; color: black; }
+.space { background: #1d204b; }
 
 .slide {
   display: flex;
@@ -133,12 +135,18 @@ body, html {
   display: none;  
 }
 
+video {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
 
 cite {
   background: black;
   color: white;
   position: absolute;
-  bottom: 10px; left: 10px;
+  bottom: 10px; left: 50%;
+  transform: translateX(-50%);
   padding: 10px;
 }
 

@@ -116,7 +116,7 @@ const simplify = require('simplify-path')
 // const reindex = require('mesh-reindex')
 // const unindex = require('unindex-mesh')
 
-const layersFromGrouped = (xml, thresholds=4) => {
+const layersFromGrouped = (xml, thresholds=8) => {
   const layers = {}
   query(xml).find('g').each((g, zIndex) => {
     const path = query(g).find('path')
@@ -133,7 +133,9 @@ const layersFromGrouped = (xml, thresholds=4) => {
         morphSVG: d,
         fill: path.attr('fill'),
         stroke: path.attr('stroke'),
-        'fill-opacity': path.attr('fill-opacity'),
+        opacity: +path.attr('opacity') || 1,
+        'fill-opacity': +path.attr('fill-opacity') || 1,
+        'stroke-opacity': +path.attr('stroke-opacity') || 1,
         'stroke-width': path.attr('stroke-width'),
       }
     }
@@ -141,7 +143,7 @@ const layersFromGrouped = (xml, thresholds=4) => {
   return layers
 }
 
-const layersFromUngrouped = (xml, thresholds=4) => {
+const layersFromUngrouped = (xml, thresholds=8) => {
   const layers = {}
   query(xml).find('path').each((path, zIndex) => {
     const id = path.attributes.id || zIndex
@@ -156,7 +158,8 @@ const layersFromUngrouped = (xml, thresholds=4) => {
         morphSVG: d,
         fill: path.attributes.fill,
         stroke: path.attributes.stroke,
-        'fill-opacity': path.attributes['fill-opacity'],
+        opacity: +path.attributes.opacity || 1,
+        'fill-opacity': +path.attributes['fill-opacity'] || 1,
         'stroke-width': path.attributes['stroke-width'],
       }
     }

@@ -64,7 +64,7 @@ const findOrCreateByClass = (tag, className, container) => {
 const minutes = m => sec(m * 60)
 const sec = s => s * 1000
 
-const WORDS_PER_MIN = 120
+const WORDS_PER_MIN = 110
 const WORD_MS = minutes(1) / WORDS_PER_MIN
 
 const BUILDS = {}
