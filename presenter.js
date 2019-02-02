@@ -1,6 +1,7 @@
 import marked from 'marked'
 import resources from './resources'
 import script from './script.json'
+import 'babel-polyfill'
 
 class BuildNote {
   static update(note) {
@@ -86,13 +87,40 @@ const updateNotes = (notes=script) => {
 }
 window.BUILDS = BUILDS
 
-const updateScroll = (id=localStorage.currentBuild) => {
+const frame = () => new Promise(requestAnimationFrame)
+
+const finishedScroll = (timeout=100) =>
+  new Promise(resolve => {
+    let handle = null
+    didScroll()
+    addEventListener('scroll', didScroll)
+
+    function didScroll() {
+      clearTimeout(handle)
+      handle = setTimeout(() => {
+        removeEventListener('scroll', didScroll)
+        resolve()
+      }, timeout)
+    }
+  })
+
+async function updateScroll(id=localStorage.currentBuild) {
   const e = document.getElementById(id)
   if (!e) return
-  process.nextTick(() => e.scrollIntoView({block: 'start', behavior: 'smooth'}))
+  await frame()
+  e.scrollIntoView({block: 'start', behavior: 'smooth'})
+  await finishedScroll()
+
   const current = document.querySelector('.build.current')
   current && current.classList.remove('current')
   e.classList.add('current')
+
+  const { height } = e.getBoundingClientRect()
+  let delta = height - innerHeight;
+  while (delta --> 0) {
+    await frame(); await frame()
+    window.scrollBy({ top: 1 })
+  }
 }
 
 const init = () => {

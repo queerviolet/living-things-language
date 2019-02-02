@@ -9,6 +9,9 @@
     "serve": "parcel index.html",
     "start": "concurrently npm:build npm:serve"
   },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -28,6 +31,7 @@
     "xml-reader": "^2.4.3"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "gsap": "^2.0.2",
     "marked": "^0.6.0"
   }
