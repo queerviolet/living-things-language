@@ -32,13 +32,16 @@
       },
       "note": "Hi, my name's Ashi. Today's talk is the first in a series called\n*Living Things*. This one is about language.\n",
       "I'm making a language": {
-        "note": "I am actually writing a programming language. This is not the big\nreveal. It's not quite ready yet. But what's fascinated me about\nthis process is how it is in some sense completely free. You can\nshape the language like anything.\n\nAnd that is slightly terrifying. It's the thing most like pure math\nthat I've ever done: setting out into the world of concepts and\ndrawing shapes and lines, essentially arbitrarily.\n\nAnd yet, in another sense, it's not arbitrary at all. There are some\ndesign decisions that would be clearly wrong. And others that are—frustratingly,\nusually a bit less clearly—right.\n\nThe language is taking shape, and in some sense, it's taking its own\nshape.\n\nI can tell as I design it that there's something it wants to be.\n"
+        "note": "I am actually writing a programming language. This is not the big\nreveal. It's not ready for that yet. But I'm fascinated by the\nprocess. Fascinaged and terrified.\n\nBecause it's... in some sense, totally free. It could really become\nanything. It's the thing most like pure math that I've ever done.\nI'm venturing out into this world of concepts. Just walking into this\nforeign land, and then drawing up borders. Like I'm British or something.\n\nAnd in that sense? It's all very arbitrary.\n"
+      },
+      "Not All Arbitrary": {
+        "note": "But in another sense, it's not arbitrary at all. There are some\nshapes—some borders—that are clearly wrong. And there are some that are\nclearly right. Fewer of those, irritatingly. But they *are* there.\n\nIt's like... there's something this language wants to be.\n\nIt's taking shape, and it's taking its *own* shape.\n"
       },
       "Languages Are Living Things": {
         "note": "We've all heard that languages are living things. I think we treat this\nas metaphor. Languages that are spoken by people today—those we call \"alive\".\nLanguages that are no longer spoken—or are only spoken by a select\ngroup of academics—those we describe as \"dead\".\n\nFor the next thirty minutes, I want you to try and take this\nas literally as possible. Hopefully I'll do a bit to convince you\nof this. Languages do not breathe, they do not\nmetabolize, but they do shape the worlds of their speakers,\nthey reproduce, they consume resources, they come into equilibria\nwith their environments—environments which, notably, include our minds\nand bodies.\n"
       },
       "Language is Powerful": {
-        "note": "Language is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. You've heard, I'm sure, that the hardest\nproblem in computer science is giving name to things. And that's\nbecause names matter. Names are connected to meanings, linked into\nthis web of implications that fishes out of the depths of our minds\neverything from machine schematics to childhood trauma.\n"
+        "note": "Language is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. We say the hardest problem in computer science\nis giving name to things. And that's because names matter. Names\nare connected to meanings, linked into this web of implications\nthat fishes from out of the depths of our minds everything from machine\nschematics to childhood trauma.\n"
       },
       "Language is in The Body": {
         "note": "Language has a reputation for being airy. Disconnected from the\nphysical. From our bodies. \"Shhhhhh,\" your lover might say. No\ntalking now. Just dance.\n\nBut this reputation, I think, conceals a vital truth: language\nis a thing of the body. Our bodies are made for language. For sign,\nfor speech, for song. And language is a thing that grows out of\nour bodies, is rooted in movement, has evolved with us, and is as\nmuch a thing of our bodies as our thumbs, as our frontal cortex,\nas our dance.\n\nSo right now...\n"
@@ -236,13 +239,25 @@
     "id": "hi/i'm_making_a_language",
     "url": "hi/i'm_making_a_language",
     "class": "hi-i'm_making_a_language",
-    "markdown": "I am actually writing a programming language. This is not the big\nreveal. It's not quite ready yet. But what's fascinated me about\nthis process is how it is in some sense completely free. You can\nshape the language like anything.\n\nAnd that is slightly terrifying. It's the thing most like pure math\nthat I've ever done: setting out into the world of concepts and\ndrawing shapes and lines, essentially arbitrarily.\n\nAnd yet, in another sense, it's not arbitrary at all. There are some\ndesign decisions that would be clearly wrong. And others that are—frustratingly,\nusually a bit less clearly—right.\n\nThe language is taking shape, and in some sense, it's taking its own\nshape.\n\nI can tell as I design it that there's something it wants to be.\n",
+    "markdown": "I am actually writing a programming language. This is not the big\nreveal. It's not ready for that yet. But I'm fascinated by the\nprocess. Fascinaged and terrified.\n\nBecause it's... in some sense, totally free. It could really become\nanything. It's the thing most like pure math that I've ever done.\nI'm venturing out into this world of concepts. Just walking into this\nforeign land, and then drawing up borders. Like I'm British or something.\n\nAnd in that sense? It's all very arbitrary.\n",
     "data": {
-      "note": "I am actually writing a programming language. This is not the big\nreveal. It's not quite ready yet. But what's fascinated me about\nthis process is how it is in some sense completely free. You can\nshape the language like anything.\n\nAnd that is slightly terrifying. It's the thing most like pure math\nthat I've ever done: setting out into the world of concepts and\ndrawing shapes and lines, essentially arbitrarily.\n\nAnd yet, in another sense, it's not arbitrary at all. There are some\ndesign decisions that would be clearly wrong. And others that are—frustratingly,\nusually a bit less clearly—right.\n\nThe language is taking shape, and in some sense, it's taking its own\nshape.\n\nI can tell as I design it that there's something it wants to be.\n"
+      "note": "I am actually writing a programming language. This is not the big\nreveal. It's not ready for that yet. But I'm fascinated by the\nprocess. Fascinaged and terrified.\n\nBecause it's... in some sense, totally free. It could really become\nanything. It's the thing most like pure math that I've ever done.\nI'm venturing out into this world of concepts. Just walking into this\nforeign land, and then drawing up borders. Like I'm British or something.\n\nAnd in that sense? It's all very arbitrary.\n"
     },
-    "next": "hi/languages_are_living_things",
+    "next": "hi/not_all_arbitrary",
     "prev": "hi",
     "index": 2
+  },
+  {
+    "id": "hi/not_all_arbitrary",
+    "url": "hi/not_all_arbitrary",
+    "class": "hi-not_all_arbitrary",
+    "markdown": "But in another sense, it's not arbitrary at all. There are some\nshapes—some borders—that are clearly wrong. And there are some that are\nclearly right. Fewer of those, irritatingly. But they *are* there.\n\nIt's like... there's something this language wants to be.\n\nIt's taking shape, and it's taking its *own* shape.\n",
+    "data": {
+      "note": "But in another sense, it's not arbitrary at all. There are some\nshapes—some borders—that are clearly wrong. And there are some that are\nclearly right. Fewer of those, irritatingly. But they *are* there.\n\nIt's like... there's something this language wants to be.\n\nIt's taking shape, and it's taking its *own* shape.\n"
+    },
+    "next": "hi/languages_are_living_things",
+    "prev": "hi/i'm_making_a_language",
+    "index": 3
   },
   {
     "id": "hi/languages_are_living_things",
@@ -253,20 +268,20 @@
       "note": "We've all heard that languages are living things. I think we treat this\nas metaphor. Languages that are spoken by people today—those we call \"alive\".\nLanguages that are no longer spoken—or are only spoken by a select\ngroup of academics—those we describe as \"dead\".\n\nFor the next thirty minutes, I want you to try and take this\nas literally as possible. Hopefully I'll do a bit to convince you\nof this. Languages do not breathe, they do not\nmetabolize, but they do shape the worlds of their speakers,\nthey reproduce, they consume resources, they come into equilibria\nwith their environments—environments which, notably, include our minds\nand bodies.\n"
     },
     "next": "hi/language_is_powerful",
-    "prev": "hi/i'm_making_a_language",
-    "index": 3
+    "prev": "hi/not_all_arbitrary",
+    "index": 4
   },
   {
     "id": "hi/language_is_powerful",
     "url": "hi/language_is_powerful",
     "class": "hi-language_is_powerful",
-    "markdown": "Language is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. You've heard, I'm sure, that the hardest\nproblem in computer science is giving name to things. And that's\nbecause names matter. Names are connected to meanings, linked into\nthis web of implications that fishes out of the depths of our minds\neverything from machine schematics to childhood trauma.\n",
+    "markdown": "Language is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. We say the hardest problem in computer science\nis giving name to things. And that's because names matter. Names\nare connected to meanings, linked into this web of implications\nthat fishes from out of the depths of our minds everything from machine\nschematics to childhood trauma.\n",
     "data": {
-      "note": "Language is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. You've heard, I'm sure, that the hardest\nproblem in computer science is giving name to things. And that's\nbecause names matter. Names are connected to meanings, linked into\nthis web of implications that fishes out of the depths of our minds\neverything from machine schematics to childhood trauma.\n"
+      "note": "Language is powerful. Ancient and contemporary magical systems rely\non the power of naming. The names we give to the things in our world\ncreate that world. We say the hardest problem in computer science\nis giving name to things. And that's because names matter. Names\nare connected to meanings, linked into this web of implications\nthat fishes from out of the depths of our minds everything from machine\nschematics to childhood trauma.\n"
     },
     "next": "hi/language_is_in_the_body",
     "prev": "hi/languages_are_living_things",
-    "index": 4
+    "index": 5
   },
   {
     "id": "hi/language_is_in_the_body",
@@ -278,7 +293,7 @@
     },
     "next": "remember",
     "prev": "hi/language_is_powerful",
-    "index": 5
+    "index": 6
   },
   {
     "id": "remember",
@@ -348,7 +363,10 @@
       },
       "Socially networked": {
         "frame": "socially-networked",
-        "note": "*socially* networked, made by us, consumed by us.\nBloggers and tweeters sharing their worlds with each other.\n\nAll of us creators, all of us consumers.\n\nNo longer would we be beholden to newspapers, to reporters. No longer would\nwe get our stories filtered through layers of intermediaries,\neach one spinning and slanting. No, we would just get the truth.\nThe truth would win.\n\nOf course, there were nay sayers. Negative nancies.\n\"Journalists\", \"researchers\", asking...\nokay, well, how? How, exactly? How do you know people are who they\nsay they are? How can you trust these faceless barely-people,\nveiled by layers of cable and protocol?\n\nAnd our response—my response, certainly, the one I said on the\ninside—was that it's... fine... probably. Something something\nweb of trust. Wisdom of crowds.\n"
+        "note": "*socially* networked, made by us, consumed by us.\nBloggers and tweeters sharing their worlds with each other.\n\nAll of us creators, all of us consumers.\n\nNo longer would we be beholden to newspapers, to reporters. No longer would\nwe get our stories filtered through layers of intermediaries,\neach one spinning and slanting. No, we would just get the truth.\nThe truth would win.\n",
+        "Naysayers": {
+          "note": "Of course, there were nay sayers. Negative nancies.\n\"Journalists\", \"researchers\", asking...\nokay, well, how? How, exactly? How do you know people are who they\nsay they are? How can you trust these faceless barely-people,\nveiled by layers of cable and protocol?\n\nAnd our response—my response, certainly, the one I said on the\ninside—was that it's... fine... probably. Something something\nweb of trust. Wisdom of crowds.\n"
+        }
       },
       "Look": {
         "frame": "spring0",
@@ -421,12 +439,12 @@
       },
       "May not believe it now": {
         "bg": "black",
-        "note": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nYou may disagree with me calling language a technology.\n\nYou may say it's not physical. But as all of us here at this programming\nlanguage conference know, technologies do not have to be physical.\n\nIt doesn't have a singular inventor, either. In fact,\nsome elements of language acquisition seem to be hardwired into\nus.\n\nDeaf children will create their own sign languagres.\n\nCommunities who don't already share a language will create one.\n\nBut many of our technologies do not have singular inventors. Many\nof them have been discovered and re-discovered time and again,\nin many different places.\n\nThere's a lot of theories on how language came to be.\n"
+        "note": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nThere's a lot of theories on how language came to be.\n"
       }
     },
     "next": "remember/cells",
     "prev": "hi/language_is_in_the_body",
-    "index": 6,
+    "index": 7,
     "paths": {
       "Space": {
         "id": "Space",
@@ -633,7 +651,7 @@
     },
     "next": "remember/crackling",
     "prev": "remember",
-    "index": 7,
+    "index": 8,
     "paths": {
       "Space": {
         "id": "Space",
@@ -840,7 +858,7 @@
     },
     "next": "remember/ten_years_ago",
     "prev": "remember/cells",
-    "index": 8,
+    "index": 9,
     "paths": {
       "Space": {
         "id": "Space",
@@ -1037,7 +1055,7 @@
     },
     "next": "remember/we_were_creating",
     "prev": "remember/crackling",
-    "index": 9,
+    "index": 10,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -1062,7 +1080,7 @@
     },
     "next": "remember/talking",
     "prev": "remember/ten_years_ago",
-    "index": 10,
+    "index": 11,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -1155,7 +1173,7 @@
     },
     "next": "remember/distributed",
     "prev": "remember/we_were_creating",
-    "index": 11,
+    "index": 12,
     "paths": {
       "Layer_1": {
         "id": "Layer_1",
@@ -1240,7 +1258,7 @@
     },
     "next": "remember/networked",
     "prev": "remember/talking",
-    "index": 12,
+    "index": 13,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1277,7 +1295,7 @@
     },
     "next": "remember/socially_networked",
     "prev": "remember/distributed",
-    "index": 13,
+    "index": 14,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1307,14 +1325,17 @@
     "id": "remember/socially_networked",
     "url": "remember/socially_networked",
     "class": "remember-socially_networked",
-    "markdown": "*socially* networked, made by us, consumed by us.\nBloggers and tweeters sharing their worlds with each other.\n\nAll of us creators, all of us consumers.\n\nNo longer would we be beholden to newspapers, to reporters. No longer would\nwe get our stories filtered through layers of intermediaries,\neach one spinning and slanting. No, we would just get the truth.\nThe truth would win.\n\nOf course, there were nay sayers. Negative nancies.\n\"Journalists\", \"researchers\", asking...\nokay, well, how? How, exactly? How do you know people are who they\nsay they are? How can you trust these faceless barely-people,\nveiled by layers of cable and protocol?\n\nAnd our response—my response, certainly, the one I said on the\ninside—was that it's... fine... probably. Something something\nweb of trust. Wisdom of crowds.\n",
+    "markdown": "*socially* networked, made by us, consumed by us.\nBloggers and tweeters sharing their worlds with each other.\n\nAll of us creators, all of us consumers.\n\nNo longer would we be beholden to newspapers, to reporters. No longer would\nwe get our stories filtered through layers of intermediaries,\neach one spinning and slanting. No, we would just get the truth.\nThe truth would win.\n",
     "data": {
       "frame": "socially-networked",
-      "note": "*socially* networked, made by us, consumed by us.\nBloggers and tweeters sharing their worlds with each other.\n\nAll of us creators, all of us consumers.\n\nNo longer would we be beholden to newspapers, to reporters. No longer would\nwe get our stories filtered through layers of intermediaries,\neach one spinning and slanting. No, we would just get the truth.\nThe truth would win.\n\nOf course, there were nay sayers. Negative nancies.\n\"Journalists\", \"researchers\", asking...\nokay, well, how? How, exactly? How do you know people are who they\nsay they are? How can you trust these faceless barely-people,\nveiled by layers of cable and protocol?\n\nAnd our response—my response, certainly, the one I said on the\ninside—was that it's... fine... probably. Something something\nweb of trust. Wisdom of crowds.\n"
+      "note": "*socially* networked, made by us, consumed by us.\nBloggers and tweeters sharing their worlds with each other.\n\nAll of us creators, all of us consumers.\n\nNo longer would we be beholden to newspapers, to reporters. No longer would\nwe get our stories filtered through layers of intermediaries,\neach one spinning and slanting. No, we would just get the truth.\nThe truth would win.\n",
+      "Naysayers": {
+        "note": "Of course, there were nay sayers. Negative nancies.\n\"Journalists\", \"researchers\", asking...\nokay, well, how? How, exactly? How do you know people are who they\nsay they are? How can you trust these faceless barely-people,\nveiled by layers of cable and protocol?\n\nAnd our response—my response, certainly, the one I said on the\ninside—was that it's... fine... probably. Something something\nweb of trust. Wisdom of crowds.\n"
+      }
     },
-    "next": "remember/look",
+    "next": "remember/socially_networked/naysayers",
     "prev": "remember/networked",
-    "index": 14,
+    "index": 15,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1341,6 +1362,18 @@
     }
   },
   {
+    "id": "remember/socially_networked/naysayers",
+    "url": "remember/socially_networked/naysayers",
+    "class": "remember-socially_networked-naysayers",
+    "markdown": "Of course, there were nay sayers. Negative nancies.\n\"Journalists\", \"researchers\", asking...\nokay, well, how? How, exactly? How do you know people are who they\nsay they are? How can you trust these faceless barely-people,\nveiled by layers of cable and protocol?\n\nAnd our response—my response, certainly, the one I said on the\ninside—was that it's... fine... probably. Something something\nweb of trust. Wisdom of crowds.\n",
+    "data": {
+      "note": "Of course, there were nay sayers. Negative nancies.\n\"Journalists\", \"researchers\", asking...\nokay, well, how? How, exactly? How do you know people are who they\nsay they are? How can you trust these faceless barely-people,\nveiled by layers of cable and protocol?\n\nAnd our response—my response, certainly, the one I said on the\ninside—was that it's... fine... probably. Something something\nweb of trust. Wisdom of crowds.\n"
+    },
+    "next": "remember/look",
+    "prev": "remember/socially_networked",
+    "index": 16
+  },
+  {
     "id": "remember/look",
     "url": "remember/look",
     "class": "remember-look",
@@ -1350,8 +1383,8 @@
       "note": "Look..."
     },
     "next": "remember/arab_spring",
-    "prev": "remember/socially_networked",
-    "index": 15,
+    "prev": "remember/socially_networked/naysayers",
+    "index": 17,
     "paths": {
       "Blossom2": {
         "id": "Blossom2",
@@ -1436,7 +1469,7 @@
     },
     "next": "remember/catalyzed",
     "prev": "remember/look",
-    "index": 16,
+    "index": 18,
     "paths": {
       "Blossom2": {
         "id": "Blossom2",
@@ -1523,7 +1556,7 @@
     },
     "next": "remember/obamas",
     "prev": "remember/arab_spring",
-    "index": 17,
+    "index": 19,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1632,7 +1665,7 @@
     },
     "next": "remember/a_new_culture",
     "prev": "remember/catalyzed",
-    "index": 18,
+    "index": 20,
     "paths": {
       "Outside": {
         "id": "Outside",
@@ -1954,7 +1987,7 @@
     },
     "next": "remember/without_nations_and_borders",
     "prev": "remember/obamas",
-    "index": 19,
+    "index": 21,
     "paths": {
       "Inside": {
         "id": "Inside",
@@ -2048,7 +2081,7 @@
     },
     "next": "remember/punch_only_masks",
     "prev": "remember/a_new_culture",
-    "index": 20,
+    "index": 22,
     "paths": {
       "g3982": {
         "id": "g3982",
@@ -2135,7 +2168,7 @@
     },
     "next": "remember/racism",
     "prev": "remember/without_nations_and_borders",
-    "index": 21,
+    "index": 23,
     "paths": {
       "0": {
         "id": 0,
@@ -2453,7 +2486,7 @@
     },
     "next": "remember/new_minds",
     "prev": "remember/punch_only_masks",
-    "index": 22,
+    "index": 24,
     "paths": {
       "0": {
         "id": 0,
@@ -2859,7 +2892,7 @@
     },
     "next": "remember/see",
     "prev": "remember/racism",
-    "index": 23,
+    "index": 25,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2919,7 +2952,7 @@
     },
     "next": "remember/want",
     "prev": "remember/new_minds",
-    "index": 24,
+    "index": 26,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -2979,7 +3012,7 @@
     },
     "next": "remember/lie",
     "prev": "remember/see",
-    "index": 25,
+    "index": 27,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -3039,7 +3072,7 @@
     },
     "next": "remember/retrospect",
     "prev": "remember/want",
-    "index": 26,
+    "index": 28,
     "paths": {
       "Outline": {
         "id": "Outline",
@@ -3098,7 +3131,7 @@
     },
     "next": "remember/what_happened",
     "prev": "remember/lie",
-    "index": 27
+    "index": 29
   },
   {
     "id": "remember/what_happened",
@@ -3111,20 +3144,20 @@
     },
     "next": "remember/may_not_believe_it_now",
     "prev": "remember/retrospect",
-    "index": 28
+    "index": 30
   },
   {
     "id": "remember/may_not_believe_it_now",
     "url": "remember/may_not_believe_it_now",
     "class": "remember-may_not_believe_it_now",
-    "markdown": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nYou may disagree with me calling language a technology.\n\nYou may say it's not physical. But as all of us here at this programming\nlanguage conference know, technologies do not have to be physical.\n\nIt doesn't have a singular inventor, either. In fact,\nsome elements of language acquisition seem to be hardwired into\nus.\n\nDeaf children will create their own sign languagres.\n\nCommunities who don't already share a language will create one.\n\nBut many of our technologies do not have singular inventors. Many\nof them have been discovered and re-discovered time and again,\nin many different places.\n\nThere's a lot of theories on how language came to be.\n",
+    "markdown": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nThere's a lot of theories on how language came to be.\n",
     "data": {
       "bg": "black",
-      "note": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nYou may disagree with me calling language a technology.\n\nYou may say it's not physical. But as all of us here at this programming\nlanguage conference know, technologies do not have to be physical.\n\nIt doesn't have a singular inventor, either. In fact,\nsome elements of language acquisition seem to be hardwired into\nus.\n\nDeaf children will create their own sign languagres.\n\nCommunities who don't already share a language will create one.\n\nBut many of our technologies do not have singular inventors. Many\nof them have been discovered and re-discovered time and again,\nin many different places.\n\nThere's a lot of theories on how language came to be.\n"
+      "note": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nThere's a lot of theories on how language came to be.\n"
     },
     "next": "origins_of_language",
     "prev": "remember/what_happened",
-    "index": 29
+    "index": 31
   },
   {
     "id": "origins_of_language",
@@ -3140,7 +3173,7 @@
     },
     "next": "recursion",
     "prev": "remember/may_not_believe_it_now",
-    "index": 30
+    "index": 32
   },
   {
     "id": "recursion",
@@ -3157,7 +3190,7 @@
     },
     "next": "recursion/opens_but_never_closes",
     "prev": "origins_of_language",
-    "index": 31
+    "index": 33
   },
   {
     "id": "recursion/opens_but_never_closes",
@@ -3170,7 +3203,7 @@
     },
     "next": "more_common_phrases",
     "prev": "recursion",
-    "index": 32
+    "index": 34
   },
   {
     "id": "more_common_phrases",
@@ -3182,25 +3215,25 @@
       "note": "Of course, more common phrases feature recursive embedding.  \n",
       "Embedding": {
         "bg": "p-expand",
-        "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, a recursive embedding that creates\nthe possibility of an infinitely long sentence, built through the recursive\napplication of a finite number of rules. Digital infinity.\n"
+        "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, a recursive embedding that creates\nthe possibility of an infinitely long sentence, built through the recursive\napplication of a finite number of rules. Digital infinity.\n\nIt's this feature of language that allows us to define an unbounded\nconceptual space. Language is an instinctive articulation of the math\nembedded in our squishy personal neural networks.\n"
       }
     },
     "next": "more_common_phrases/embedding",
     "prev": "recursion/opens_but_never_closes",
-    "index": 33
+    "index": 35
   },
   {
     "id": "more_common_phrases/embedding",
     "url": "more_common_phrases/embedding",
     "class": "more_common_phrases-embedding",
-    "markdown": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, a recursive embedding that creates\nthe possibility of an infinitely long sentence, built through the recursive\napplication of a finite number of rules. Digital infinity.\n",
+    "markdown": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, a recursive embedding that creates\nthe possibility of an infinitely long sentence, built through the recursive\napplication of a finite number of rules. Digital infinity.\n\nIt's this feature of language that allows us to define an unbounded\nconceptual space. Language is an instinctive articulation of the math\nembedded in our squishy personal neural networks.\n",
     "data": {
       "bg": "p-expand",
-      "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, a recursive embedding that creates\nthe possibility of an infinitely long sentence, built through the recursive\napplication of a finite number of rules. Digital infinity.\n"
+      "note": "All human languages contain the ability to expand at their\nphrases indefinitely.\n\nHere, we can keep expanding this noun phrase by adding complementizers,\nwhich themselves contain noun phrases, a recursive embedding that creates\nthe possibility of an infinitely long sentence, built through the recursive\napplication of a finite number of rules. Digital infinity.\n\nIt's this feature of language that allows us to define an unbounded\nconceptual space. Language is an instinctive articulation of the math\nembedded in our squishy personal neural networks.\n"
     },
     "next": "the_recursive_mind",
     "prev": "more_common_phrases",
-    "index": 34
+    "index": 36
   },
   {
     "id": "the_recursive_mind",
@@ -3211,7 +3244,7 @@
       "img": "the-recursive-mind.jpg",
       "note": "In his book *The Recursive Mind*, Michael Corballis theorizes that it is this\ncapacity for recursion that distinguishes human thought from the cognitive\nprocesses of other animals.\n",
       "Three": {
-        "note": "Corballis, in fact, identifies a magic number: three. Three layers. Three\nstack frames, if you will, seems to be about the number of recursive layers\nthat humans can hold at once.\n\nBut that's enough.\n"
+        "note": "Corballis, in fact, identifies a magic number: three. Three layers. Three\nstack frames, if you will, seems to be about the number of recursive layers\nthat humans can hold at once.\n\nWhich is... enough.\n"
       },
       "Past present future": {
         "note": "One stack frame gives you a moment. Two gives you a delta—a direction.\n\nBut three? With three stack frames, we can hold the past, present,\nand future: a temporal triumverate that's nearly universal in human\nexperience, represented in the tenses of nearly every language.\n\nWith three stack frames, we get direction, and meta-direction. We get\nstories.\n"
@@ -3222,19 +3255,19 @@
     },
     "next": "the_recursive_mind/three",
     "prev": "more_common_phrases/embedding",
-    "index": 35
+    "index": 37
   },
   {
     "id": "the_recursive_mind/three",
     "url": "the_recursive_mind/three",
     "class": "the_recursive_mind-three",
-    "markdown": "Corballis, in fact, identifies a magic number: three. Three layers. Three\nstack frames, if you will, seems to be about the number of recursive layers\nthat humans can hold at once.\n\nBut that's enough.\n",
+    "markdown": "Corballis, in fact, identifies a magic number: three. Three layers. Three\nstack frames, if you will, seems to be about the number of recursive layers\nthat humans can hold at once.\n\nWhich is... enough.\n",
     "data": {
-      "note": "Corballis, in fact, identifies a magic number: three. Three layers. Three\nstack frames, if you will, seems to be about the number of recursive layers\nthat humans can hold at once.\n\nBut that's enough.\n"
+      "note": "Corballis, in fact, identifies a magic number: three. Three layers. Three\nstack frames, if you will, seems to be about the number of recursive layers\nthat humans can hold at once.\n\nWhich is... enough.\n"
     },
     "next": "the_recursive_mind/past_present_future",
     "prev": "the_recursive_mind",
-    "index": 36
+    "index": 38
   },
   {
     "id": "the_recursive_mind/past_present_future",
@@ -3246,7 +3279,7 @@
     },
     "next": "the_recursive_mind/we_are_stories",
     "prev": "the_recursive_mind/three",
-    "index": 37
+    "index": 39
   },
   {
     "id": "the_recursive_mind/we_are_stories",
@@ -3258,7 +3291,7 @@
     },
     "next": "subvocalization",
     "prev": "the_recursive_mind/past_present_future",
-    "index": 38
+    "index": 40
   },
   {
     "id": "subvocalization",
@@ -3286,7 +3319,7 @@
     },
     "next": "subvocalization/actually_saying_them",
     "prev": "the_recursive_mind/we_are_stories",
-    "index": 39
+    "index": 41
   },
   {
     "id": "subvocalization/actually_saying_them",
@@ -3298,7 +3331,7 @@
     },
     "next": "subvocalization/echoes",
     "prev": "subvocalization",
-    "index": 40
+    "index": 42
   },
   {
     "id": "subvocalization/echoes",
@@ -3310,7 +3343,7 @@
     },
     "next": "subvocalization/the_loop",
     "prev": "subvocalization/actually_saying_them",
-    "index": 41
+    "index": 43
   },
   {
     "id": "subvocalization/the_loop",
@@ -3322,7 +3355,7 @@
     },
     "next": "subvocalization/reading",
     "prev": "subvocalization/echoes",
-    "index": 42
+    "index": 44
   },
   {
     "id": "subvocalization/reading",
@@ -3334,7 +3367,7 @@
     },
     "next": "subvocalization/evidence",
     "prev": "subvocalization/the_loop",
-    "index": 43
+    "index": 45
   },
   {
     "id": "subvocalization/evidence",
@@ -3346,7 +3379,7 @@
     },
     "next": "subvocal_speech_recognition",
     "prev": "subvocalization/reading",
-    "index": 44
+    "index": 46
   },
   {
     "id": "subvocal_speech_recognition",
@@ -3360,7 +3393,7 @@
     },
     "next": "baddley_diagram_again",
     "prev": "subvocalization/evidence",
-    "index": 45
+    "index": 47
   },
   {
     "id": "baddley_diagram_again",
@@ -3374,7 +3407,7 @@
     },
     "next": "cerebellum",
     "prev": "subvocal_speech_recognition",
-    "index": 46
+    "index": 48
   },
   {
     "id": "cerebellum",
@@ -3417,7 +3450,7 @@
     },
     "next": "cerebellum/smith_predictor",
     "prev": "baddley_diagram_again",
-    "index": 47
+    "index": 49
   },
   {
     "id": "cerebellum/smith_predictor",
@@ -3431,7 +3464,7 @@
     },
     "next": "cerebellum/movement_is_a_reduce_operation",
     "prev": "cerebellum",
-    "index": 48
+    "index": 50
   },
   {
     "id": "cerebellum/movement_is_a_reduce_operation",
@@ -3444,7 +3477,7 @@
     },
     "next": "cerebellum/language_is_reduce",
     "prev": "cerebellum/smith_predictor",
-    "index": 49
+    "index": 51
   },
   {
     "id": "cerebellum/language_is_reduce",
@@ -3457,7 +3490,7 @@
     },
     "next": "cerebellum/translation_dance",
     "prev": "cerebellum/movement_is_a_reduce_operation",
-    "index": 50
+    "index": 52
   },
   {
     "id": "cerebellum/translation_dance",
@@ -3470,7 +3503,7 @@
     },
     "next": "cerebellum/shows_up_in_how_we_talk",
     "prev": "cerebellum/language_is_reduce",
-    "index": 51
+    "index": 53
   },
   {
     "id": "cerebellum/shows_up_in_how_we_talk",
@@ -3483,7 +3516,7 @@
     },
     "next": "cerebellum/all_metaphors",
     "prev": "cerebellum/translation_dance",
-    "index": 52
+    "index": 54
   },
   {
     "id": "cerebellum/all_metaphors",
@@ -3496,7 +3529,7 @@
     },
     "next": "gradual_origins",
     "prev": "cerebellum/shows_up_in_how_we_talk",
-    "index": 53
+    "index": 55
   },
   {
     "id": "gradual_origins",
@@ -3527,7 +3560,7 @@
     },
     "next": "gradual_origins/the_larynx",
     "prev": "cerebellum/all_metaphors",
-    "index": 54
+    "index": 56
   },
   {
     "id": "gradual_origins/the_larynx",
@@ -3554,7 +3587,7 @@
     },
     "next": "gradual_origins/the_larynx/gesture-first_theory",
     "prev": "gradual_origins",
-    "index": 55
+    "index": 57
   },
   {
     "id": "gradual_origins/the_larynx/gesture-first_theory",
@@ -3567,7 +3600,7 @@
     },
     "next": "gradual_origins/the_larynx/other_theories",
     "prev": "gradual_origins/the_larynx",
-    "index": 56
+    "index": 58
   },
   {
     "id": "gradual_origins/the_larynx/other_theories",
@@ -3580,7 +3613,7 @@
     },
     "next": "the_living_tree_of_language",
     "prev": "gradual_origins/the_larynx/gesture-first_theory",
-    "index": 57
+    "index": 59
   },
   {
     "id": "the_living_tree_of_language",
@@ -3614,7 +3647,7 @@
     },
     "next": "the_living_tree_of_language/tree",
     "prev": "gradual_origins/the_larynx/other_theories",
-    "index": 58
+    "index": 60
   },
   {
     "id": "the_living_tree_of_language/tree",
@@ -3630,7 +3663,7 @@
     },
     "next": "the_living_tree_of_language/living_things",
     "prev": "the_living_tree_of_language",
-    "index": 59
+    "index": 61
   },
   {
     "id": "the_living_tree_of_language/living_things",
@@ -3653,7 +3686,7 @@
     },
     "next": "the_living_tree_of_language/living_things/replicate",
     "prev": "the_living_tree_of_language/tree",
-    "index": 60
+    "index": 62
   },
   {
     "id": "the_living_tree_of_language/living_things/replicate",
@@ -3666,7 +3699,7 @@
     },
     "next": "the_living_tree_of_language/living_things/magic",
     "prev": "the_living_tree_of_language/living_things",
-    "index": 61
+    "index": 63
   },
   {
     "id": "the_living_tree_of_language/living_things/magic",
@@ -3679,7 +3712,7 @@
     },
     "next": "power_of_language",
     "prev": "the_living_tree_of_language/living_things/replicate",
-    "index": 62
+    "index": 64
   },
   {
     "id": "power_of_language",
@@ -3730,7 +3763,7 @@
     },
     "next": "power_of_language/a_warm_beach",
     "prev": "the_living_tree_of_language/living_things/magic",
-    "index": 63
+    "index": 65
   },
   {
     "id": "power_of_language/a_warm_beach",
@@ -3743,7 +3776,7 @@
     },
     "next": "power_of_language/crackling_campfire",
     "prev": "power_of_language",
-    "index": 64
+    "index": 66
   },
   {
     "id": "power_of_language/crackling_campfire",
@@ -3762,7 +3795,7 @@
     },
     "next": "power_of_language/crackling_campfire/aflame",
     "prev": "power_of_language/a_warm_beach",
-    "index": 65
+    "index": 67
   },
   {
     "id": "power_of_language/crackling_campfire/aflame",
@@ -3777,7 +3810,7 @@
     },
     "next": "power_of_language/as_coders",
     "prev": "power_of_language/crackling_campfire",
-    "index": 66,
+    "index": 68,
     "paths": {
       "Darkpatch": {
         "id": "Darkpatch",
@@ -3847,7 +3880,7 @@
     },
     "next": "power_of_language/visceral",
     "prev": "power_of_language/crackling_campfire/aflame",
-    "index": 67
+    "index": 69
   },
   {
     "id": "power_of_language/visceral",
@@ -3860,7 +3893,7 @@
     },
     "next": "power_of_language/trump",
     "prev": "power_of_language/as_coders",
-    "index": 68
+    "index": 70
   },
   {
     "id": "power_of_language/trump",
@@ -3874,7 +3907,7 @@
     },
     "next": "power_of_language/jair",
     "prev": "power_of_language/visceral",
-    "index": 69
+    "index": 71
   },
   {
     "id": "power_of_language/jair",
@@ -3887,7 +3920,7 @@
     },
     "next": "power_of_language/hitler",
     "prev": "power_of_language/trump",
-    "index": 70
+    "index": 72
   },
   {
     "id": "power_of_language/hitler",
@@ -3900,7 +3933,7 @@
     },
     "next": "power_of_language/everything_spreads",
     "prev": "power_of_language/jair",
-    "index": 71
+    "index": 73
   },
   {
     "id": "power_of_language/everything_spreads",
@@ -3913,7 +3946,7 @@
     },
     "next": "don't_be_afraid",
     "prev": "power_of_language/hitler",
-    "index": 72
+    "index": 74
   },
   {
     "id": "don't_be_afraid",
@@ -3969,7 +4002,7 @@
     },
     "next": "don't_be_afraid/when_the_angels",
     "prev": "power_of_language/everything_spreads",
-    "index": 73
+    "index": 75
   },
   {
     "id": "don't_be_afraid/when_the_angels",
@@ -3983,7 +4016,7 @@
     },
     "next": "don't_be_afraid/no_longer_accepting",
     "prev": "don't_be_afraid",
-    "index": 74
+    "index": 76
   },
   {
     "id": "don't_be_afraid/no_longer_accepting",
@@ -3997,7 +4030,7 @@
     },
     "next": "don't_be_afraid/another_world",
     "prev": "don't_be_afraid/when_the_angels",
-    "index": 75
+    "index": 77
   },
   {
     "id": "don't_be_afraid/another_world",
@@ -4011,7 +4044,7 @@
     },
     "next": "don't_be_afraid/magicians",
     "prev": "don't_be_afraid/no_longer_accepting",
-    "index": 76
+    "index": 78
   },
   {
     "id": "don't_be_afraid/magicians",
@@ -4026,7 +4059,7 @@
     },
     "next": "don't_be_afraid/to_create_things_beyond_our_control",
     "prev": "don't_be_afraid/another_world",
-    "index": 77
+    "index": 79
   },
   {
     "id": "don't_be_afraid/to_create_things_beyond_our_control",
@@ -4041,7 +4074,7 @@
     },
     "next": "don't_be_afraid/live_beyond_us",
     "prev": "don't_be_afraid/magicians",
-    "index": 78
+    "index": 80
   },
   {
     "id": "don't_be_afraid/live_beyond_us",
@@ -4056,7 +4089,7 @@
     },
     "next": "don't_be_afraid/and_really_jack_things_up",
     "prev": "don't_be_afraid/to_create_things_beyond_our_control",
-    "index": 79
+    "index": 81
   },
   {
     "id": "don't_be_afraid/and_really_jack_things_up",
@@ -4071,7 +4104,7 @@
     },
     "next": "don't_be_afraid/and_we_will",
     "prev": "don't_be_afraid/live_beyond_us",
-    "index": 80
+    "index": 82
   },
   {
     "id": "don't_be_afraid/and_we_will",
@@ -4084,7 +4117,7 @@
     },
     "next": "seeds",
     "prev": "don't_be_afraid/and_really_jack_things_up",
-    "index": 81
+    "index": 83
   },
   {
     "id": "seeds",
@@ -4141,7 +4174,7 @@
     },
     "next": "seeds/we_will_also",
     "prev": "don't_be_afraid/and_we_will",
-    "index": 82,
+    "index": 84,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -4295,7 +4328,7 @@
     },
     "next": "seeds/plant_seeds",
     "prev": "seeds",
-    "index": 83,
+    "index": 85,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -4449,7 +4482,7 @@
     },
     "next": "seeds/will_grow",
     "prev": "seeds/we_will_also",
-    "index": 84,
+    "index": 86,
     "paths": {
       "Earth": {
         "id": "Earth",
@@ -4602,7 +4635,7 @@
     },
     "next": "seeds/into_something_new",
     "prev": "seeds/plant_seeds",
-    "index": 85,
+    "index": 87,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4778,7 +4811,7 @@
     },
     "next": "seeds/into_new_kinds_of_life",
     "prev": "seeds/will_grow",
-    "index": 86,
+    "index": 88,
     "paths": {
       "Space": {
         "id": "Space",
@@ -4966,7 +4999,7 @@
     },
     "next": "seeds/into_futures_unimaginable",
     "prev": "seeds/into_something_new",
-    "index": 87,
+    "index": 89,
     "paths": {
       "Space": {
         "id": "Space",
@@ -5130,7 +5163,7 @@
     },
     "next": "seeds/the_end",
     "prev": "seeds/into_new_kinds_of_life",
-    "index": 88,
+    "index": 90,
     "paths": {
       "Space": {
         "id": "Space",
@@ -5315,7 +5348,7 @@
     },
     "next": "end_title_card",
     "prev": "seeds/into_futures_unimaginable",
-    "index": 89,
+    "index": 91,
     "paths": {
       "Space": {
         "id": "Space",
@@ -5522,7 +5555,7 @@
       "note": "I'm Ashi Krishnan.    \n"
     },
     "prev": "seeds/the_end",
-    "index": 90,
+    "index": 92,
     "paths": {
       "Space": {
         "id": "Space",

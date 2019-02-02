@@ -44,22 +44,24 @@ Hi:
   I'm making a language:
     note: |
       I am actually writing a programming language. This is not the big
-      reveal. It's not quite ready yet. But what's fascinated me about
-      this process is how it is in some sense completely free. You can
-      shape the language like anything.
+      reveal. It's not ready for that yet. But I'm fascinated by the
+      process. Fascinaged and terrified.
 
-      And that is slightly terrifying. It's the thing most like pure math
-      that I've ever done: setting out into the world of concepts and
-      drawing shapes and lines, essentially arbitrarily.
-
-      And yet, in another sense, it's not arbitrary at all. There are some
-      design decisions that would be clearly wrong. And others that are—frustratingly,
-      usually a bit less clearly—right.
-
-      The language is taking shape, and in some sense, it's taking its own
-      shape.
+      Because it's... in some sense, totally free. It could really become
+      anything. It's the thing most like pure math that I've ever done.
+      I'm venturing out into this world of concepts. Just walking into this
+      foreign land, and then drawing up borders. Like I'm British or something.
       
-      I can tell as I design it that there's something it wants to be.
+      And in that sense? It's all very arbitrary.
+  Not All Arbitrary:
+    note: |
+      But in another sense, it's not arbitrary at all. There are some
+      shapes—some borders—that are clearly wrong. And there are some that are
+      clearly right. Fewer of those, irritatingly. But they *are* there.
+
+      It's like... there's something this language wants to be.
+
+      It's taking shape, and it's taking its *own* shape.
   Languages Are Living Things:
     note: |
       We've all heard that languages are living things. I think we treat this
@@ -78,11 +80,11 @@ Hi:
     note: |
       Language is powerful. Ancient and contemporary magical systems rely
       on the power of naming. The names we give to the things in our world
-      create that world. You've heard, I'm sure, that the hardest
-      problem in computer science is giving name to things. And that's
-      because names matter. Names are connected to meanings, linked into
-      this web of implications that fishes out of the depths of our minds
-      everything from machine schematics to childhood trauma.
+      create that world. We say the hardest problem in computer science
+      is giving name to things. And that's because names matter. Names
+      are connected to meanings, linked into this web of implications
+      that fishes from out of the depths of our minds everything from machine
+      schematics to childhood trauma.
   Language is in The Body:
     note: |
       Language has a reputation for being airy. Disconnected from the
@@ -163,16 +165,17 @@ Remember:
       we get our stories filtered through layers of intermediaries,
       each one spinning and slanting. No, we would just get the truth.
       The truth would win.
-      
-      Of course, there were nay sayers. Negative nancies.
-      "Journalists", "researchers", asking...
-      okay, well, how? How, exactly? How do you know people are who they
-      say they are? How can you trust these faceless barely-people,
-      veiled by layers of cable and protocol?
+    Naysayers:
+      note: |
+        Of course, there were nay sayers. Negative nancies.
+        "Journalists", "researchers", asking...
+        okay, well, how? How, exactly? How do you know people are who they
+        say they are? How can you trust these faceless barely-people,
+        veiled by layers of cable and protocol?
 
-      And our response—my response, certainly, the one I said on the
-      inside—was that it's... fine... probably. Something something
-      web of trust. Wisdom of crowds.
+        And our response—my response, certainly, the one I said on the
+        inside—was that it's... fine... probably. Something something
+        web of trust. Wisdom of crowds.
   Look:
     frame: spring0
     note: Look...
@@ -304,25 +307,7 @@ Remember:
 
       That technology is language.
 
-      You may disagree with me calling language a technology.
-      
-      You may say it's not physical. But as all of us here at this programming
-      language conference know, technologies do not have to be physical.
-
-      It doesn't have a singular inventor, either. In fact,
-      some elements of language acquisition seem to be hardwired into
-      us.
-      
-      Deaf children will create their own sign languagres.
-      
-      Communities who don't already share a language will create one.
-
-      But many of our technologies do not have singular inventors. Many
-      of them have been discovered and re-discovered time and again,
-      in many different places.
-
       There's a lot of theories on how language came to be.
-
 Origins of Language:
   bg: black
   video: dna-drew-berry.mov
@@ -387,6 +372,10 @@ More Common Phrases:
       which themselves contain noun phrases, a recursive embedding that creates
       the possibility of an infinitely long sentence, built through the recursive
       application of a finite number of rules. Digital infinity.
+
+      It's this feature of language that allows us to define an unbounded
+      conceptual space. Language is an instinctive articulation of the math
+      embedded in our squishy personal neural networks.
 The Recursive Mind:
   img: the-recursive-mind.jpg
   note: |
@@ -399,7 +388,7 @@ The Recursive Mind:
       stack frames, if you will, seems to be about the number of recursive layers
       that humans can hold at once.
 
-      But that's enough.
+      Which is... enough.
   Past present future:
     note: |
       One stack frame gives you a moment. Two gives you a delta—a direction.
