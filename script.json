@@ -16,7 +16,7 @@
     "id": "hi",
     "url": "hi",
     "class": "hi",
-    "markdown": "Hi, my name's Ashi. Today's talk is the first in a series called\n*Living Things*. This one is about language.\n",
+    "markdown": "Hi, my name's Ashi. Today's talk is part of a series called\n*Living Things*.\n\nThis one is about language. We're all here to think and talk\nabout one particular language, and so I thought it would be\nfitting to talk about language itself.\n",
     "data": {
       "frame": "title",
       "bg": "space",
@@ -30,9 +30,9 @@
         "Shadow": 50,
         "Tree2": 10
       },
-      "note": "Hi, my name's Ashi. Today's talk is the first in a series called\n*Living Things*. This one is about language.\n",
+      "note": "Hi, my name's Ashi. Today's talk is part of a series called\n*Living Things*.\n\nThis one is about language. We're all here to think and talk\nabout one particular language, and so I thought it would be\nfitting to talk about language itself.\n",
       "I'm making a language": {
-        "note": "I am actually writing a programming language. This is not the big\nreveal. It's not ready for that yet. But I'm fascinated by the\nprocess. Fascinaged and terrified.\n\nBecause it's... in some sense, totally free. It could really become\nanything. It's the thing most like pure math that I've ever done.\nI'm venturing out into this world of concepts. Just walking into this\nforeign land, and then drawing up borders. Like I'm British or something.\n\nAnd in that sense? It's all very arbitrary.\n"
+        "note": "I am actually writing a programming language. This is not the big\nreveal. It's not ready for that yet. But I'm fascinated by the\nprocess. Fascinated and terrified.\n\nBecause it's... in some sense, totally free. It could really become\nanything. It's the endeavour most like pure math that I've ever attempted.\nI'm venturing out into this world of concepts. Just walking into this\nforeign land, and then drawing up borders. Like I'm British or something.\n\nAnd in that sense? It's all very arbitrary.\n"
       },
       "Not All Arbitrary": {
         "note": "But in another sense, it's not arbitrary at all. There are some\nshapes—some borders—that are clearly wrong. And there are some that are\nclearly right. Fewer of those, irritatingly. But they *are* there.\n\nIt's like... there's something this language wants to be.\n\nIt's taking shape, and it's taking its *own* shape.\n"
@@ -239,9 +239,9 @@
     "id": "hi/i'm_making_a_language",
     "url": "hi/i'm_making_a_language",
     "class": "hi-i'm_making_a_language",
-    "markdown": "I am actually writing a programming language. This is not the big\nreveal. It's not ready for that yet. But I'm fascinated by the\nprocess. Fascinaged and terrified.\n\nBecause it's... in some sense, totally free. It could really become\nanything. It's the thing most like pure math that I've ever done.\nI'm venturing out into this world of concepts. Just walking into this\nforeign land, and then drawing up borders. Like I'm British or something.\n\nAnd in that sense? It's all very arbitrary.\n",
+    "markdown": "I am actually writing a programming language. This is not the big\nreveal. It's not ready for that yet. But I'm fascinated by the\nprocess. Fascinated and terrified.\n\nBecause it's... in some sense, totally free. It could really become\nanything. It's the endeavour most like pure math that I've ever attempted.\nI'm venturing out into this world of concepts. Just walking into this\nforeign land, and then drawing up borders. Like I'm British or something.\n\nAnd in that sense? It's all very arbitrary.\n",
     "data": {
-      "note": "I am actually writing a programming language. This is not the big\nreveal. It's not ready for that yet. But I'm fascinated by the\nprocess. Fascinaged and terrified.\n\nBecause it's... in some sense, totally free. It could really become\nanything. It's the thing most like pure math that I've ever done.\nI'm venturing out into this world of concepts. Just walking into this\nforeign land, and then drawing up borders. Like I'm British or something.\n\nAnd in that sense? It's all very arbitrary.\n"
+      "note": "I am actually writing a programming language. This is not the big\nreveal. It's not ready for that yet. But I'm fascinated by the\nprocess. Fascinated and terrified.\n\nBecause it's... in some sense, totally free. It could really become\nanything. It's the endeavour most like pure math that I've ever attempted.\nI'm venturing out into this world of concepts. Just walking into this\nforeign land, and then drawing up borders. Like I'm British or something.\n\nAnd in that sense? It's all very arbitrary.\n"
     },
     "next": "hi/not_all_arbitrary",
     "prev": "hi",
@@ -435,11 +435,11 @@
       },
       "What happened": {
         "bg": "black",
-        "note": "Maybe.\n\nIt certainly feels that way sometimes.\n\nI believe life will thrive.\nI believe we will touch the stars.\nI believe we will grow cities from trees,\nI believe we will create space for all living things.\nI believe in us.\n\nBut goodness, we don't make it easy.\n\nI mean, Uncle Sam, always a bit of a crotchety racist,\nis *really* not looking so hot these days.\n\nAnd it's not just him. There's a lot of scary things happening\nall over the world.\n\nI wouldn't have believed it if you'd told me ten years ago.\n"
+        "note": "Maybe.\n\nIt certainly feels that way sometimes.\n\nI believe life will thrive.\nI believe we will touch the stars.\nI believe we will grow cities from trees,\nI believe we will create space for all living things.\nI believe in us.\n\nBut goodness, we don't make it easy.\n\nI mean, Uncle Sam, always a bit of a crotchety racist,\nis *really* not looking so hot these days.\n\nAnd it's not just him. There's a lot of scary things happening\nall over the world.\n\nIf you'd told me ten years ago that all this was going to happen,\nI don't know if I would have believed you.\n"
       },
       "May not believe it now": {
         "bg": "black",
-        "note": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nThere's a lot of theories on how language came to be.\n"
+        "note": "In fact, I'm not even super sure I believe it all now. I get\na lot of my news from Twitter, you see.\n\nAnd what’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.      \n\nAnd there's a lot of theories on how it came to be.\n"
       }
     },
     "next": "remember/cells",
@@ -3137,10 +3137,10 @@
     "id": "remember/what_happened",
     "url": "remember/what_happened",
     "class": "remember-what_happened",
-    "markdown": "Maybe.\n\nIt certainly feels that way sometimes.\n\nI believe life will thrive.\nI believe we will touch the stars.\nI believe we will grow cities from trees,\nI believe we will create space for all living things.\nI believe in us.\n\nBut goodness, we don't make it easy.\n\nI mean, Uncle Sam, always a bit of a crotchety racist,\nis *really* not looking so hot these days.\n\nAnd it's not just him. There's a lot of scary things happening\nall over the world.\n\nI wouldn't have believed it if you'd told me ten years ago.\n",
+    "markdown": "Maybe.\n\nIt certainly feels that way sometimes.\n\nI believe life will thrive.\nI believe we will touch the stars.\nI believe we will grow cities from trees,\nI believe we will create space for all living things.\nI believe in us.\n\nBut goodness, we don't make it easy.\n\nI mean, Uncle Sam, always a bit of a crotchety racist,\nis *really* not looking so hot these days.\n\nAnd it's not just him. There's a lot of scary things happening\nall over the world.\n\nIf you'd told me ten years ago that all this was going to happen,\nI don't know if I would have believed you.\n",
     "data": {
       "bg": "black",
-      "note": "Maybe.\n\nIt certainly feels that way sometimes.\n\nI believe life will thrive.\nI believe we will touch the stars.\nI believe we will grow cities from trees,\nI believe we will create space for all living things.\nI believe in us.\n\nBut goodness, we don't make it easy.\n\nI mean, Uncle Sam, always a bit of a crotchety racist,\nis *really* not looking so hot these days.\n\nAnd it's not just him. There's a lot of scary things happening\nall over the world.\n\nI wouldn't have believed it if you'd told me ten years ago.\n"
+      "note": "Maybe.\n\nIt certainly feels that way sometimes.\n\nI believe life will thrive.\nI believe we will touch the stars.\nI believe we will grow cities from trees,\nI believe we will create space for all living things.\nI believe in us.\n\nBut goodness, we don't make it easy.\n\nI mean, Uncle Sam, always a bit of a crotchety racist,\nis *really* not looking so hot these days.\n\nAnd it's not just him. There's a lot of scary things happening\nall over the world.\n\nIf you'd told me ten years ago that all this was going to happen,\nI don't know if I would have believed you.\n"
     },
     "next": "remember/may_not_believe_it_now",
     "prev": "remember/retrospect",
@@ -3150,10 +3150,10 @@
     "id": "remember/may_not_believe_it_now",
     "url": "remember/may_not_believe_it_now",
     "class": "remember-may_not_believe_it_now",
-    "markdown": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nThere's a lot of theories on how language came to be.\n",
+    "markdown": "In fact, I'm not even super sure I believe it all now. I get\na lot of my news from Twitter, you see.\n\nAnd what’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.      \n\nAnd there's a lot of theories on how it came to be.\n",
     "data": {
       "bg": "black",
-      "note": "In fact, I get a lot of my news from Twitter, so I only kindof\nbelieve it now.\n\nWhat’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.\n\nThere's a lot of theories on how language came to be.\n"
+      "note": "In fact, I'm not even super sure I believe it all now. I get\na lot of my news from Twitter, you see.\n\nAnd what’s the saying? Falsehood flies, truth comes limping after.\nAnd this makes sense! We should expect this.\n\nThere are so very, very many things that can go wrong in\ncommunication, it's a miracle we are able to communicate anything\nat all.\n\nBut we do. Reliably, repeatedly, across great distances.\n\nWith a powerful new technology.\n\nThat technology is language.      \n\nAnd there's a lot of theories on how it came to be.\n"
     },
     "next": "origins_of_language",
     "prev": "remember/what_happened",

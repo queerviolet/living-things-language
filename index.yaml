@@ -39,16 +39,20 @@ Hi:
   bg: space
   simplify: *simplify_title
   note: |
-    Hi, my name's Ashi. Today's talk is the first in a series called
-    *Living Things*. This one is about language.
+    Hi, my name's Ashi. Today's talk is part of a series called
+    *Living Things*.
+    
+    This one is about language. We're all here to think and talk
+    about one particular language, and so I thought it would be
+    fitting to talk about language itself.
   I'm making a language:
     note: |
       I am actually writing a programming language. This is not the big
       reveal. It's not ready for that yet. But I'm fascinated by the
-      process. Fascinaged and terrified.
+      process. Fascinated and terrified.
 
       Because it's... in some sense, totally free. It could really become
-      anything. It's the thing most like pure math that I've ever done.
+      anything. It's the endeavour most like pure math that I've ever attempted.
       I'm venturing out into this world of concepts. Just walking into this
       foreign land, and then drawing up borders. Like I'm British or something.
       
@@ -287,14 +291,15 @@ Remember:
       And it's not just him. There's a lot of scary things happening
       all over the world.
       
-      I wouldn't have believed it if you'd told me ten years ago.
+      If you'd told me ten years ago that all this was going to happen,
+      I don't know if I would have believed you.
   May not believe it now:
     bg: black
     note: |
-      In fact, I get a lot of my news from Twitter, so I only kindof
-      believe it now.
+      In fact, I'm not even super sure I believe it all now. I get
+      a lot of my news from Twitter, you see.
 
-      What’s the saying? Falsehood flies, truth comes limping after.
+      And what’s the saying? Falsehood flies, truth comes limping after.
       And this makes sense! We should expect this.
 
       There are so very, very many things that can go wrong in
@@ -305,9 +310,9 @@ Remember:
 
       With a powerful new technology.
 
-      That technology is language.
+      That technology is language.      
 
-      There's a lot of theories on how language came to be.
+      And there's a lot of theories on how it came to be.
 Origins of Language:
   bg: black
   video: dna-drew-berry.mov
