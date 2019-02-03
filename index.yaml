@@ -574,7 +574,8 @@ Cerebellum:
   Movement is a Reduce Operation:
     bg: black
     note: |
-      Processing movement is a kind of reduce operation.
+      Movement is this combination of a reduce operation, and a serialization
+      operation.
 
       Say you're trying to spear a bison.
 
@@ -596,7 +597,7 @@ Cerebellum:
   Language is Reduce:
     bg: black
     note: |
-      Language, too, is a reduce operation.
+      Language, too, is reduction and serialization.
 
       When we're listening, we are reducing a sequence of words into a
       meaning: a model describing the movement of the speaker in cognitive
@@ -608,7 +609,7 @@ Cerebellum:
       With both language and movement, we are transforming coordinate
       spaces: translating the state of our inner worlds—a point within
       some space of all possible experiences—into a sequence of moves
-      that will move us to that point.
+      that will move our listeners to that point.
 
       Whether the point is cognitive or physical doesn't really matter—the
       math is the same. Language is dance; dance is communication.
